@@ -6,19 +6,13 @@
 #ifndef BITCOIN_CHAINPARAMS_H
 #define BITCOIN_CHAINPARAMS_H
 
-#include "chainparamsbase.h"
-#include "consensus/params.h"
-#include "primitives/block.h"
-#include "protocol.h"
+#include <chainparamsbase.h>
+#include <consensus/params.h>
+#include <primitives/block.h>
+#include <protocol.h>
 
 #include <memory>
 #include <vector>
-
-struct CDNSSeedData {
-    std::string host;
-    bool supportsServiceBitsFiltering;
-    CDNSSeedData(const std::string &strHost, bool supportsServiceBitsFilteringIn) : host(strHost), supportsServiceBitsFiltering(supportsServiceBitsFilteringIn) {}
-};
 
 struct SeedSpec6 {
     uint8_t addr[16];
@@ -76,9 +70,12 @@ public:
     bool AllowMultipleAddressesFromGroup() const { return fAllowMultipleAddressesFromGroup; }
     /** Allow nodes with the same address and multiple ports */
     bool AllowMultiplePorts() const { return fAllowMultiplePorts; }
+    /** How long to wait until we allow retrying of a LLMQ connection  */
+    int LLMQConnectionRetryTimeout() const { return nLLMQConnectionRetryTimeout; }
     /** Return the BIP70 network string (main, test or regtest) */
     std::string NetworkIDString() const { return strNetworkID; }
-    const std::vector<CDNSSeedData>& DNSSeeds() const { return vSeeds; }
+    /** Return the list of hostnames to look up for DNS seeds */
+    const std::vector<std::string>& DNSSeeds() const { return vSeeds; }
     const std::vector<unsigned char>& Base58Prefix(Base58Type type) const { return base58Prefixes[type]; }
     int ExtCoinType() const { return nExtCoinType; }
     const std::vector<SeedSpec6>& FixedSeeds() const { return vFixedSeeds; }
@@ -89,6 +86,8 @@ public:
     void UpdateBudgetParameters(int nMasternodePaymentsStartBlock, int nBudgetPaymentsStartBlock, int nSuperblockStartBlock);
     void UpdateSubsidyAndDiffParams(int nMinimumDifficultyBlocks, int nHighSubsidyBlocks, int nHighSubsidyFactor);
     void UpdateLLMQChainLocks(Consensus::LLMQType llmqType);
+    void UpdateLLMQTestParams(int size, int threshold);
+    void UpdateLLMQDevnetParams(int size, int threshold);
     int PoolMinParticipants() const { return nPoolMinParticipants; }
     int PoolMaxParticipants() const { return nPoolMaxParticipants; }
     int FulfilledRequestExpireTime() const { return nFulfilledRequestExpireTime; }
@@ -102,7 +101,7 @@ protected:
     CMessageHeader::MessageStartChars pchMessageStart;
     int nDefaultPort;
     uint64_t nPruneAfterHeight;
-    std::vector<CDNSSeedData> vSeeds;
+    std::vector<std::string> vSeeds;
     std::vector<unsigned char> base58Prefixes[MAX_BASE58_TYPES];
     int nExtCoinType;
     std::string strNetworkID;
@@ -115,6 +114,7 @@ protected:
     bool fMineBlocksOnDemand;
     bool fAllowMultipleAddressesFromGroup;
     bool fAllowMultiplePorts;
+    int nLLMQConnectionRetryTimeout;
     CCheckpointData checkpointData;
     ChainTxData chainTxData;
     int nPoolMinParticipants;
@@ -168,5 +168,15 @@ void UpdateDevnetSubsidyAndDiffParams(int nMinimumDifficultyBlocks, int nHighSub
  * Allows modifying the LLMQ type for ChainLocks.
  */
 void UpdateDevnetLLMQChainLocks(Consensus::LLMQType llmqType);
+
+/**
+ * Allows modifying parameters of the test LLMQ
+ */
+void UpdateLLMQTestParams(int size, int threshold);
+
+/**
+ * Allows modifying parameters of the devnet LLMQ
+ */
+void UpdateLLMQDevnetParams(int size, int threshold);
 
 #endif // BITCOIN_CHAINPARAMS_H

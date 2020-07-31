@@ -5,14 +5,14 @@
 #ifndef PRIVATESEND_H
 #define PRIVATESEND_H
 
-#include "bls/bls.h"
-#include "chain.h"
-#include "chainparams.h"
-#include "primitives/transaction.h"
-#include "pubkey.h"
-#include "sync.h"
-#include "timedata.h"
-#include "tinyformat.h"
+#include <bls/bls.h>
+#include <chain.h>
+#include <chainparams.h>
+#include <primitives/transaction.h>
+#include <pubkey.h>
+#include <sync.h>
+#include <timedata.h>
+#include <tinyformat.h>
 
 class CPrivateSend;
 class CConnman;
@@ -65,9 +65,8 @@ enum PoolState : int32_t {
     POOL_STATE_ACCEPTING_ENTRIES,
     POOL_STATE_SIGNING,
     POOL_STATE_ERROR,
-    POOL_STATE_SUCCESS,
     POOL_STATE_MIN = POOL_STATE_IDLE,
-    POOL_STATE_MAX = POOL_STATE_SUCCESS
+    POOL_STATE_MAX = POOL_STATE_ERROR
 };
 template<> struct is_serializable_enum<PoolState> : std::true_type {};
 
@@ -436,15 +435,12 @@ public:
     static std::vector<CAmount> GetStandardDenominations() { return vecStandardDenominations; }
     static CAmount GetSmallestDenomination() { return vecStandardDenominations.back(); }
 
-    /// Get the denominations for a specific amount of dash.
-    static int GetDenominationsByAmounts(const std::vector<CAmount>& vecAmount);
-
     static bool IsDenominatedAmount(CAmount nInputAmount);
+    static bool IsValidDenomination(int nDenom);
 
-    /// Get the denominations for a list of outputs (returns a bitshifted integer)
-    static int GetDenominations(const std::vector<CTxOut>& vecTxOut, bool fSingleRandomDenom = false);
-    static std::string GetDenominationsToString(int nDenom);
-    static bool GetDenominationsBits(int nDenom, std::vector<int>& vecBitsRet);
+    static int AmountToDenomination(CAmount nInputAmount);
+    static CAmount DenominationToAmount(int nDenom);
+    static std::string DenominationToString(int nDenom);
 
     static std::string GetMessageByID(PoolMessage nMessageID);
 

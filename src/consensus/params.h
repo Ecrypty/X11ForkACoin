@@ -6,7 +6,7 @@
 #ifndef BITCOIN_CONSENSUS_PARAMS_H
 #define BITCOIN_CONSENSUS_PARAMS_H
 
-#include "uint256.h"
+#include <uint256.h>
 #include <map>
 #include <string>
 
@@ -49,7 +49,10 @@ enum LLMQType : uint8_t
     LLMQ_400_85 = 3, // 400 members, 340 (85%) threshold, one every 24 hours
 
     // for testing only
-    LLMQ_5_60 = 100, // 5 members, 3 (60%) threshold, one per hour
+    LLMQ_TEST = 100, // 3 members, 2 (66%) threshold, one per hour. Params might differ when -llmqtestparams is used
+
+    // for devnets only
+    LLMQ_DEVNET = 101, // 10 members, 6 (60%) threshold, one per hour. Params might differ when -llmqdevnetparams is used
 };
 
 // Configures a LLMQ and its DKG
@@ -111,6 +114,9 @@ struct LLMQParams {
     // Used for inter-quorum communication. This is the number of quorums for which we should keep old connections. This
     // should be at least one more then the active quorums set.
     int keepOldConnections;
+
+    // How many members should we try to send all sigShares to before we give up.
+    int recoveryMembers;
 };
 
 /**

@@ -3,13 +3,14 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "networkstyle.h"
+#include <qt/networkstyle.h>
 
-#include "guiconstants.h"
-#include "guiutil.h"
+#include <qt/guiconstants.h>
+#include <qt/guiutil.h>
 
-#include "chainparams.h"
-#include "tinyformat.h"
+#include <chainparams.h>
+#include <tinyformat.h>
+#include <util.h>
 
 #include <QApplication>
 
@@ -22,7 +23,7 @@ static const struct {
 } network_styles[] = {
     {"main", QAPP_APP_NAME_DEFAULT, 0, 0, ""},
     {"test", QAPP_APP_NAME_TESTNET, 190, 20, QT_TRANSLATE_NOOP("SplashScreen", "[testnet]")},
-    {"dev", QAPP_APP_NAME_DEVNET, 190, 20, "[devnet: %s]"},
+    {"devnet", QAPP_APP_NAME_DEVNET, 190, 20, "[devnet: %s]"},
     {"regtest", QAPP_APP_NAME_REGTEST, 160, 30, "[regtest]"}
 };
 static const unsigned network_styles_count = sizeof(network_styles)/sizeof(*network_styles);
@@ -38,7 +39,7 @@ void NetworkStyle::rotateColors(QImage& img, const int iconColorHueShift, const 
         // loop through pixels
         for(int x=0;x<img.width();x++)
         {
-            // preserve alpha because QColor::getHsl doesen't return the alpha value
+            // preserve alpha because QColor::getHsl doesn't return the alpha value
             a = qAlpha(scL[x]);
             QColor col(scL[x]);
 
@@ -108,8 +109,8 @@ const NetworkStyle *NetworkStyle::instantiate(const QString &networkId)
             std::string titleAddText = network_styles[x].titleAddText;
 
             if (networkId == QString(CBaseChainParams::DEVNET.c_str())) {
-                appName = strprintf(appName, GetDevNetName());
-                titleAddText = strprintf(titleAddText, GetDevNetName());
+                appName = strprintf(appName, gArgs.GetDevNetName());
+                titleAddText = strprintf(titleAddText, gArgs.GetDevNetName());
             }
 
             return new NetworkStyle(

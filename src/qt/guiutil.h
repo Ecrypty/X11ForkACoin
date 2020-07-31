@@ -5,8 +5,8 @@
 #ifndef BITCOIN_QT_GUIUTIL_H
 #define BITCOIN_QT_GUIUTIL_H
 
-#include "amount.h"
-#include "fs.h"
+#include <amount.h>
+#include <fs.h>
 
 #include <QEvent>
 #include <QHeaderView>
@@ -82,12 +82,13 @@ namespace GUIUtil
     QFont fixedPitchFont();
 
     // Set up widgets for address and amounts
-    void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent);
+    void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent, bool fAllowURI = false);
     void setupAmountWidget(QLineEdit *widget, QWidget *parent);
 
     // Parse "dash:" URI into recipient object, return true on successful parsing
     bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out);
     bool parseBitcoinURI(QString uri, SendCoinsRecipient *out);
+    bool validateBitcoinURI(const QString& uri);
     QString formatBitcoinURI(const SendCoinsRecipient &info);
 
     // Returns true if given address+amount meets "dust" definition
@@ -150,6 +151,9 @@ namespace GUIUtil
 
     // Determine whether a widget is hidden behind other windows
     bool isObscured(QWidget *w);
+
+    // Activate, show and raise the widget
+    void bringToFront(QWidget* w);
 
     // Open debug.log
     void openDebugLogfile();
@@ -229,6 +233,9 @@ namespace GUIUtil
     /** Load global CSS theme */
     QString loadStyleSheet();
 
+    /** Check if a dash specific theme is activated (light/dark) */
+    bool dashThemeActive();
+
     /* Convert QString to OS specific boost path through UTF-8 */
     fs::path qstringToBoostPath(const QString &path);
 
@@ -248,6 +255,10 @@ namespace GUIUtil
     QString formatTimeOffset(int64_t nTimeOffset);
 
     QString formatNiceTimeOffset(qint64 secs);
+
+    QString formatBytes(uint64_t bytes);
+
+    qreal calculateIdealFontSize(int width, const QString& text, QFont font, qreal minPointSize = 4, qreal startPointSize = 14);
 
     class ClickableLabel : public QLabel
     {

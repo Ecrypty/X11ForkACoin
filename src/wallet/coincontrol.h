@@ -5,19 +5,23 @@
 #ifndef BITCOIN_WALLET_COINCONTROL_H
 #define BITCOIN_WALLET_COINCONTROL_H
 
-#include "policy/feerate.h"
-#include "policy/fees.h"
-#include "primitives/transaction.h"
+#include <policy/feerate.h>
+#include <policy/fees.h>
+#include <primitives/transaction.h>
 
 #include <boost/optional.hpp>
 
 enum class CoinType
 {
     ALL_COINS,
-    ONLY_DENOMINATED,
+    ONLY_FULLY_MIXED,
+    ONLY_READY_TO_MIX,
     ONLY_NONDENOMINATED,
-    ONLY_1000, // find masternode outputs including locked ones (use with caution)
+    ONLY_MASTERNODE_COLLATERAL, // find masternode outputs including locked ones (use with caution)
     ONLY_PRIVATESEND_COLLATERAL,
+    // Attributes
+    MIN_COIN_TYPE = ALL_COINS,
+    MAX_COIN_TYPE = ONLY_PRIVATESEND_COLLATERAL,
 };
 
 /** Coin Control Features. */
@@ -95,12 +99,12 @@ public:
 
     void UsePrivateSend(bool fUsePrivateSend)
     {
-        nCoinType = fUsePrivateSend ? CoinType::ONLY_DENOMINATED : CoinType::ALL_COINS;
+        nCoinType = fUsePrivateSend ? CoinType::ONLY_FULLY_MIXED : CoinType::ALL_COINS;
     }
 
     bool IsUsingPrivateSend() const
     {
-        return nCoinType == CoinType::ONLY_DENOMINATED;
+        return nCoinType == CoinType::ONLY_FULLY_MIXED;
     }
 
 private:

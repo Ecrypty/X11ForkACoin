@@ -3,42 +3,38 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#if defined(HAVE_CONFIG_H)
-#include "config/dash-config.h"
-#endif
+#include <qt/bitcoingui.h>
 
-#include "bitcoingui.h"
-
-#include "bitcoinunits.h"
-#include "clientmodel.h"
-#include "guiconstants.h"
-#include "guiutil.h"
-#include "modaloverlay.h"
-#include "networkstyle.h"
-#include "notificator.h"
-#include "openuridialog.h"
-#include "optionsdialog.h"
-#include "optionsmodel.h"
-#include "platformstyle.h"
-#include "rpcconsole.h"
-#include "utilitydialog.h"
+#include <qt/bitcoinunits.h>
+#include <qt/clientmodel.h>
+#include <qt/guiconstants.h>
+#include <qt/guiutil.h>
+#include <qt/modaloverlay.h>
+#include <qt/networkstyle.h>
+#include <qt/notificator.h>
+#include <qt/openuridialog.h>
+#include <qt/optionsdialog.h>
+#include <qt/optionsmodel.h>
+#include <qt/platformstyle.h>
+#include <qt/rpcconsole.h>
+#include <qt/utilitydialog.h>
 
 #ifdef ENABLE_WALLET
-#include "privatesend/privatesend-client.h"
-#include "walletframe.h"
-#include "walletmodel.h"
+#include <privatesend/privatesend-client.h>
+#include <qt/walletframe.h>
+#include <qt/walletmodel.h>
 #endif // ENABLE_WALLET
 
 #ifdef Q_OS_MAC
-#include "macdockiconhandler.h"
+#include <qt/macdockiconhandler.h>
 #endif
 
-#include "chainparams.h"
-#include "init.h"
-#include "ui_interface.h"
-#include "util.h"
-#include "masternode/masternode-sync.h"
-#include "masternodelist.h"
+#include <chainparams.h>
+#include <init.h>
+#include <ui_interface.h>
+#include <util.h>
+#include <masternode/masternode-sync.h>
+#include <qt/masternodelist.h>
 
 #include <iostream>
 
@@ -101,7 +97,9 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *_platformStyle, const NetworkStyle *
     masternodeAction(0),
     quitAction(0),
     sendCoinsAction(0),
+    privateSendCoinsAction(0),
     sendCoinsMenuAction(0),
+    privateSendCoinsMenuAction(0),
     usedSendingAddressesAction(0),
     usedReceivingAddressesAction(0),
     signMessageAction(0),
@@ -152,12 +150,8 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *_platformStyle, const NetworkStyle *
     QString userWindowTitle = QString::fromStdString(gArgs.GetArg("-windowtitle", ""));
     if(!userWindowTitle.isEmpty()) windowTitle += " - " + userWindowTitle;
     windowTitle += " " + networkStyle->getTitleAddText();
-#ifndef Q_OS_MAC
     QApplication::setWindowIcon(networkStyle->getTrayAndWindowIcon());
     setWindowIcon(networkStyle->getTrayAndWindowIcon());
-#else
-    MacDockIconHandler::instance()->setIcon(networkStyle->getAppIcon());
-#endif
     setWindowTitle(windowTitle);
 
 #if defined(Q_OS_MAC) && QT_VERSION < 0x050000
@@ -247,19 +241,6 @@ BitcoinGUI::BitcoinGUI(const PlatformStyle *_platformStyle, const NetworkStyle *
         progressBar->setStyleSheet("QProgressBar { background-color: #F8F8F8; border: 1px solid grey; border-radius: 7px; padding: 1px; text-align: center; } QProgressBar::chunk { background: QLinearGradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #00CCFF, stop: 1 #33CCFF); border-radius: 7px; margin: 0px; }");
     }
 
-#ifndef Q_OS_MAC
-    // Apply some styling to scrollbars
-    QString theme = settings.value("theme", "").toString();
-    if (theme != "trad") { // No scrollbar styling for the traditional theme
-        QFile qFile(QString(":/css/scrollbars"));
-        QString styleSheet;
-        if (qFile.open(QFile::ReadOnly)) {
-            styleSheet = QLatin1String(qFile.readAll());
-        }
-        this->setStyleSheet(this->styleSheet().append(styleSheet));
-    }
-#endif
-
     statusBar()->addWidget(progressBarLabel);
     statusBar()->addWidget(progressBar);
     statusBar()->addPermanentWidget(frameBlocks);
@@ -342,14 +323,29 @@ void BitcoinGUI::createActions()
     sendCoinsMenuAction->setStatusTip(sendCoinsAction->statusTip());
     sendCoinsMenuAction->setToolTip(sendCoinsMenuAction->statusTip());
 
+    privateSendCoinsAction = new QAction(tr("&PrivateSend"), this);
+    privateSendCoinsAction->setStatusTip(tr("PrivateSend coins to a Dash address"));
+    privateSendCoinsAction->setToolTip(privateSendCoinsAction->statusTip());
+    privateSendCoinsAction->setCheckable(true);
+#ifdef Q_OS_MAC
+    privateSendCoinsAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_3));
+#else
+    privateSendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_3));
+#endif
+    tabGroup->addAction(privateSendCoinsAction);
+
+    privateSendCoinsMenuAction = new QAction(QIcon(":/icons/send"), privateSendCoinsAction->text(), this);
+    privateSendCoinsMenuAction->setStatusTip(privateSendCoinsAction->statusTip());
+    privateSendCoinsMenuAction->setToolTip(privateSendCoinsMenuAction->statusTip());
+
     receiveCoinsAction = new QAction(tr("&Receive"), this);
     receiveCoinsAction->setStatusTip(tr("Request payments (generates QR codes and dash: URIs)"));
     receiveCoinsAction->setToolTip(receiveCoinsAction->statusTip());
     receiveCoinsAction->setCheckable(true);
 #ifdef Q_OS_MAC
-    receiveCoinsAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_3));
+    receiveCoinsAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_4));
 #else
-    receiveCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_3));
+    receiveCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_4));
 #endif
     tabGroup->addAction(receiveCoinsAction);
 
@@ -362,9 +358,9 @@ void BitcoinGUI::createActions()
     historyAction->setToolTip(historyAction->statusTip());
     historyAction->setCheckable(true);
 #ifdef Q_OS_MAC
-    historyAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_4));
+    historyAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_5));
 #else
-    historyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_4));
+    historyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
 #endif
     tabGroup->addAction(historyAction);
 
@@ -376,9 +372,9 @@ void BitcoinGUI::createActions()
         masternodeAction->setToolTip(masternodeAction->statusTip());
         masternodeAction->setCheckable(true);
 #ifdef Q_OS_MAC
-        masternodeAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_5));
+        masternodeAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_6));
 #else
-        masternodeAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
+        masternodeAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_6));
 #endif
         tabGroup->addAction(masternodeAction);
         connect(masternodeAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
@@ -393,6 +389,10 @@ void BitcoinGUI::createActions()
     connect(sendCoinsAction, SIGNAL(triggered()), this, SLOT(gotoSendCoinsPage()));
     connect(sendCoinsMenuAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(sendCoinsMenuAction, SIGNAL(triggered()), this, SLOT(gotoSendCoinsPage()));
+    connect(privateSendCoinsAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
+    connect(privateSendCoinsAction, SIGNAL(triggered()), this, SLOT(gotoPrivateSendCoinsPage()));
+    connect(privateSendCoinsMenuAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
+    connect(privateSendCoinsMenuAction, SIGNAL(triggered()), this, SLOT(gotoPrivateSendCoinsPage()));
     connect(receiveCoinsAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(receiveCoinsAction, SIGNAL(triggered()), this, SLOT(gotoReceiveCoinsPage()));
     connect(receiveCoinsMenuAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
@@ -446,6 +446,8 @@ void BitcoinGUI::createActions()
     openRepairAction->setStatusTip(tr("Show wallet repair options"));
     openConfEditorAction = new QAction(QIcon(":/icons/edit"), tr("Open Wallet &Configuration File"), this);
     openConfEditorAction->setStatusTip(tr("Open configuration file"));
+    // override TextHeuristicRole set by default which confuses this action with application settings
+    openConfEditorAction->setMenuRole(QAction::NoRole);
     showBackupsAction = new QAction(QIcon(":/icons/browse"), tr("Show Automatic &Backups"), this);
     showBackupsAction->setStatusTip(tr("Show automatically created wallet backups"));
     // initially disable the debug window menu items
@@ -492,7 +494,7 @@ void BitcoinGUI::createActions()
 
     // Get restart command-line parameters and handle restart
     connect(rpcConsole, SIGNAL(handleRestart(QStringList)), this, SLOT(handleRestart(QStringList)));
-    
+
     // prevents an open debug window from becoming stuck/unusable on client shutdown
     connect(quitAction, SIGNAL(triggered()), rpcConsole, SLOT(hide()));
 
@@ -504,7 +506,9 @@ void BitcoinGUI::createActions()
         connect(changePassphraseAction, SIGNAL(triggered()), walletFrame, SLOT(changePassphrase()));
         connect(unlockWalletAction, SIGNAL(triggered()), walletFrame, SLOT(unlockWallet()));
         connect(lockWalletAction, SIGNAL(triggered()), walletFrame, SLOT(lockWallet()));
+        connect(signMessageAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
         connect(signMessageAction, SIGNAL(triggered()), this, SLOT(gotoSignMessageTab()));
+        connect(verifyMessageAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
         connect(verifyMessageAction, SIGNAL(triggered()), this, SLOT(gotoVerifyMessageTab()));
         connect(usedSendingAddressesAction, SIGNAL(triggered()), walletFrame, SLOT(usedSendingAddresses()));
         connect(usedReceivingAddressesAction, SIGNAL(triggered()), walletFrame, SLOT(usedReceivingAddresses()));
@@ -582,9 +586,11 @@ void BitcoinGUI::createToolBars()
     if(walletFrame)
     {
         QToolBar *toolbar = new QToolBar(tr("Tabs toolbar"));
+        toolbar->setContextMenuPolicy(Qt::PreventContextMenu);
         toolbar->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
         toolbar->addAction(overviewAction);
         toolbar->addAction(sendCoinsAction);
+        toolbar->addAction(privateSendCoinsAction);
         toolbar->addAction(receiveCoinsAction);
         toolbar->addAction(historyAction);
         QSettings settings;
@@ -601,7 +607,12 @@ void BitcoinGUI::createToolBars()
         toolbar->addWidget(spacer);
 
         QLabel *logoLabel = new QLabel();
-        QPixmap logoPixmap(":/images/dash_logo_toolbar");
+        QString logoImage = ":/images/dash_logo_toolbar";
+        if (!GUIUtil::dashThemeActive()) {
+            logoImage = ":/images/dash_logo_toolbar_blue";
+        }
+
+        QPixmap logoPixmap(logoImage);
         logoLabel->setPixmap(logoPixmap);
         toolbar->addWidget(logoLabel);
 
@@ -642,9 +653,11 @@ void BitcoinGUI::setClientModel(ClientModel *_clientModel)
             // Note: On Mac, the dock icon is also used to provide menu functionality
             // similar to one for tray icon
             MacDockIconHandler *dockIconHandler = MacDockIconHandler::instance();
-            dockIconHandler->setMainWindow((QMainWindow *)this);
-            dockIconMenu = dockIconHandler->dockMenu();
- 
+            connect(dockIconHandler, SIGNAL(dockIconClicked()), this, SLOT(macosDockIconActivated()));
+
+            dockIconMenu = new QMenu(this);
+            dockIconMenu->setAsDockMenu();
+
             createIconMenu(dockIconMenu);
 #endif
         }
@@ -743,6 +756,13 @@ void BitcoinGUI::setWalletActionsEnabled(bool enabled)
     overviewAction->setEnabled(enabled);
     sendCoinsAction->setEnabled(enabled);
     sendCoinsMenuAction->setEnabled(enabled);
+#ifdef ENABLE_WALLET
+    privateSendCoinsAction->setEnabled(enabled && privateSendClient.fEnablePrivateSend);
+    privateSendCoinsMenuAction->setEnabled(enabled && privateSendClient.fEnablePrivateSend);
+#else
+    privateSendCoinsAction->setEnabled(enabled);
+    privateSendCoinsMenuAction->setEnabled(enabled);
+#endif // ENABLE_WALLET
     receiveCoinsAction->setEnabled(enabled);
     receiveCoinsMenuAction->setEnabled(enabled);
     historyAction->setEnabled(enabled);
@@ -776,6 +796,7 @@ void BitcoinGUI::createIconMenu(QMenu *pmenu)
     pmenu->addAction(toggleHideAction);
     pmenu->addSeparator();
     pmenu->addAction(sendCoinsMenuAction);
+    pmenu->addAction(privateSendCoinsMenuAction);
     pmenu->addAction(receiveCoinsMenuAction);
     pmenu->addSeparator();
     pmenu->addAction(signMessageAction);
@@ -805,6 +826,12 @@ void BitcoinGUI::trayIconActivated(QSystemTrayIcon::ActivationReason reason)
         toggleHidden();
     }
 }
+#else
+void BitcoinGUI::macosDockIconActivated()
+{
+    showNormalIfMinimized();
+    activateWindow();
+}
 #endif
 
 void BitcoinGUI::optionsClicked()
@@ -828,10 +855,7 @@ void BitcoinGUI::aboutClicked()
 
 void BitcoinGUI::showDebugWindow()
 {
-    rpcConsole->showNormal();
-    rpcConsole->show();
-    rpcConsole->raise();
-    rpcConsole->activateWindow();
+    GUIUtil::bringToFront(rpcConsole);
 }
 
 void BitcoinGUI::showInfo()
@@ -929,6 +953,12 @@ void BitcoinGUI::gotoSendCoinsPage(QString addr)
 {
     sendCoinsAction->setChecked(true);
     if (walletFrame) walletFrame->gotoSendCoinsPage(addr);
+}
+
+void BitcoinGUI::gotoPrivateSendCoinsPage(QString addr)
+{
+    privateSendCoinsAction->setChecked(true);
+    if (walletFrame) walletFrame->gotoPrivateSendCoinsPage(addr);
 }
 
 void BitcoinGUI::gotoSignMessageTab(QString addr)
@@ -1210,6 +1240,7 @@ void BitcoinGUI::message(const QString &title, const QString &message, unsigned 
 
         showNormalIfMinimized();
         QMessageBox mBox((QMessageBox::Icon)nMBoxIcon, strTitle, message, buttons, this);
+        mBox.setTextFormat(Qt::PlainText);
         int r = mBox.exec();
         if (ret != nullptr)
             *ret = r == QMessageBox::Ok;
@@ -1230,6 +1261,11 @@ void BitcoinGUI::changeEvent(QEvent *e)
             if(!(wsevt->oldState() & Qt::WindowMinimized) && isMinimized())
             {
                 QTimer::singleShot(0, this, SLOT(hide()));
+                e->ignore();
+            }
+            else if((wsevt->oldState() & Qt::WindowMinimized) && !isMinimized())
+            {
+                QTimer::singleShot(0, this, SLOT(show()));
                 e->ignore();
             }
         }
@@ -1459,24 +1495,11 @@ void BitcoinGUI::showNormalIfMinimized(bool fToggleHidden)
     if(!clientModel)
         return;
 
-    // activateWindow() (sometimes) helps with keyboard focus on Windows
-    if (isHidden())
-    {
-        show();
-        activateWindow();
-    }
-    else if (isMinimized())
-    {
-        showNormal();
-        activateWindow();
-    }
-    else if (GUIUtil::isObscured(this))
-    {
-        raise();
-        activateWindow();
-    }
-    else if(fToggleHidden)
+    if (!isHidden() && !isMinimized() && !GUIUtil::isObscured(this) && fToggleHidden) {
         hide();
+    } else {
+        GUIUtil::bringToFront(this);
+    }
 }
 
 void BitcoinGUI::toggleHidden()

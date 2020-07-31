@@ -3,21 +3,20 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "guiutil.h"
+#include <qt/guiutil.h>
 
-#include "bitcoinaddressvalidator.h"
-#include "bitcoinunits.h"
-#include "qvalidatedlineedit.h"
-#include "walletmodel.h"
+#include <qt/bitcoinaddressvalidator.h>
+#include <qt/bitcoinunits.h>
+#include <qt/qvalidatedlineedit.h>
+#include <qt/walletmodel.h>
 
-#include "fs.h"
-#include "primitives/transaction.h"
-#include "init.h"
-#include "policy/policy.h"
-#include "protocol.h"
-#include "script/script.h"
-#include "script/standard.h"
-#include "util.h"
+#include <primitives/transaction.h>
+#include <init.h>
+#include <policy/policy.h>
+#include <protocol.h>
+#include <script/script.h>
+#include <script/standard.h>
+#include <util.h>
 
 #ifdef WIN32
 #ifdef _WIN32_WINNT
@@ -32,9 +31,9 @@
 #ifndef NOMINMAX
 #define NOMINMAX
 #endif
-#include "shellapi.h"
-#include "shlobj.h"
-#include "shlwapi.h"
+#include <shellapi.h>
+#include <shlobj.h>
+#include <shlwapi.h>
 #endif
 
 #include <boost/scoped_array.hpp>
@@ -74,10 +73,20 @@ extern double NSAppKitVersionNumber;
 #if !defined(NSAppKitVersionNumber10_9)
 #define NSAppKitVersionNumber10_9 1265
 #endif
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
+#include <CoreServices/CoreServices.h>
+#include <QProcess>
+
+void ForceActivation();
 #endif
 
 namespace GUIUtil {
 
+// The name of the traditional theme
+static const QString traditionalTheme = "Traditional";
 // The theme to set by default if settings are missing or incorrect
 static const QString defaultTheme = "Light";
 // The prefix a theme name should have if we want to apply dark colors and styles to it
@@ -170,14 +179,15 @@ static std::string DummyAddress(const CChainParams &params)
     sourcedata.insert(sourcedata.end(), dummydata, dummydata + sizeof(dummydata));
     for(int i=0; i<256; ++i) { // Try every trailing byte
         std::string s = EncodeBase58(sourcedata.data(), sourcedata.data() + sourcedata.size());
-        if (!CBitcoinAddress(s).IsValid())
+        if (!IsValidDestinationString(s)) {
             return s;
+        }
         sourcedata[sourcedata.size()-1] += 1;
     }
     return "";
 }
 
-void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
+void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent, bool fAllowURI)
 {
     parent->setFocusProxy(widget);
 
@@ -188,7 +198,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
     widget->setPlaceholderText(QObject::tr("Enter a Dash address (e.g. %1)").arg(
         QString::fromStdString(DummyAddress(Params()))));
 #endif
-    widget->setValidator(new BitcoinAddressEntryValidator(parent));
+    widget->setValidator(new BitcoinAddressEntryValidator(parent, fAllowURI));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
 }
 
@@ -282,6 +292,12 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
     return parseBitcoinURI(uriInstance, out);
 }
 
+bool validateBitcoinURI(const QString& uri)
+{
+    SendCoinsRecipient rcp;
+    return parseBitcoinURI(uri, &rcp);
+}
+
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
     QString ret = QString("dash:%1").arg(info.address);
@@ -312,7 +328,7 @@ QString formatBitcoinURI(const SendCoinsRecipient &info)
 
 bool isDust(const QString& address, const CAmount& amount)
 {
-    CTxDestination dest = CBitcoinAddress(address.toStdString()).Get();
+    CTxDestination dest = DecodeDestination(address.toStdString());
     CScript script = GetScriptForDestination(dest);
     CTxOut txOut(amount, script);
     return IsDust(txOut, ::dustRelayFee);
@@ -469,6 +485,24 @@ bool isObscured(QWidget *w)
         && checkPoint(QPoint(0, w->height() - 1), w)
         && checkPoint(QPoint(w->width() - 1, w->height() - 1), w)
         && checkPoint(QPoint(w->width() / 2, w->height() / 2), w));
+}
+
+void bringToFront(QWidget* w)
+{
+#ifdef Q_OS_MAC
+    ForceActivation();
+#endif
+
+    if (w) {
+        // activateWindow() (sometimes) helps with keyboard focus on Windows
+        if (w->isMinimized()) {
+            w->showNormal();
+        } else {
+            w->show();
+        }
+        w->activateWindow();
+        w->raise();
+    }
 }
 
 void openDebugLogfile()
@@ -683,7 +717,7 @@ TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer(QTableView* t
 #ifdef WIN32
 fs::path static StartupShortcutPath()
 {
-    std::string chain = ChainNameFromCommandLine();
+    std::string chain = gArgs.GetChainName();
     if (chain == CBaseChainParams::MAIN)
         return GetSpecialFolderPath(CSIDL_STARTUP) / "Dash Core.lnk";
     if (chain == CBaseChainParams::TESTNET) // Remove this special case when CBaseChainParams::TESTNET = "testnet4"
@@ -781,7 +815,7 @@ fs::path static GetAutostartDir()
 
 fs::path static GetAutostartFilePath()
 {
-    std::string chain = ChainNameFromCommandLine();
+    std::string chain = gArgs.GetChainName();
     if (chain == CBaseChainParams::MAIN)
         return GetAutostartDir() / "dashcore.desktop";
     return GetAutostartDir() / strprintf("dashcore-%s.lnk", chain);
@@ -813,16 +847,17 @@ bool SetStartOnSystemStartup(bool fAutoStart)
     else
     {
         char pszExePath[MAX_PATH+1];
-        memset(pszExePath, 0, sizeof(pszExePath));
-        if (readlink("/proc/self/exe", pszExePath, sizeof(pszExePath)-1) == -1)
+        ssize_t r = readlink("/proc/self/exe", pszExePath, sizeof(pszExePath) - 1);
+        if (r == -1)
             return false;
+        pszExePath[r] = '\0';
 
         fs::create_directories(GetAutostartDir());
 
         fs::ofstream optionFile(GetAutostartFilePath(), std::ios_base::out|std::ios_base::trunc);
         if (!optionFile.good())
             return false;
-        std::string chain = ChainNameFromCommandLine();
+        std::string chain = gArgs.GetChainName();
         // Write a dashcore.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
@@ -840,57 +875,69 @@ bool SetStartOnSystemStartup(bool fAutoStart)
 
 
 #elif defined(Q_OS_MAC)
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 // based on: https://github.com/Mozketo/LaunchAtLoginController/blob/master/LaunchAtLoginController.m
-
-#include <CoreFoundation/CoreFoundation.h>
-#include <CoreServices/CoreServices.h>
 
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl);
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl)
 {
-    // loop through the list of startup items and try to find the Dash Core app
     CFArrayRef listSnapshot = LSSharedFileListCopySnapshot(list, nullptr);
+    if (listSnapshot == nullptr) {
+        return nullptr;
+    }
+
+    // loop through the list of startup items and try to find the Dash Core app
     for(int i = 0; i < CFArrayGetCount(listSnapshot); i++) {
         LSSharedFileListItemRef item = (LSSharedFileListItemRef)CFArrayGetValueAtIndex(listSnapshot, i);
         UInt32 resolutionFlags = kLSSharedFileListNoUserInteraction | kLSSharedFileListDoNotMountVolumes;
         CFURLRef currentItemURL = nullptr;
 
 #if defined(MAC_OS_X_VERSION_MAX_ALLOWED) && MAC_OS_X_VERSION_MAX_ALLOWED >= 10100
-    if(&LSSharedFileListItemCopyResolvedURL)
-        currentItemURL = LSSharedFileListItemCopyResolvedURL(item, resolutionFlags, nullptr);
+        if(&LSSharedFileListItemCopyResolvedURL)
+            currentItemURL = LSSharedFileListItemCopyResolvedURL(item, resolutionFlags, nullptr);
 #if defined(MAC_OS_X_VERSION_MIN_REQUIRED) && MAC_OS_X_VERSION_MIN_REQUIRED < 10100
-    else
-        LSSharedFileListItemResolve(item, resolutionFlags, &currentItemURL, nullptr);
+        else
+            LSSharedFileListItemResolve(item, resolutionFlags, &currentItemURL, nullptr);
 #endif
 #else
-    LSSharedFileListItemResolve(item, resolutionFlags, &currentItemURL, nullptr);
+        LSSharedFileListItemResolve(item, resolutionFlags, &currentItemURL, nullptr);
 #endif
 
-        if(currentItemURL && CFEqual(currentItemURL, findUrl)) {
-            // found
-            CFRelease(currentItemURL);
-            return item;
-        }
         if(currentItemURL) {
+            if (CFEqual(currentItemURL, findUrl)) {
+                // found
+                CFRelease(listSnapshot);
+                CFRelease(currentItemURL);
+                return item;
+            }
             CFRelease(currentItemURL);
         }
     }
+
+    CFRelease(listSnapshot);
     return nullptr;
 }
 
 bool GetStartOnSystemStartup()
 {
     CFURLRef bitcoinAppUrl = CFBundleCopyBundleURL(CFBundleGetMainBundle());
+    if (bitcoinAppUrl == nullptr) {
+        return false;
+    }
+
     LSSharedFileListRef loginItems = LSSharedFileListCreate(nullptr, kLSSharedFileListSessionLoginItems, nullptr);
     LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, bitcoinAppUrl);
+
+    CFRelease(bitcoinAppUrl);
     return !!foundItem; // return boolified object
 }
 
 bool SetStartOnSystemStartup(bool fAutoStart)
 {
     CFURLRef bitcoinAppUrl = CFBundleCopyBundleURL(CFBundleGetMainBundle());
+    if (bitcoinAppUrl == nullptr) {
+        return false;
+    }
+
     LSSharedFileListRef loginItems = LSSharedFileListCreate(nullptr, kLSSharedFileListSessionLoginItems, nullptr);
     LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, bitcoinAppUrl);
 
@@ -902,6 +949,8 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // remove item
         LSSharedFileListItemRemove(loginItems, foundItem);
     }
+
+    CFRelease(bitcoinAppUrl);
     return true;
 }
 #pragma GCC diagnostic pop
@@ -927,22 +976,52 @@ void migrateQtSettings()
 // Open CSS when configured
 QString loadStyleSheet()
 {
+    static std::unique_ptr<QString> stylesheet;
+
+    if (stylesheet.get() == nullptr) {
+
+        stylesheet = std::make_unique<QString>();
+
+        QSettings settings;
+        QDir themes(":themes");
+        QString theme = settings.value("theme", "").toString();
+
+        // Make sure settings are pointing to an existent theme
+        if (theme.isEmpty() || !themes.exists(theme)) {
+            theme = defaultTheme;
+            settings.setValue("theme", theme);
+        }
+
+        // If light/dark theme is used load general styles first
+        if (dashThemeActive()) {
+            QFile qFileGeneral(":css/general");
+            if (qFileGeneral.open(QFile::ReadOnly)) {
+                stylesheet.get()->append(QLatin1String(qFileGeneral.readAll()));
+            }
+
+#ifndef Q_OS_MAC
+            // Apply some styling to scrollbars
+            QFile qFileScrollbars(QString(":/css/scrollbars"));
+            if (qFileScrollbars.open(QFile::ReadOnly)) {
+                stylesheet.get()->append(QLatin1String(qFileScrollbars.readAll()));
+            }
+#endif
+        }
+
+        QFile qFileTheme(":themes/" + theme);
+        if (qFileTheme.open(QFile::ReadOnly)) {
+            stylesheet.get()->append(QLatin1String(qFileTheme.readAll()));
+        }
+    }
+
+    return *stylesheet.get();
+}
+
+bool dashThemeActive()
+{
     QSettings settings;
     QString theme = settings.value("theme", "").toString();
-
-    QDir themes(":themes");
-    // Make sure settings are pointing to an existent theme
-    if (theme.isEmpty() || !themes.exists(theme)) {
-        theme = defaultTheme;
-        settings.setValue("theme", theme);
-    }
-
-    QFile qFile(":themes/" + theme);
-    if (qFile.open(QFile::ReadOnly)) {
-        return QLatin1String(qFile.readAll());
-    }
-
-    return QString();
+    return theme != traditionalTheme;
 }
 
 void setClipboard(const QString& str)
@@ -1061,6 +1140,30 @@ QString formatNiceTimeOffset(qint64 secs)
         timeBehindText = QObject::tr("%1 and %2").arg(QObject::tr("%n year(s)", "", years)).arg(QObject::tr("%n week(s)","", remainder/WEEK_IN_SECONDS));
     }
     return timeBehindText;
+}
+
+QString formatBytes(uint64_t bytes)
+{
+    if(bytes < 1024)
+        return QString(QObject::tr("%1 B")).arg(bytes);
+    if(bytes < 1024 * 1024)
+        return QString(QObject::tr("%1 KB")).arg(bytes / 1024);
+    if(bytes < 1024 * 1024 * 1024)
+        return QString(QObject::tr("%1 MB")).arg(bytes / 1024 / 1024);
+
+    return QString(QObject::tr("%1 GB")).arg(bytes / 1024 / 1024 / 1024);
+}
+
+qreal calculateIdealFontSize(int width, const QString& text, QFont font, qreal minPointSize, qreal font_size) {
+    while(font_size >= minPointSize) {
+        font.setPointSizeF(font_size);
+        QFontMetrics fm(font);
+        if (fm.width(text) < width) {
+            break;
+        }
+        font_size -= 0.5;
+    }
+    return font_size;
 }
 
 void ClickableLabel::mouseReleaseEvent(QMouseEvent *event)

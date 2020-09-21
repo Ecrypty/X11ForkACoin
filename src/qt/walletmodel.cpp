@@ -89,9 +89,9 @@ CAmount WalletModel::getAnonymizableBalance(bool fSkipDenominated, bool fSkipUnc
     return wallet->GetAnonymizableBalance(fSkipDenominated, fSkipUnconfirmed);
 }
 
-CAmount WalletModel::getAnonymizedBalance() const
+CAmount WalletModel::getAnonymizedBalance(const CCoinControl* coinControl) const
 {
-    return wallet->GetAnonymizedBalance();
+    return wallet->GetAnonymizedBalance(coinControl);
 }
 
 CAmount WalletModel::getDenominatedBalance(bool unconfirmed) const
@@ -232,6 +232,11 @@ int WalletModel::getNumISLocks() const
 int WalletModel::getRealOutpointPrivateSendRounds(const COutPoint& outpoint) const
 {
     return wallet->GetRealOutpointPrivateSendRounds(outpoint);
+}
+
+bool WalletModel::isFullyMixed(const COutPoint& outpoint) const
+{
+    return wallet->IsFullyMixed(outpoint);
 }
 
 void WalletModel::updateAddressBook(const QString &address, const QString &label,

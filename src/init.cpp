@@ -988,12 +988,13 @@ void InitParameterInteraction()
         }
     }
 
-    if (gArgs.GetArg("-prune", 0) > 0) {
+    int64_t nPruneArg = gArgs.GetArg("-prune", 0);
+    if (nPruneArg > 0) {
         if (gArgs.SoftSetBoolArg("-disablegovernance", true)) {
-            LogPrintf("%s: parameter interaction: -prune=%d -> setting -disablegovernance=true\n", __func__);
+            LogPrintf("%s: parameter interaction: -prune=%d -> setting -disablegovernance=true\n", __func__, nPruneArg);
         }
         if (gArgs.SoftSetBoolArg("-txindex", false)) {
-            LogPrintf("%s: parameter interaction: -prune=%d -> setting -txindex=false\n", __func__);
+            LogPrintf("%s: parameter interaction: -prune=%d -> setting -txindex=false\n", __func__, nPruneArg);
         }
     }
 
@@ -1350,10 +1351,10 @@ bool AppInitParameterInteraction()
         for (const std::string& strDeployment : gArgs.GetArgs("-vbparams")) {
             std::vector<std::string> vDeploymentParams;
             boost::split(vDeploymentParams, strDeployment, boost::is_any_of(":"));
-            if (vDeploymentParams.size() != 3 && vDeploymentParams.size() != 5) {
-                return InitError("Version bits parameters malformed, expecting deployment:start:end or deployment:start:end:window:threshold");
+            if (vDeploymentParams.size() != 3 && vDeploymentParams.size() != 5 && vDeploymentParams.size() != 7) {
+                return InitError("Version bits parameters malformed, expecting deployment:start:end or deployment:start:end:window:threshold or deployment:start:end:window:thresholdstart:thresholdmin:falloffcoeff");
             }
-            int64_t nStartTime, nTimeout, nWindowSize = -1, nThreshold = -1;
+            int64_t nStartTime, nTimeout, nWindowSize = -1, nThresholdStart = -1, nThresholdMin = -1, nFalloffCoeff = -1;
             if (!ParseInt64(vDeploymentParams[1], &nStartTime)) {
                 return InitError(strprintf("Invalid nStartTime (%s)", vDeploymentParams[1]));
             }
@@ -1364,17 +1365,26 @@ bool AppInitParameterInteraction()
                 if (!ParseInt64(vDeploymentParams[3], &nWindowSize)) {
                     return InitError(strprintf("Invalid nWindowSize (%s)", vDeploymentParams[3]));
                 }
-                if (!ParseInt64(vDeploymentParams[4], &nThreshold)) {
-                    return InitError(strprintf("Invalid nThreshold (%s)", vDeploymentParams[4]));
+                if (!ParseInt64(vDeploymentParams[4], &nThresholdStart)) {
+                    return InitError(strprintf("Invalid nThresholdStart (%s)", vDeploymentParams[4]));
+                }
+            }
+            if (vDeploymentParams.size() == 7) {
+                if (!ParseInt64(vDeploymentParams[5], &nThresholdMin)) {
+                    return InitError(strprintf("Invalid nThresholdMin (%s)", vDeploymentParams[5]));
+                }
+                if (!ParseInt64(vDeploymentParams[6], &nFalloffCoeff)) {
+                    return InitError(strprintf("Invalid nFalloffCoeff (%s)", vDeploymentParams[6]));
                 }
             }
             bool found = false;
             for (int j=0; j<(int)Consensus::MAX_VERSION_BITS_DEPLOYMENTS; ++j)
             {
                 if (vDeploymentParams[0].compare(VersionBitsDeploymentInfo[j].name) == 0) {
-                    UpdateVersionBitsParameters(Consensus::DeploymentPos(j), nStartTime, nTimeout, nWindowSize, nThreshold);
+                    UpdateVersionBitsParameters(Consensus::DeploymentPos(j), nStartTime, nTimeout, nWindowSize, nThresholdStart, nThresholdMin, nFalloffCoeff);
                     found = true;
-                    LogPrintf("Setting version bits activation parameters for %s to start=%ld, timeout=%ld, window=%ld, threshold=%ld\n", vDeploymentParams[0], nStartTime, nTimeout, nWindowSize, nThreshold);
+                    LogPrintf("Setting version bits activation parameters for %s to start=%ld, timeout=%ld, window=%ld, thresholdstart=%ld, thresholdmin=%ld, falloffcoeff=%ld\n",
+                            vDeploymentParams[0], nStartTime, nTimeout, nWindowSize, nThresholdStart, nThresholdMin, nFalloffCoeff);
                     break;
                 }
             }
@@ -1974,7 +1984,7 @@ bool AppInitMain()
                 if (!is_coinsview_empty) {
                     uiInterface.InitMessage(_("Verifying blocks..."));
                     if (fHavePruned && gArgs.GetArg("-checkblocks", DEFAULT_CHECKBLOCKS) > MIN_BLOCKS_TO_KEEP) {
-                        LogPrintf("Prune: pruned datadir may not have more than %d blocks; only checking available blocks",
+                        LogPrintf("Prune: pruned datadir may not have more than %d blocks; only checking available blocks\n",
                             MIN_BLOCKS_TO_KEEP);
                     }
 

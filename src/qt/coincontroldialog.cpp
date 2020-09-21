@@ -34,6 +34,7 @@
 
 QList<CAmount> CoinControlDialog::payAmounts;
 bool CoinControlDialog::fSubtractFeeFromAmount = false;
+CoinControlDialog::Mode CoinControlDialog::mode{CoinControlDialog::Mode::NORMAL};
 
 bool CCoinControlWidgetItem::operator<(const QTreeWidgetItem &other) const {
     int column = treeWidget()->sortColumn();
@@ -232,7 +233,7 @@ void CoinControlDialog::buttonToggleLockClicked()
             else{
                 model->lockCoin(outpt);
                 item->setDisabled(true);
-                item->setIcon(COLUMN_CHECKBOX, QIcon(":/icons/lock_closed"));
+                item->setIcon(COLUMN_CHECKBOX, GUIUtil::getIcon("lock_closed", GUIUtil::ThemedColor::RED));
             }
             updateLabelLocked();
         }
@@ -321,7 +322,7 @@ void CoinControlDialog::lockCoin()
     COutPoint outpt(uint256S(contextMenuItem->text(COLUMN_TXHASH).toStdString()), contextMenuItem->text(COLUMN_VOUT_INDEX).toUInt());
     model->lockCoin(outpt);
     contextMenuItem->setDisabled(true);
-    contextMenuItem->setIcon(COLUMN_CHECKBOX, QIcon(":/icons/lock_closed"));
+    contextMenuItem->setIcon(COLUMN_CHECKBOX, GUIUtil::getIcon("lock_closed", GUIUtil::ThemedColor::RED));
     updateLabelLocked();
 }
 
@@ -514,16 +515,6 @@ void CoinControlDialog::updateLabels(WalletModel *model, QDialog* dialog)
             continue;
         }
 
-        // unselect non-fully-mixed, this can happen when users switch from Send to PrivateSend
-        if (coinControl()->IsUsingPrivateSend()) {
-            int nRounds = model->getRealOutpointPrivateSendRounds(outpt);
-            if (nRounds < privateSendClient.nPrivateSendRounds) {
-                coinControl()->UnSelect(outpt);
-                fUnselectedNonMixed = true;
-                continue;
-            }
-        }
-
         // Quantity
         nQuantity++;
 
@@ -669,10 +660,22 @@ void CoinControlDialog::updateLabels(WalletModel *model, QDialog* dialog)
     }
 }
 
+void CoinControlDialog::usePrivateSend(bool fUsePrivateSend)
+{
+    CoinControlDialog::mode = fUsePrivateSend ? CoinControlDialog::Mode::PRIVATESEND : CoinControlDialog::Mode::NORMAL;
+}
+
 CCoinControl* CoinControlDialog::coinControl()
 {
-    static CCoinControl coin_control;
-    return &coin_control;
+    if (CoinControlDialog::mode == CoinControlDialog::Mode::NORMAL) {
+        static CCoinControl coinControlNormal;
+        coinControlNormal.UsePrivateSend(false);
+        return &coinControlNormal;
+    } else {
+        static CCoinControl coinControlPrivateSend;
+        coinControlPrivateSend.UsePrivateSend(true);
+        return &coinControlPrivateSend;
+    }
 }
 
 void CoinControlDialog::updateView()
@@ -721,9 +724,8 @@ void CoinControlDialog::updateView()
         int nChildren = 0;
         for (const COutput& out : coins.second) {
             COutPoint outpoint = COutPoint(out.tx->tx->GetHash(), out.i);
-            int nRounds = model->getRealOutpointPrivateSendRounds(outpoint);
 
-            if ((coinControl()->IsUsingPrivateSend() && nRounds >= privateSendClient.nPrivateSendRounds) || !(coinControl()->IsUsingPrivateSend())) {
+            if ((coinControl()->IsUsingPrivateSend() && model->isFullyMixed(outpoint)) || !(coinControl()->IsUsingPrivateSend())) {
                 nSum += out.tx->tx->vout[out.i].nValue;
                 nChildren++;
 
@@ -774,6 +776,7 @@ void CoinControlDialog::updateView()
                 itemOutput->setData(COLUMN_DATE, Qt::UserRole, QVariant((qlonglong)out.tx->GetTxTime()));
 
                 // PrivateSend rounds
+                int nRounds = model->getRealOutpointPrivateSendRounds(outpoint);
                 if (nRounds >= 0 || LogAcceptCategory(BCLog::PRIVATESEND)) {
                     itemOutput->setText(COLUMN_PRIVATESEND_ROUNDS, QString::number(nRounds));
                 } else {
@@ -797,7 +800,7 @@ void CoinControlDialog::updateView()
                     COutPoint outpt(txhash, out.i);
                     coinControl()->UnSelect(outpt); // just to be sure
                     itemOutput->setDisabled(true);
-                    itemOutput->setIcon(COLUMN_CHECKBOX, QIcon(":/icons/lock_closed"));
+                    itemOutput->setIcon(COLUMN_CHECKBOX, GUIUtil::getIcon("lock_closed", GUIUtil::ThemedColor::RED));
                 }
 
                 // set checkbox

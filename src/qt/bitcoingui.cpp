@@ -389,11 +389,6 @@ void BitcoinGUI::createActions()
     overviewAction->setStatusTip(tr("Show general overview of wallet"));
     overviewAction->setToolTip(overviewAction->statusTip());
     overviewAction->setCheckable(true);
-#ifdef Q_OS_MAC
-    overviewAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_1));
-#else
-    overviewAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_1));
-#endif
     tabGroup->addButton(overviewAction);
 
     sendCoinsAction = new QToolButton(this);
@@ -401,11 +396,6 @@ void BitcoinGUI::createActions()
     sendCoinsAction->setStatusTip(tr("Send coins to a Dash address"));
     sendCoinsAction->setToolTip(sendCoinsAction->statusTip());
     sendCoinsAction->setCheckable(true);
-#ifdef Q_OS_MAC
-    sendCoinsAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_2));
-#else
-    sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
-#endif
     tabGroup->addButton(sendCoinsAction);
 
     sendCoinsMenuAction = new QAction(sendCoinsAction->text(), this);
@@ -417,11 +407,6 @@ void BitcoinGUI::createActions()
     privateSendCoinsAction->setStatusTip(tr("PrivateSend coins to a Dash address"));
     privateSendCoinsAction->setToolTip(privateSendCoinsAction->statusTip());
     privateSendCoinsAction->setCheckable(true);
-#ifdef Q_OS_MAC
-    privateSendCoinsAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_3));
-#else
-    privateSendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_3));
-#endif
     tabGroup->addButton(privateSendCoinsAction);
 
     privateSendCoinsMenuAction = new QAction(privateSendCoinsAction->text(), this);
@@ -433,11 +418,6 @@ void BitcoinGUI::createActions()
     receiveCoinsAction->setStatusTip(tr("Request payments (generates QR codes and dash: URIs)"));
     receiveCoinsAction->setToolTip(receiveCoinsAction->statusTip());
     receiveCoinsAction->setCheckable(true);
-#ifdef Q_OS_MAC
-    receiveCoinsAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_4));
-#else
-    receiveCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_4));
-#endif
     tabGroup->addButton(receiveCoinsAction);
 
     receiveCoinsMenuAction = new QAction(receiveCoinsAction->text(), this);
@@ -449,11 +429,6 @@ void BitcoinGUI::createActions()
     historyAction->setStatusTip(tr("Browse transaction history"));
     historyAction->setToolTip(historyAction->statusTip());
     historyAction->setCheckable(true);
-#ifdef Q_OS_MAC
-    historyAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_5));
-#else
-    historyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
-#endif
     tabGroup->addButton(historyAction);
 
 #ifdef ENABLE_WALLET
@@ -464,11 +439,6 @@ void BitcoinGUI::createActions()
         masternodeAction->setStatusTip(tr("Browse masternodes"));
         masternodeAction->setToolTip(masternodeAction->statusTip());
         masternodeAction->setCheckable(true);
-#ifdef Q_OS_MAC
-        masternodeAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_6));
-#else
-        masternodeAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_6));
-#endif
         tabGroup->addButton(masternodeAction);
         connect(masternodeAction, SIGNAL(clicked()), this, SLOT(showNormalIfMinimized()));
         connect(masternodeAction, SIGNAL(clicked()), this, SLOT(gotoMasternodePage()));
@@ -496,6 +466,8 @@ void BitcoinGUI::createActions()
     for (auto button : tabGroup->buttons()) {
         GUIUtil::setFont({button}, GUIUtil::FontWeight::Normal, 16);
     }
+    GUIUtil::updateFonts();
+
     // Give the selected tab button a bolder font.
     connect(tabGroup, SIGNAL(buttonToggled(QAbstractButton *, bool)), this, SLOT(highlightTabButton(QAbstractButton *, bool)));
 #endif // ENABLE_WALLET
@@ -796,6 +768,8 @@ void BitcoinGUI::setClientModel(ClientModel *_clientModel)
 
             // initialize the disable state of the tray icon with the current value in the model.
             setTrayIconVisible(optionsModel->getHideTrayIcon());
+
+            connect(optionsModel, SIGNAL(privateSendEnabledChanged()), this, SLOT(updatePrivateSendVisibility()));
         }
     } else {
         // Disable possibility to show main window via action
@@ -823,6 +797,8 @@ void BitcoinGUI::setClientModel(ClientModel *_clientModel)
         }
 #endif
     }
+
+    updatePrivateSendVisibility();
 }
 
 #ifdef ENABLE_WALLET
@@ -940,7 +916,12 @@ void BitcoinGUI::optionsClicked()
 
     OptionsDialog dlg(this, enableWallet);
     dlg.setModel(clientModel->getOptionsModel());
+    connect(&dlg, &OptionsDialog::appearanceChanged, [=]() {
+        updateWidth();
+    });
     dlg.exec();
+
+    updatePrivateSendVisibility();
 }
 
 void BitcoinGUI::aboutClicked()
@@ -1024,6 +1005,7 @@ void BitcoinGUI::openClicked()
 void BitcoinGUI::highlightTabButton(QAbstractButton *button, bool checked)
 {
     GUIUtil::setFont({button}, checked ? GUIUtil::FontWeight::Bold : GUIUtil::FontWeight::Normal, 16);
+    GUIUtil::updateFonts();
 }
 
 void BitcoinGUI::gotoOverviewPage()
@@ -1170,6 +1152,58 @@ void BitcoinGUI::updateProgressBarVisibility()
     bool fShowProgressBar = clientModel->getNetworkActive() && !masternodeSync.IsSynced() && clientModel->getNumConnections() > 0;
     progressBarLabel->setVisible(fShowProgressBarLabel);
     progressBar->setVisible(fShowProgressBar);
+}
+
+void BitcoinGUI::updatePrivateSendVisibility()
+{
+#ifdef ENABLE_WALLET
+    bool fEnabled = privateSendClient.fEnablePrivateSend;
+#else
+    bool fEnabled = false;
+#endif
+    // PrivateSend button is the third QToolButton, show/hide the underlying QAction
+    // Hiding the QToolButton itself doesn't work.
+    qobject_cast<QToolBar*>(centralWidget()->layout()->itemAt(0)->widget())->actions()[2]->setVisible(fEnabled);
+    privateSendCoinsMenuAction->setVisible(fEnabled);
+    showPrivateSendHelpAction->setVisible(fEnabled);
+    updateToolBarShortcuts();
+    updateWidth();
+}
+
+void BitcoinGUI::updateWidth()
+{
+    int nWidthWidestButton{0};
+    int nButtonsVisible{0};
+    for (QAbstractButton* button : tabGroup->buttons()) {
+        if (!button->isEnabled()) {
+            continue;
+        }
+        QFontMetrics fm(button->font());
+        nWidthWidestButton = std::max<int>(nWidthWidestButton, fm.width(button->text()));
+        ++nButtonsVisible;
+    }
+    // Add 30 per button as padding and use minimum 980 which is the minimum required to show all tab's contents
+    // Use nButtonsVisible + 1 <- for the dash logo
+    int nWidth = std::max<int>(980, (nWidthWidestButton + 30) * (nButtonsVisible + 1));
+    setMinimumWidth(nWidth);
+    resize(nWidth, height());
+}
+
+void BitcoinGUI::updateToolBarShortcuts()
+{
+#ifdef Q_OS_MAC
+    auto modifier = Qt::CTRL;
+#else
+    auto modifier = Qt::ALT;
+#endif
+    int nKey = 0;
+    for (int i = 0; i < tabGroup->buttons().size(); ++i) {
+        if (qobject_cast<QToolBar*>(centralWidget()->layout()->itemAt(0)->widget())->actions()[i]->isVisible()) {
+            tabGroup->buttons()[i]->setShortcut(QKeySequence(modifier + Qt::Key_1 + nKey++));
+        } else {
+            tabGroup->buttons()[i]->setShortcut(QKeySequence());
+        }
+    }
 }
 
 void BitcoinGUI::setNumBlocks(int count, const QDateTime& blockDate, const QString& blockHash, double nVerificationProgress, bool header)
@@ -1470,6 +1504,10 @@ void BitcoinGUI::showEvent(QShowEvent *event)
     openRepairAction->setEnabled(true);
     aboutAction->setEnabled(true);
     optionsAction->setEnabled(true);
+
+    if (!event->spontaneous()) {
+        updateWidth();
+    }
 }
 
 #ifdef ENABLE_WALLET

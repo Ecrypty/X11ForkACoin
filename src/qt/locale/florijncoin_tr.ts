@@ -1,943 +1,943 @@
-<TS language="it" version="2.1">
+<TS language="tr" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Bottone destro per modificare l'indirizzo o l'etichetta</translation>
+        <translation>Adres veya etiketi düzenlemek için sağ tıklayın.</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Crea un nuovo indirizzo</translation>
+        <translation>Yeni bir adres oluştur</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Nuovo</translation>
+        <translation>&amp;Yeni</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copia l'indirizzo selezionato negli appunti</translation>
+        <translation>Şu anda seçili olan adresi sistem panosuna kopyala</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Copia</translation>
+        <translation>&amp;Kopyala</translation>
     </message>
     <message>
         <source>Show QR code for the currently selected address</source>
-        <translation>Mostra il codice QR per l'indirizzo attualmente selezionato</translation>
+        <translation>Seçili adres için QR kodu göster</translation>
     </message>
     <message>
         <source>&amp;Show QR code</source>
-        <translation>&amp;Mostra il codice QR</translation>
+        <translation>&amp;QR kodu göster</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Cancella l'indirizzo selezionato dalla lista</translation>
+        <translation>Seçili adresi listeden sil</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Cancella</translation>
+        <translation>&amp;Sil</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Esporta su file i dati della tabella corrente </translation>
+        <translation>Güncel sekmedeki verileri bir dosyaya aktar</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Esporta</translation>
+        <translation>&amp;Dışa aktar</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>C&amp;hiudi</translation>
+        <translation>K&amp;apat</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Scegli l'indirizzo a cui inviare i dash</translation>
+        <translation>Parayı göndermek istediğiniz adresi seçiniz</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Scegli l'indirizzo con cui ricevere dash</translation>
+        <translation>Parayı almak istediğiniz adresi seçiniz</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>Sc&amp;egli</translation>
+        <translation>S&amp;eçiniz</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Indirizzi d'invio</translation>
+        <translation>Gönderilen adresler</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Indirizzi di ricezione</translation>
+        <translation>Alım adresleri</translation>
     </message>
     <message>
-        <source>These are your Dash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono i tuoi indirizzi Dash per inviare i pagamenti. Controlla sempre l'ammontare e l'indirizzo di destinazione prima di inviare i dash.</translation>
+        <source>These are your Florijncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödemeleri göndermek için kullanacağınız Florijncoin adreslerinizdir. Florijncoin yollamadan önce tutarı ve alıcının alım adresini her zaman kontrol ediniz.</translation>
     </message>
     <message>
-        <source>These are your Dash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono i tuoi indirizzi di Dash per ricevere i pagamenti. Si raccomanda di usare un nuovo indirizzo di ricezione per ogni operazione.</translation>
+        <source>These are your Florijncoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödemeleri almak için kullanacağınız Florijncoin adreslerinizdir. Her işlem için yeni bir alım adresi kullanmanız tavsiye edilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Copia l'indirizzo</translation>
+        <translation>&amp;Adresi Kopyala</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Copia &amp;l'etichetta</translation>
+        <translation>&amp;Etiketi Kopyala</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Modifica</translation>
+        <translation>&amp;Değiştir</translation>
     </message>
     <message>
         <source>&amp;Show address QR code</source>
-        <translation>&amp;Mostra l'indirizzo del codice QR</translation>
+        <translation>&amp;Adresin QR kodunu göster</translation>
     </message>
     <message>
         <source>QR code</source>
-        <translation>codice QR</translation>
+        <translation>QR kod</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Esporta Lista Indirizzi</translation>
+        <translation>Adres Listesini Dışarı Aktar</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Testo CSV (*.csv)</translation>
+        <translation>Virgülle ayrılmış değerler dosyası (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Esportazione Fallita.</translation>
+        <translation>Dışarı aktarmada hata</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>C'é stato un errore mentre si salvava la lista degli indirizzi a %1. Per favore riprovare nuovamente.</translation>
+        <translation>Adres listesinin %1 konumuna kaydedilmesi sırasında bir hata meydana geldi. Lütfen tekrar deneyin.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Etichetta</translation>
+        <translation>Etiket</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Indirizzo</translation>
+        <translation>Adres</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(nessuna etichetta)</translation>
+        <translation>(etiket yok)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Casella parola d'ordine</translation>
+        <translation>Parola diyaloğu</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Inserisci la parola d'ordine</translation>
+        <translation>Parolayı giriniz</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nuova passphrase</translation>
+        <translation>Yeni parola</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Ripeti la nuova passphrase</translation>
+        <translation>Yeni parolayı tekrarlayınız</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Inserisci la nuova passphrase per il portafoglio.&lt;br/&gt;Si prega di usare una passphrase di &lt;b&gt;dieci o più caratteri casuali&lt;/b&gt;, o &lt;b&gt;otto o più parole&lt;/b&gt;.</translation>
+        <translation>Cüzdan için yeni parolayı giriniz.&lt;br/&gt;Lütfen &lt;b&gt;on ya da daha fazla rastgele karakter&lt;/b&gt; veya &lt;b&gt;sekiz ya da daha fazla kelime&lt;/b&gt; içeren bir parola kullanınız.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Cifra il portafoglio</translation>
+        <translation>Cüzdanı şifrele</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Quest'operazione necessita della passphrase per sbloccare il portafoglio.</translation>
+        <translation>Bu eylem cüzdan kilidini açmak için cüzdan parolanızı gerektirir.</translation>
     </message>
     <message>
         <source>Unlock wallet for mixing only</source>
-        <translation>Sblocca il portafoglio solo per il mixing</translation>
+        <translation>Cüzdanın kilidini sadece karışım için aç</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Sblocca il portafoglio</translation>
+        <translation>Cüzdan kilidini kaldır</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Quest'operazione necessita della passphrase per decrittare il portafoglio.</translation>
+        <translation>Bu eylem, cüzdan şifresini çözmek için cüzdan parolanıza ihtiyaç duyuyor.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Decritta il portafoglio</translation>
+        <translation>Cüzdanın şifrelemesini aç</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Cambia la passphrase</translation>
+        <translation>Parola değiştir</translation>
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Inserire la vecchia passphrase e la nuova passphrase nel portafoglio</translation>
+        <translation>Eski ve yeni parolanızı cüzdana giriniz.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Conferma la cifratura del portafoglio</translation>
+        <translation>Cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DASH&lt;/b&gt;!</source>
-        <translation>Attenzione: se crittografi il tuo portafoglio e perdi la tua passphrase, &lt;b&gt;PERDERAI TUTTI I TUOI DASH&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLRN&lt;/b&gt;!</source>
+        <translation>Uyarı: Eğer cüzdanınızı şifreler ve parolanızı unutursanız &lt;b&gt;TÜM FLRNİNİZİ KAYBEDERSİNİZ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Sicuro di voler cifrare il portafoglio?</translation>
+        <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Portafoglio cifrato</translation>
+        <translation>Cüzdan şifrelendi</translation>
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your funds from being stolen by malware infecting your computer.</source>
-        <translation>%1 si chiuderà ora per completare il processo di crittografia. Ricorda che il crittaggio del tuo portafoglio non può proteggere completamente i tuoi fondi dal furto tramite malware che infettano il tuo computer</translation>
+        <translation>%1 şimdi şifreleme işlemini bitirmek için kapanacak. Unutmayın, cüzdanınızı şifrelemek sizi bilgisayarınıza bulaşmış olan kötü amaçlı yazılımlar tarafından paranızın çalınmasına karşı tamamen korumaz.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. Previous backups of the unencrypted wallet file contain the same HD seed and still have full access to all your funds just like the new, encrypted wallet.</source>
-        <translation>IMPORTANTE: tutti i backup precedenti che hai fatto del tuo file del portafoglio devono essere sostituiti con il file del portafoglio appena generato. I backup precedenti del file del portafoglio non crittografato contengono lo stesso seed dell'HD e hanno ancora pieno accesso a tutti i tuoi fondi, proprio come il nuovo portafoglio crittografato.</translation>
+        <translation>ÖNEMLİ: Cüzdanınızın eskiden yapılmış yedekleri yeni oluşturulmuş, şifreli cüzdan dosyası ile değiştirilmelidir. Şifresiz cüzdan dosyasının önceki yedekleri aynı HD kaynağını içerir ve yeni, şifreli cüzdanınız gibi tüm bakiyenize erişim sağlar.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>IMPORTANTE: qualsiasi backup del file del portafoglio effettuato in precedenza dovrà essere sostituito con il file del portafoglio cifrato appena generato. Per ragioni di sicurezza, i precedenti backup del file del portafoglio non cifrato diventeranno inservibili non appena si inizierà ad utilizzare il nuovo portafoglio cifrato.</translation>
+        <translation>ÖNEMLİ: Önceden yapmış olduğunuz cüzdan dosyası yedeklemelerinin yeni oluşturulan şifrelenmiş cüzdan dosyası ile değiştirilmeleri gerekir. Güvenlik nedenleriyle yeni, şifrelenmiş cüzdanı kullanmaya başladığınızda eski şifrelenmemiş cüzdan dosyaları işe yaramaz hale gelecektir.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Cifratura del portafoglio fallita</translation>
+        <translation>Cüzdan şifreleme başarısız</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Cifratura del portafoglio fallita a causa di un errore interno. Il portafoglio non è stato cifrato.</translation>
+        <translation>Dahili bir hata yüzünden cüzdan şifrelemesi başarısız oldu. Cüzdanın şifrelenmedi.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Le passphrase inserite non corrispondono.</translation>
+        <translation>Girilen parolalar birbiriyle eşleşmiyor.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Sblocco del portafoglio fallito</translation>
+        <translation>Cüzdan kilidini kaldırma başarısız oldu</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>La passphrase inserita per la decrittazione del portafoglio è errata.</translation>
+        <translation>Cüzdan şifresinin açılması için girilen parola yanlıştı.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Decrittazione del portafoglio fallita</translation>
+        <translation>Cüzdan şifresinin açılması başarısız oldu</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Passphrases del portafoglio modificata con successo.</translation>
+        <translation>Cüzdan parolası başarılı bir şekilde değiştirildi.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Attenzione: il tasto Blocco maiuscole è attivo!</translation>
+        <translation>Uyarı: Caps Lock tuşu etkin durumda!</translation>
     </message>
 </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP/Netmask</translation>
+        <translation>IP/Ağ Maskesi</translation>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>Bannato fino a</translation>
+        <translation>Şu zamana kadar yasaklı:</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Dash Core can no longer continue safely and will quit.</source>
-        <translation>Si è verificato un errore irreversibile. Dash Core non può più continuare in sicurezza e terminerà le operazioni.</translation>
+        <source>A fatal error occurred. Florijncoin Core can no longer continue safely and will quit.</source>
+        <translation>Kritik bir hata oluştu. Florijncoin Core artık güvenli şekilde devam edemez ve kapanacak.</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Florijncoin Core</source>
+        <translation>Florijncoin Core</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Portafoglio</translation>
+        <translation>Cüzdan</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Nodo</translation>
+        <translation>Düğüm</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Sintesi</translation>
+        <translation>&amp;Genel bakış</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Mostra lo stato generale del portafoglio</translation>
+        <translation>Cüzdana genel bakışı göster</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Invia</translation>
+        <translation>&amp;Gönder</translation>
     </message>
     <message>
-        <source>Send coins to a Dash address</source>
-        <translation>Spedire dash ad un indirizzo Dash</translation>
+        <source>Send coins to a Florijncoin address</source>
+        <translation>Bir Florijncoin adresine coin gönder</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Ricevi</translation>
+        <translation>&amp;Al</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and dash: URIs)</source>
-        <translation>Richieste di pagamenti (genera codici QR e dash: URLs)</translation>
+        <source>Request payments (generates QR codes and florijncoin: URIs)</source>
+        <translation>Ödeme talep et (QR kodu ve Florijncoin URI'si oluşturur)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transazioni</translation>
+        <translation>&amp;İşlemler</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Mostra la cronologia delle transazioni</translation>
+        <translation>İşlem geçmişine gözat</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
-        <translation>&amp;Masternode</translation>
+        <translation>&amp;Ana düğümler</translation>
     </message>
     <message>
         <source>Browse masternodes</source>
-        <translation>Scorri i masternode</translation>
+        <translation>Ana düğümlere gözat</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>E&amp;sci</translation>
+        <translation>Ç&amp;ık</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Chiudi applicazione</translation>
+        <translation>Uygulamadan çık</translation>
     </message>
     <message>
-        <source>Show information about Dash Core</source>
-        <translation>Mostra le informazioni su Dash Core</translation>
+        <source>Show information about Florijncoin Core</source>
+        <translation>Florijncoin Core hakkında bilgileri göster</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Informazioni su &amp;Qt</translation>
+        <translation>&amp;Qt Hakkında</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Mostra informazioni su Qt</translation>
+        <translation>Qt hakkında bilgi göster</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Opzioni...</translation>
+        <translation>&amp;Seçenekler...</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>&amp;Informazioni su %1</translation>
+        <translation>%1 &amp;Hakkında</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>Modifica le opzioni di configurazione per %1</translation>
+        <translation>%1 için yapılandırma ayarlarını değiştir</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Mostra / Nascondi</translation>
+        <translation>&amp;Göster / Gizle</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Mostra o nascondi la Finestra principale</translation>
+        <translation>Ana pencereyi göster ya da gizle</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Cifra il portafoglio...</translation>
+        <translation>&amp;Cüzdanı Şifrele...</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Cifra le chiavi private che appartengono al tuo portafoglio</translation>
+        <translation>Cüzdanınıza ait özel anahtarları şifreleyin</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup Portafoglio...</translation>
+        <translation>&amp;Cüzdanı Yedekle...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Effettua il backup del portafoglio</translation>
+        <translation>Cüzdanı diğer bir konumda yedekle</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Cambia la Passphrase...</translation>
+        <translation>&amp;Parolayı Değiştir...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Cambia la passphrase utilizzata per la cifratura del portafoglio</translation>
+        <translation>Cüzdan şifrelemesi için kullanılan parolayı değiştir</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Sblocca Portafoglio</translation>
+        <translation>Cüzdanı &amp;Kilitle...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Sblocca il portafoglio</translation>
+        <translation>Cüzdan kilidini kaldır</translation>
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>&amp;Blocca Portafoglio</translation>
+        <translation>Cüzdanı &amp;Kilitle</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Firma il &amp;messaggio...</translation>
+        <translation>&amp;İleti imzala...</translation>
     </message>
     <message>
-        <source>Sign messages with your Dash addresses to prove you own them</source>
-        <translation>Firma i messaggi con il tuo indirizzo Dash per dimostrare che li possiedi</translation>
+        <source>Sign messages with your Florijncoin addresses to prove you own them</source>
+        <translation>İletileri adreslerin size ait olduğunu ispatlamak için Florijncoin adresleri ile imzala</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Verifica messaggio...</translation>
+        <translation>İletiyi &amp;kontrol et...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Dash addresses</source>
-        <translation>Verificare i messaggi per assicurarsi che sono firmati con gli indirizzi specificati di Dash</translation>
+        <source>Verify messages to ensure they were signed with specified Florijncoin addresses</source>
+        <translation>Belirtilen Florijncoin adresleri ile imzalandıklarından emin olmak için iletileri kontrol et</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informazioni</translation>
+        <translation>&amp;Bilgi</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
-        <translation>Mostra l'informazione di diagnostica</translation>
+        <translation>Tanı bilgilerini göster</translation>
     </message>
     <message>
         <source>&amp;Debug console</source>
-        <translation>&amp;Console di Debug</translation>
+        <translation>&amp;Debug konsolu</translation>
     </message>
     <message>
         <source>Open debugging console</source>
-        <translation>Apri la console di Debug</translation>
+        <translation>Debug konsolunu aç</translation>
     </message>
     <message>
         <source>&amp;Network Monitor</source>
-        <translation>&amp;Monitor di rete</translation>
+        <translation>&amp;Ağ Monitörü</translation>
     </message>
     <message>
         <source>Show network monitor</source>
-        <translation>Mostra il monitor di rete</translation>
+        <translation>Ağ monitörünü göster</translation>
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>&amp;Elenco dei peer</translation>
+        <translation>&amp;Eş listesi</translation>
     </message>
     <message>
         <source>Show peers info</source>
-        <translation>Mostra le info dei peer</translation>
+        <translation>Eş bilgisini göster</translation>
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation> Riparare Portafoglio</translation>
+        <translation>Cüzdan &amp;Tamir</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
-        <translation>Mostrare le opzioni per riparare il portafoglio</translation>
+        <translation>Cüzdan tamir seçeneklerini göster</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
-        <translation>Apri il &amp;Configuration File del Portafoglio</translation>
+        <translation>Cüzdan &amp;Ayar Dosyasını Aç</translation>
     </message>
     <message>
         <source>Open configuration file</source>
-        <translation>Apri il file di configurazione</translation>
+        <translation>Yapılandırma Dosyasını Aç</translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
-        <translation>Mostra Copie Automatiche</translation>
+        <translation>Otomatik &amp;Yedekleri Göster</translation>
     </message>
     <message>
         <source>Show automatically created wallet backups</source>
-        <translation>Mostra le copie del portafoglio create automaticamente</translation>
+        <translation>Otomatik oluşturulan cüzdan yedeklerini göster</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;Indirizzi d'invio...</translation>
+        <translation>&amp;Gönderme adresleri...</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Mostra la lista degli indirizzi di invio utilizzati</translation>
+        <translation>Kullanılmış gönderme adresleri ve etiketlerin listesini göster</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>Indirizzi di &amp;ricezione...</translation>
+        <translation>&amp;Alma adresleri...</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Mostra la lista degli indirizzi di ricezione utilizzati</translation>
+        <translation>Kullanılmış alım adresleri ve etiketlerin listesini göster</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Apri &amp;URI...</translation>
+        <translation>&amp;URI Aç...</translation>
     </message>
     <message>
-        <source>Open a dash: URI or payment request</source>
-        <translation>Apri un dash: URI o una richiesta di pagamento</translation>
+        <source>Open a florijncoin: URI or payment request</source>
+        <translation>Bir Florijncoin: bağlantısı ya da ödeme talebi aç</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>Opzioni riga di &amp;comando</translation>
+        <translation>&amp;Komut satırı seçenekleri</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Dash command-line options</source>
-        <translation>Mostra il messaggio di aiuto di %1 per ottenere una lista di opzioni di comando per Dash </translation>
+        <source>Show the %1 help message to get a list with possible Florijncoin command-line options</source>
+        <translation>Olası Florijncoin komut satırı seçeneklerinin listesini görmek için %1 yardım mesajını göster</translation>
     </message>
     <message>
         <source>%1 client</source>
-        <translation>%1 client</translation>
+        <translation>%1 istemci</translation>
     </message>
     <message>
         <source>&amp;PrivateSend information</source>
-        <translation>Informazioni su &amp;PrivateSend</translation>
+        <translation>&amp;Özel Gönder bilgisi</translation>
     </message>
     <message>
         <source>Show the PrivateSend basic information</source>
-        <translation>Mostra le informazioni basiche del PrivateSend</translation>
+        <translation>Özel Gönder temel bilgilerini göster</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;File</translation>
+        <translation>&amp;Dosya</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Impostazioni</translation>
+        <translation>&amp;Ayarlar</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>&amp;Strumenti</translation>
+        <translation>&amp;Araçlar</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Aiuto</translation>
+        <translation>&amp;Yardım</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Barra degli strumenti "Tabs"</translation>
+        <translation>Sekme araç çubuğu</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Dash network</source>
-        <translation><numerusform>%n connessione attiva alla rete Dash</numerusform><numerusform>%n connessioni attive alla rete Dash</numerusform></translation>
+        <source>%n active connection(s) to Florijncoin network</source>
+        <translation><numerusform>Florijncoin ağına %n aktif bağlantı</numerusform><numerusform>Florijncoin ağına %n aktif bağlantı</numerusform></translation>
     </message>
     <message>
         <source>Network activity disabled</source>
-        <translation>Attività di rete disabilitata</translation>
+        <translation>Ağ etkinliği devre dışı bırakıldı</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
-        <translation>Sincronizzazione Headers (%1%)...</translation>
+        <translation>Üstbilgiler Senkronize Ediliyor (%1%)...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Sincronizzazione con la rete in corso...</translation>
+        <translation>Ağ ile senkronize ediliyor...</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>Indicizzando i blocchi su disco...</translation>
+        <translation>Bloklar diske indeksleniyor...</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>Elaborazione dei blocchi su disco...</translation>
+        <translation>Bloklar diske işleniyor...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Re-indicizzazione blocchi su disco...</translation>
+        <translation>Diskteki bloklar yeniden indeksleniyor...</translation>
     </message>
     <message>
         <source>Connecting to peers...</source>
-        <translation>Connessione ai peers</translation>
+        <translation>Eşlere bağlanılıyor...</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>Elaborati %n blocchi della cronologia delle transazioni.</numerusform><numerusform>Elaborati %n blocchi della cronologia delle transazioni.</numerusform></translation>
+        <translation><numerusform>İşlem geçmişindeki %n blok işlendi.</numerusform><numerusform>İşlem geçmişindeki %n blok işlendi.</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>Indietro di %1</translation>
+        <translation>%1 geride</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>In aggiornamento...</translation>
+        <translation>Aralık kapatılıyor...</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>L'ultimo blocco ricevuto è stato generato %1 fa.</translation>
+        <translation>Son alınan blok %1 önce oluşturulmuştu.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transazioni successive a questa non saranno ancora visibili.</translation>
+        <translation>Bundan sonraki işlemler henüz görüntülenemez.</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Aggiornato</translation>
+        <translation>Güncel</translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
-        <translation>Sincronizzazione di dati aggiuntivi: %p%</translation>
+        <translation>Ek veri eşleniyor: %p%</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Errore</translation>
+        <translation>Hata</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Attenzione</translation>
+        <translation>Uyarı</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informazioni</translation>
+        <translation>Bilgi</translation>
     </message>
     <message>
         <source>Received and sent multiple transactions</source>
-        <translation>Ricevute ed inviate transazioni multiple</translation>
+        <translation>Birden fazla işlem alındı ve gönderildi</translation>
     </message>
     <message>
         <source>Sent multiple transactions</source>
-        <translation>Inviate transazioni multiple</translation>
+        <translation>Birden fazla işlem gönderildi</translation>
     </message>
     <message>
         <source>Received multiple transactions</source>
-        <translation>Ricevute transazioni multiple</translation>
+        <translation>Birden fazla işlem alındı</translation>
     </message>
     <message>
         <source>Sent Amount: %1
 </source>
-        <translation>Importo inviato: %1
+        <translation>Gönderilen Tutar: %1
 </translation>
     </message>
     <message>
         <source>Received Amount: %1
 </source>
-        <translation>Importo Ricevuto: %1
+        <translation>Alınan Tutar: %1
 </translation>
     </message>
     <message>
         <source>Date: %1
 </source>
-        <translation>Data: %1
+        <translation>Tarih: %1
 </translation>
     </message>
     <message>
         <source>Amount: %1
 </source>
-        <translation>Importo: %1
+        <translation>Tutar: %1
 </translation>
     </message>
     <message>
         <source>Type: %1
 </source>
-        <translation>Tipo: %1
+        <translation>Tür: %1
 </translation>
     </message>
     <message>
         <source>Label: %1
 </source>
-        <translation>Etichetta%1
+        <translation>Etiket: %1
 </translation>
     </message>
     <message>
         <source>Address: %1
 </source>
-        <translation>Indirizzo: %1
+        <translation>Adres: %1
 </translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Transazione inviata</translation>
+        <translation>İşlem gönderildi</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Transazione ricevuta</translation>
+        <translation>Gelen işlem</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>La creazione della chiave HD è &lt;b&gt;abilitata&lt;/b&gt;</translation>
+        <translation>HD anahtar oluşturma &lt;b&gt;etkin&lt;/b&gt;</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>La creazione della chiave HD è &lt;b&gt;disabilitata&lt;/b&gt;</translation>
+        <translation>HD anahtar oluşturma &lt;b&gt;devre dışı&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Il portafoglio è &lt;b&gt;cifrato&lt;/b&gt; ed attualmente &lt;b&gt;sbloccato&lt;/b&gt;</translation>
+        <translation>Cüzdan &lt;b&gt;şifrelenmiştir&lt;/b&gt; ve şu anda &lt;b&gt;kilidi açıktır&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for mixing only</source>
-        <translation> Il portafoglio è &lt;b&gt;cifrato&lt;/b&gt; ed attualmente &lt;b&gt;sbloccato&lt;/b&gt;solo per il mixing</translation>
+        <translation>Cüzdan &lt;b&gt;şifrelenmiştir&lt;/b&gt; ve şu anda kilidi sadece karışım için &lt;b&gt;açıktır&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Il portafoglio è &lt;b&gt;cifrato&lt;/b&gt; ed attualmente &lt;b&gt;bloccato&lt;/b&gt;</translation>
+        <translation>Cüzdan &lt;b&gt;şifrelenmiştir&lt;/b&gt; ve şu anda &lt;b&gt;kilitlidir&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Quantità:</translation>
+        <translation>Miktar:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Byte:</translation>
+        <translation>Bayt:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Importo:</translation>
+        <translation>Meblağ:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Commissione:</translation>
+        <translation>Ücret:</translation>
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>Selezione Moneta</translation>
+        <translation>Bitcoin Seçimi</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Infinitesimale:</translation>
+        <translation>Toz:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Dopo Commissione:</translation>
+        <translation>Ücretten sonra:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Resto:</translation>
+        <translation>Para üstü:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(de)seleziona tutto</translation>
+        <translation>tümünü seç(me)</translation>
     </message>
     <message>
         <source>toggle lock state</source>
-        <translation>attiva lo stato di blocco</translation>
+        <translation>kilit durumunu aç/kapa</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Modalità Albero</translation>
+        <translation>Ağaç kipi</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Modalità Lista</translation>
+        <translation>Liste kipi</translation>
     </message>
     <message>
         <source>(1 locked)</source>
-        <translation>(1 bloccato)</translation>
+        <translation>(1 kilitli)</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Importo</translation>
+        <translation>Meblağ</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Ricevuto con etichetta</translation>
+        <translation>Şu etiketle alındı</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Ricevuto con indirizzo</translation>
+        <translation>Şu adresle alındı</translation>
     </message>
     <message>
         <source>PS Rounds</source>
-        <translation>Round di PS</translation>
+        <translation>ÖG Turları</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>Tarih</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Conferme:</translation>
+        <translation>Doğrulamalar</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Confermato</translation>
+        <translation>Doğrulandı</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Copia l'indirizzo</translation>
+        <translation>Adres kopyala</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copia l'etichetta</translation>
+        <translation>Etiket kopyala</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Copia l'importo</translation>
+        <translation>Tutarı kopyala</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Copia l'ID della transazione</translation>
+        <translation>İşlem ID'sini kopyala</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Blocca i non spesi</translation>
+        <translation>Harcanmamışı kilitle</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Sblocca i non spesi</translation>
+        <translation>Harcanmamışın kilidini aç</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Copia quantità</translation>
+        <translation>Miktarı kopyala</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Copia commissione</translation>
+        <translation>Ücreti kopyala</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Copia, al netto della commissione</translation>
+        <translation>Ücretten sonrasını kopyala</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Copia byte</translation>
+        <translation>Baytları kopyala</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Copia infinitesimale</translation>
+        <translation>Tozu kopyala</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Copia resto</translation>
+        <translation>Para üstünü kopyala</translation>
     </message>
     <message>
         <source>Please switch to "List mode" to use this function.</source>
-        <translation>Passare a "Modalità elenco" per utilizzare questa funzione.</translation>
+        <translation>Bu fonksiyonu kullanmak için lütfen "Liste modu"na geçin.</translation>
     </message>
     <message>
         <source>Non-mixed input selected. &lt;b&gt;PrivateSend will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use PrivateSend, please deselect all non-mixed inputs first and then check the PrivateSend checkbox again.</source>
-        <translation>Ingresso non mixato selezionato. &lt;b&gt;PrivateSend sarà disabilitato.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Se desideri comunque utilizzare PrivateSend, deseleziona prima tutti gli input non mixati, quindi seleziona nuovamente la casella di controllo PrivateSend.</translation>
+        <translation>Karıştırılmamış girdi seçildi. &lt;b&gt;ÖzelGönder devre dışı bırakılacak. &lt;/b&gt;&lt;br&gt;&lt;br&gt; Yine de ÖzelGönder kullanmak istiyorsanız, lütfen öncelikle karıştırılmamış girdilerin seçimi kaldırın ve ÖzelGönder kutusunu işaretleyin.</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 bloccato)</translation>
+        <translation>(%1 kilitlendi)</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>sì</translation>
+        <translation>Evet</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>no</translation>
+        <translation>Hayır</translation>
     </message>
     <message>
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Questa etichetta diventerà rossa se uno qualsiasi dei destinatari riceverà un importo inferiore alla corrente soglia minima per la movimentazione della valuta.</translation>
+        <translation>Eğer herhangi bir alıcı mevcut toz eşiğinden daha düşük bir tutar alırsa bu etiket kırmızıya dönüşür.</translation>
     </message>
     <message>
         <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Può variare di +/- %1 duff per input.</translation>
+        <translation>Girdi başına +/- %1 duff değişebilir.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(nessuna etichetta)</translation>
+        <translation>(etiket yok)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>resto da %1 (%2)</translation>
+        <translation>%1 ögesinden para üstü (%2)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(resto)</translation>
+        <translation>(para üstü)</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>n/a</translation>
+        <translation>Mevcut değil</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Modifica l'indirizzo</translation>
+        <translation>Adresi düzenle</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Etichetta</translation>
+        <translation>&amp;Etiket</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>L'etichetta associata con questa voce della lista degli indirizzi</translation>
+        <translation>Bu adres listesi girdisi ile ilişkili etiket</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Indirizzo</translation>
+        <translation>&amp;Adres</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>L'indirizzo associato a questa voce della rubrica. Può essere modificato solo per gli indirizzi d'invio.</translation>
+        <translation>Bu adres listesi girdisi ile ilişkili adres. Sadece gönderme adresleri için değiştirilebilir.</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Nuovo indirizzo di ricezione</translation>
+        <translation>Yeni alım adresi</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Nuovo indirizzo d'invio</translation>
+        <translation>Yeni gönderi adresi</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Modifica indirizzo di ricezione</translation>
+        <translation>Alım adresini düzenle</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Modifica indirizzo d'invio</translation>
+        <translation>Gönderi adresini düzenle</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Dash address.</source>
-        <translation>L'indirizzo inserito "%1" non é un indirizzo Dash valido</translation>
+        <source>The entered address "%1" is not a valid Florijncoin address.</source>
+        <translation>Girilen %1 adresi, geçerli bir Florijncoin adresi değildir.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>L'indirizzo inserito "%1" è già in rubrica.</translation>
+        <translation>Girilen "%1" adresi zaten adres defterinde mevcuttur.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Impossibile sbloccare il portafoglio.</translation>
+        <translation>Cüzdan kilidi açılamadı.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Generazione della nuova chiave non riuscita.</translation>
+        <translation>Yeni anahtar oluşturulması başarısız oldu.</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Sarà creata una nuova cartella dati.</translation>
+        <translation>Yeni bir veri klasörü oluşturulacaktır.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>Nome</translation>
+        <translation>İsim</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>La cartella esiste già. Aggiungi %1 se intendi creare qui una nuova cartella.</translation>
+        <translation>Klasör zaten mevcuttur. Burada yeni bir klasör oluşturmak istiyorsanız, %1 ekleyiniz.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Il percorso è già esistente e non è una cartella.</translation>
+        <translation>Erişim yolu zaten mevcuttur ve klasör değildir.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Qui non è possibile creare una cartella dati.</translation>
+        <translation>Burada veri klasörü oluşturulamaz.</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>versione</translation>
+        <translation>Sürüm</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -945,133 +945,133 @@
     </message>
     <message>
         <source>About %1</source>
-        <translation>Informazioni %1</translation>
+        <translation>%1 Hakkında</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Opzioni della riga di comando</translation>
+        <translation>komut satırı seçenekleri</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Utilizzo:</translation>
+        <translation>Kullanım:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>opzioni riga di comando</translation>
+        <translation>komut satırı seçenekleri</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>Opzioni interfaccia:</translation>
+        <translation>Arayüz Seçenekleri:</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
-        <translation>Seleziona la directory dei dati all'avvio (default: %u)</translation>
+        <translation>Başlangıçta veri klasörü seç (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Imposta lingua, ad esempio "it_IT" (default: lingua di sistema)</translation>
+        <translation>Lisan belirt, mesela "de_De" (varsayılan: sistem dili)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Avvia ridotto a icona</translation>
+        <translation>Küçültülmüş olarak başlat</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Imposta i certificati root SSL per le richieste di pagamento (default: -system-)</translation>
+        <translation>Ödeme talebi için SSL kök sertifikalarını belirle (varsayılan: -system-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>Mostra schermata iniziale all'avvio (default: %u)</translation>
+        <translation>Başlatıldığında başlangıç ekranını göster (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Reset all settings changed in the GUI</source>
-        <translation>Reimposta tutti i campi dell'interfaccia grafica</translation>
+        <translation>Grafik arayüzde yapılan tüm seçenek değişikliklerini sıfırla</translation>
     </message>
     <message>
         <source>PrivateSend information</source>
-        <translation>Informazioni di Private Send</translation>
+        <translation>Özel Gönder bilgisi</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Dash in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.001 DASH, 0.01 DASH, 0.1 DASH, 1 DASH and 10 DASH -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be mixed. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more information, see the &lt;a href="https://docs.dash.org/en/stable/wallets/dashcore/privatesend-instantsend.html"&gt;PrivateSend documentation&lt;/a&gt;.</source>
-        <translation>&lt;h3&gt;PrivateSend Nozioni di base&lt;/h3&gt; PrivateSend ti offre una vera privacy oscurando le origini dei tuoi fondi. Il totale dei Dash nel tuo portafoglio è composto da diversi "input" che puoi immaginare come monete separate e discrete.&lt;br&gt; PrivateSend utilizza un processo innovativo per mescolare i tuoi input con quelli di altre due persone, senza che le tue monete lascino mai il tuo portafoglio. Mantenete il controllo dei vostri fondi in ogni momento.&lt;hr&gt; &lt;b&gt;Il processo PrivateSend funziona in questo modo:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend inizia suddividendo gli input della tua transazione in tagli standard. Queste denominazioni sono 0,001 DASH, 0,01 DASH, 0,1 DASH, 1 DASH e 10 DASH - un po 'come la carta moneta che usi ogni giorno.&lt;/li&gt; &lt;li&gt;Il tuo portafoglio invia quindi richieste a nodi software appositamente configurati sulla rete, chiamati "masternodes". Questi masternode vengono informati che sei interessato a mescolare una determinata denominazione. Nessuna informazione identificabile viene inviata ai masternodes, quindi non sanno mai "chi" sei.&lt;/li&gt; &lt;li&gt;Quando altre due persone inviano messaggi simili, indicando che desiderano mescolare la stessa denominazione, inizia una sessione di miscelazione. Il masternode mescola gli input e indica ai portafogli di tutti e tre gli utenti di restituire gli input ora trasformati a se stessi. Il tuo portafoglio paga quella denominazione direttamente a se stesso, ma in un indirizzo diverso (chiamato cambia indirizzo).&lt;/li&gt; &lt;li&gt;Al fine di oscurare completamente i tuoi fondi, il tuo portafoglio deve ripetere questo processo più volte con ciascuna denominazione. Ogni volta che il processo è completato, viene chiamato "round". Ogni round di PrivateSend rende esponenzialmente più difficile determinare da dove provengono i tuoi fondi.&lt;/li&gt; &lt;li&gt;Questo processo di miscelazione avviene in background senza alcun intervento da parte tua. Quando desideri effettuare una transazione, i tuoi fondi saranno già mescolati. Non è richiesta alcuna ulteriore attesa.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANTE:&lt;/b&gt; Il tuo portafoglio contiene solo 1000 di questi "indirizzi di modifica". Ogni volta che si verifica un evento di missaggio, vengono utilizzati fino a 9 indirizzi. Ciò significa che quei 1000 indirizzi durano per circa 100 eventi di missaggio. Quando ne vengono utilizzati 900, il tuo portafoglio deve creare più indirizzi. Può farlo, tuttavia, solo se sono abilitati i backup automatici.&lt;br&gt; Di conseguenza, gli utenti che hanno disattivato i backup avranno anche PrivateSend disabilitato. &lt;hr&gt;Per ulteriori informazioni, consultare il &lt;a href="https://docs.dash.org/en/stable/wallets/dashcore/privatesend-instantsend.html"&gt;documentazione PrivateSend &lt;/a&gt;.</translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Florijncoin in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times.&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.001 FLRN, 0.01 FLRN, 0.1 FLRN, 1 FLRN and 10 FLRN -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be mixed. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more information, see the &lt;a href="https://docs.florijncoin.org/en/stable/wallets/florijncoincore/privatesend-instantsend.html"&gt;PrivateSend documentation&lt;/a&gt;.</source>
+        <translation>&lt;h3&gt;ÖzelGönder Temel Bilgiler&lt;/h3&gt; ÖzelGönder size paranızın gerçek kaynağını gizleyerek tam bir gizlilik imkanı sağlar. Cüzdanınızdaki Florijncoin farklı "girdiler"den oluşur, bunu ayrı gizli paralar olarak düşünebilirsiniz.&lt;br&gt; ÖzelGönder sizin girdilerinizi başka iki kişinin girdileri ile karıştırmak için yenilikçi bir işlem kullanır ve bu sırada paranın cüzdanınızdan çıkmasına gerek kalmaz. Her an paranızın kontrolü sizdedir.&lt;hr&gt; &lt;b&gt;ÖzelGönder işlemi şöyle işler:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;ÖzelGönder işlem girdilerinizi standart birimlere bölerek başlar. Bu birimler 0.001 FLRN, 0.01 FLRN, 0.1 FLRN, 1 FLRN ve 10 FLRN'dir -- her gün kullandığınız kağıt para gibi düşünebilirsiniz.&lt;/li&gt; &lt;li&gt;Sonra cüzdanınız ağdaki özel ayarlanmış yazılım düğümlerine talepler gönderir, bunşara "ana düğümler" denir. Bu ana düğümlere sizin belli bir miktar birimi karıştırmak istediğiniz bilgisi gider. Ana düğümlere kimliğinizi açık edecek bir bilgi gönderilmez, bu yüzden "kim" olduğunuzu bilmezler.&lt;/li&gt; &lt;li&gt;Aynı birimleri karıştırmak istediğini belirten iki başka kişi daha benzer mesajlar gönderince, karıştırma işlemi başlar. Ana düğüm giridleri karıştırır ve üç kullanıcının da cüzdanına şimdi dönüştürülmüş olan girdiyi kendilerne ödemelerini emreder. Cüzdanınız bu birimleri doğrudan kendisine öder ama farklı bir adres kullanır (buna değişim adresi denir).&lt;/li&gt; &lt;li&gt;Paranızı tamamen gizlemek için cüzdanınız bu işlemi her birim için birkaç defa tekrar etmelidir. Her işlem tamamlandığına buna bir "tur" denir. Her bir ÖzelGönder turu paranızın kaynağının bulunmasını üstel olarak zorlaştırır.&lt;/li&gt; &lt;li&gt;Bu karışım işlemi arkaplanda sizin tarafınızdan bir müdahale olmadan gerçekleşir. Bir işlem yapmak istediğinizde bakiyeniz zaten karışmış olacaktır. Ek bir beklemeye gerek kalmaz.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;ÖNEMLİ:&lt;/b&gt; Cüzdanınızda bu "değişim adreslerinden" sadece 1000 tane vardır. Her bir karışım işleminde bu adreslerden 9 taneye kadar kullanılır. Bu da 1000 adresin yaklaşık 100 karışım işlemine yeteceği anlamına gelir. 900 tanesi kullanıldığı zaman, cüzdanınızın daha fazla adres oluşturması gerekir. Yalnız bunu ancak otomatik yedekleme etkinse yapabilir.&lt;br&gt; Sonuç olarak yedeklemeyi kapatan kullanıcılar aynı zamanda ÖzelGönderi de kapatmış olurlar. &lt;hr&gt;Daha fazla bilgi için lütfen &lt;a href="https://docs.florijncoin.org/en/stable/wallets/florijncoincore/privatesend-instantsend.html"&gt;ÖzelGönder dökümantasyonuna&lt;/a&gt; göz atın.         </translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Benvenuto</translation>
+        <translation>Hoş geldiniz</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
-        <translation>Benvenuto su %1.</translation>
+        <translation>%1'a hoş geldiniz.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>Dato che questa è la prima volta che il programma viene lanciato, puoi scegliere dove %1 salverà i suoi dati.</translation>
+        <translation>Bu programın ilk kez başlatılmasından dolayı %1 yazılımının verilerini nerede saklayacağını seçebilirsiniz.</translation>
     </message>
     <message>
         <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
-        <translation>Quando fai click su OK, %1 comincerà a scaricare e processare l'intera %4 block chain (%2GB) a partire dalla prime transazioni del %3 quando %4 venne inaugurato.</translation>
+        <translation>Tamam'a tıkladığınızda, %1, bütün %4 blok zincirini (%2GB) %4 ilk olarak yayınlandığında %3'deki en erken işlemlerden  indirmeye ve işlemeye başlayacaktır.</translation>
     </message>
     <message>
         <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
-        <translation>La sincronizzazione iniziale è molto dispendiosa e potrebbe mettere in luce problemi di harware del tuo computer che erano prima passati inosservati. Ogni volta che lanci %1 continuerà a scaricare da dove l'avevi lasciato.</translation>
+        <translation>Bu başlangıç senkronizasyonu çok zorlayıcıdır ve bilgisayarınızdaki daha önce fark edilmemiş olan donanım sorunlarını ortaya çıkarabilir. %1'i her çalıştırdığınızda, kaldığı yerden devam edecektir.</translation>
     </message>
     <message>
         <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
-        <translation>Se hai scelto di limitare l'immagazzinamento della block chain (operazione nota come "pruning" o "potatura"), i dati storici devono comunque essere scaricati e processati, ma verranno cancellati in seguito per mantenere basso l'utilizzo del tuo disco.</translation>
+        <translation>Blok zinciri saklamayı sınırlamayı seçtiyseniz (budama), geçmiş veriler yine de indirilmeli ve işlenmelidir, ancak disk kullanımınızı düşük tutmak için daha sonra silinmelidir.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Usa la cartella dati predefinita</translation>
+        <translation>Varsayılan veri klasörünü kullan</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Usa una cartella dati personalizzata:</translation>
+        <translation>Özel bir veri klasörü kullan:</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Almeno %1 GB di dati verrà salvato in questa cartella e continuerà ad aumentare col tempo.</translation>
+        <translation>Bu dizinde en az %1 GB lık veri depolanacak ve zamanla büyüyecek.</translation>
     </message>
     <message>
         <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Verranno salvati circa %1 GB di dati in questa cartella.</translation>
+        <translation>Yaklaşık %1 GB veri bu dizinde depolanacak.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Dash block chain.</source>
-        <translation>%1 scaricherà e salverà una copia della block chain di Dash.</translation>
+        <source>%1 will download and store a copy of the Florijncoin block chain.</source>
+        <translation>%1 lik Florijncoin blok zinciri nin bir kopyasını indirecek ve depolayacak.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
-        <translation>Anche il portafoglio verrà salvato in questa cartella.</translation>
+        <translation>Cüzdan da bu dizinde depolanacaktır.</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Errore: La cartella dati "%1" specificata non può essere creata.</translation>
+        <translation>Hata: belirtilen "%1" veri klasörü oluşturulamaz.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Errore</translation>
+        <translation>Hata</translation>
     </message>
     <message>
         <source>%1 GB of free space available</source>
-        <translation>%1 GB di spazio libero disponibile</translation>
+        <translation>%1 GB boş alan mevcut</translation>
     </message>
     <message>
         <source>(of %1 GB needed)</source>
-        <translation>(di %1 GB richiesti)</translation>
+        <translation>(%1 GB gerekli)</translation>
     </message>
 </context>
 <context>
     <name>MasternodeList</name>
     <message>
         <source>Form</source>
-        <translation>Modulo</translation>
+        <translation>Form</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Stato</translation>
+        <translation>Durum</translation>
     </message>
     <message>
         <source>0</source>
@@ -1079,165 +1079,165 @@
     </message>
     <message>
         <source>Filter List:</source>
-        <translation>Lista dei Filtri:</translation>
+        <translation>Filtre Listesi:</translation>
     </message>
     <message>
         <source>Filter masternode list</source>
-        <translation>Filtra la lista dei Masternode</translation>
+        <translation>Ana düğüm listesini filtrele</translation>
     </message>
     <message>
         <source>Node Count:</source>
-        <translation>Numero dei nodi:</translation>
+        <translation>Düğüm Sayısı:</translation>
     </message>
     <message>
         <source>Show only masternodes this wallet has keys for.</source>
-        <translation>Mostra solo i masternodes per cui questo portafoglio ha le chiavi.</translation>
+        <translation>Yalnızca bu cüzdanın anahtarlarına sahip olan anadüğümleri göster.</translation>
     </message>
     <message>
         <source>My masternodes only</source>
-        <translation>Solo i miei masternodes</translation>
+        <translation>Sadece benim anadüğümlerim</translation>
     </message>
     <message>
         <source>Service</source>
-        <translation>Assistenza</translation>
+        <translation>Hizmet</translation>
     </message>
     <message>
         <source>PoSe Score</source>
-        <translation>Punteggio PoSe</translation>
+        <translation>PoSe Puanı</translation>
     </message>
     <message>
         <source>Registered</source>
-        <translation>Registrato</translation>
+        <translation>Kayıtlı</translation>
     </message>
     <message>
         <source>Last Paid</source>
-        <translation>Ultimo pagato</translation>
+        <translation>Son Ödeme</translation>
     </message>
     <message>
         <source>Next Payment</source>
-        <translation>Pagamento successivo</translation>
+        <translation>Gelecek Ödeme</translation>
     </message>
     <message>
         <source>Payout Address</source>
-        <translation>Indirizzo di pagamento</translation>
+        <translation>Ödeme Adresleri</translation>
     </message>
     <message>
         <source>Operator Reward</source>
-        <translation>Ricompensa dell'Operatore</translation>
+        <translation>Operatör Ödülü</translation>
     </message>
     <message>
         <source>Collateral Address</source>
-        <translation>Indirizzo collaterale</translation>
+        <translation>Teminat Adresi</translation>
     </message>
     <message>
         <source>Owner Address</source>
-        <translation>Indirizzo del proprietario</translation>
+        <translation>Adres Sahibi</translation>
     </message>
     <message>
         <source>Voting Address</source>
-        <translation>Indirizzo di voto</translation>
+        <translation>Oylama Adresi</translation>
     </message>
     <message>
         <source>Copy ProTx Hash</source>
-        <translation>Copia ProTx Hash</translation>
+        <translation>ProTx Hashini kopyala</translation>
     </message>
     <message>
         <source>Copy Collateral Outpoint</source>
-        <translation>Copia Collateral Outpoint</translation>
+        <translation>Teminat Çıkış Noktasını Kopyala</translation>
     </message>
     <message>
         <source>ENABLED</source>
-        <translation>ABILITATO</translation>
+        <translation>ETKİN</translation>
     </message>
     <message>
         <source>POSE_BANNED</source>
-        <translation>POSIZIONE_BANNATA</translation>
+        <translation>POSE_BANNED</translation>
     </message>
     <message>
         <source>UNKNOWN</source>
-        <translation>SCONOSCIUTO</translation>
+        <translation>BİLİNMİYOR</translation>
     </message>
     <message>
         <source>to %1</source>
-        <translation>a %1</translation>
+        <translation>şuna: %1</translation>
     </message>
     <message>
         <source>to UNKNOWN</source>
-        <translation>a SCONOSCIUTO</translation>
+        <translation>şuna: BİLİNMİYOR</translation>
     </message>
     <message>
         <source>but not claimed</source>
-        <translation>ma non richiesto</translation>
+        <translation>ama alınmadı</translation>
     </message>
     <message>
         <source>NONE</source>
-        <translation>nessuna</translation>
+        <translation>YOK</translation>
     </message>
     <message>
         <source>Additional information for DIP3 Masternode %1</source>
-        <translation>Ulteriori informazioni per DIP3 Masternode %1</translation>
+        <translation>DIP3 Ana Düğümü %1 için ek bilgi</translation>
     </message>
 </context>
 <context>
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>Modulo</translation>
+        <translation>Form</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Dash network, as detailed below.</source>
-        <translation>Le transazioni recenti potrebbero non essere ancora visibili, perciò il saldo del tuo portafoglio potrebbe non essere corretto. Questa informazione risulterà corretta quando il tuo portafoglio avrà terminato la sincronizzazione con la rete Dash, come indicato in dettaglio più sotto.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Florijncoin network, as detailed below.</source>
+        <translation>Son işlemler henüz görünmeyebilir ve bu nedenle cüzdanınızın bakiyesi yanlış olabilir. Bu bilgiler, aşağıda detaylandırıldığı gibi, cüzdanınız Florijncoin ağı ile senkronizasyonunu tamamladığında doğru olacaktır. </translation>
     </message>
     <message>
-        <source>Attempting to spend Dash that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Il tentativo di spendere i Dash interessati da transazioni non ancora visualizzate non sarà accettato dalla rete.</translation>
+        <source>Attempting to spend Florijncoin that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Daha görüntülenmemiş işlemler tarafından etkilenen Florijncoin'i harcama teşebbüsü ağ tarafından kabul edilmez.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
-        <translation>Numero di blocchi mancanti</translation>
+        <translation>Kalan blok sayısı</translation>
     </message>
     <message>
         <source>Unknown...</source>
-        <translation>Sconosciuto...</translation>
+        <translation>Bilinmiyor...</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Orario del blocco più recente</translation>
+        <translation>Son blok zamanı</translation>
     </message>
     <message>
         <source>Progress</source>
-        <translation>Progresso</translation>
+        <translation>İlerleme</translation>
     </message>
     <message>
         <source>Progress increase per hour</source>
-        <translation>Aumento dei progressi per ogni ora</translation>
+        <translation>Saat başı ilerleme artışı</translation>
     </message>
     <message>
         <source>calculating...</source>
-        <translation>calcolando...</translation>
+        <translation>hesaplanıyor...</translation>
     </message>
     <message>
         <source>Estimated time left until synced</source>
-        <translation>Tempo stimato al completamento della sincronizzazione</translation>
+        <translation>Senkronize edilene kadar kalan tahmini süre</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Nascondi</translation>
+        <translation>Gizle</translation>
     </message>
     <message>
         <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Sconosciuto. Sincronizzazione Headers (%1)...</translation>
+        <translation>Bilinmeyen. Üstbilgiler Senkronize Ediliyor (%1)...</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>Apri URI</translation>
+        <translation>URI aç</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Apri richiesta di pagamento da URI o file</translation>
+        <translation>Dosyadan veya URI'den ödeme talebi aç</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -1245,26 +1245,26 @@
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Seleziona il file di richiesta di pagamento</translation>
+        <translation>Ödeme talebi dosyasını seç</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Seleziona il file di richiesta di pagamento da aprire</translation>
+        <translation>Açılacak ödeme talebi dosyasını seç</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Opzioni</translation>
+        <translation>Seçenekler</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Principale</translation>
+        <translation>&amp;Esas ayarlar</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Dimensione della cache del &amp;database.</translation>
+        <translation>&amp;Veritabanı tamponunun boyutu</translation>
     </message>
     <message>
         <source>MB</source>
@@ -1272,159 +1272,159 @@
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Numero di thread di &amp;verifica degli script </translation>
+        <translation>İş parçacıklarını &amp;denetleme betiği sayısı</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = automatico, &lt;0 = lascia questo numero di core liberi)</translation>
+        <translation>(0 = otomatik, &lt;0 = bu kadar çekirdeği kullanma)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>Port&amp;afoglio</translation>
+        <translation>&amp;Cüzdan</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
-        <translation>Mostra la tabella aggiuntiva che elenca tutti i Masternode nella prima sotto-tabella &lt;br/&gt;e tutti i Masternode sulla rete nella seconda sotto-tabella.</translation>
+        <translation>İlk alt sekmede tüm ana düğümlerinizi gösteren ve&lt;br/&gt;ikinci alt sekmede tüm ana düğümleri gösteren ek bir sekme göster.</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
-        <translation>Mostra la Tabella dei Masternode</translation>
+        <translation>Ana Düğümler Sekmesini Göster</translation>
     </message>
     <message>
         <source>Show additional information and buttons for PrivateSend on overview screen.</source>
-        <translation>Mostra informazioni aggiuntive e i pulsanti per il PrivateSend nella schermata di sintesi.</translation>
+        <translation>Genel bakış ekranında Özel Gönder için ek bilgi ve düğmeler göster.</translation>
     </message>
     <message>
         <source>Enable advanced PrivateSend interface</source>
-        <translation>Abilita l'interfaccia avanzata di PrivateSend</translation>
+        <translation>Gelişmiş Özel Gönder arayüzünü etkinleştir</translation>
     </message>
     <message>
         <source>Show warning dialog when PrivateSend detects that wallet has very low number of keys left.</source>
-        <translation>Mostra la finestra di avviso quando PrivateSend rileva che il portafoglio ha un numero di chiavi rimaste molto basso.</translation>
+        <translation>Özel Gönder çok az sayıda anahtar kaldığını tespit ettiğinde bir uyarı göster.</translation>
     </message>
     <message>
         <source>Warn if PrivateSend is running out of keys</source>
-        <translation>Avvisa se PrivateSend sta finendo le chiavi</translation>
+        <translation>Özel Gönderin anahtarı bitiyorsa uyar</translation>
     </message>
     <message>
         <source>Whether to use experimental PrivateSend mode with multiple mixing sessions per block.&lt;br/&gt;Note: You must use this feature carefully.&lt;br/&gt;Make sure you always have recent wallet (auto)backup in a safe place!</source>
-        <translation>Indica se utilizzare la modalità sperimentale di PrivateSend con più sessioni di mixaggio per blocco.&lt;br/&gt; Nota: è necessario utilizzare questa funzionalità con attenzione.&lt;br/&gt; Assicurati di avere sempre, in un luogo sicuro, un backup (automatico) recente del portafoglio!</translation>
+        <translation>Blok başına birden fazla karışım yapmak için deneysel Özel Gönder modunu kullanıp kullanmayacağınızı belirler.&lt;br/&gt;Not: Bu özelliği dikkatli kullanmalısınız.&lt;br/&gt;Cüzdanınızın son (oto)yedeğinin güvenli bir yerde olduğundan her zaman emin olun!</translation>
     </message>
     <message>
         <source>Enable PrivateSend &amp;multi-session</source>
-        <translation>Abilita una &amp;multi-sessione di PrivateSend</translation>
+        <translation>Özel Gönder &amp;çoklu oturumu etkinleştir</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Se si disabilita la spesa di una modifica non confermata, la modifica di una transazione &lt;br/&gt;non può essere utilizzata fino a quando quella transazione non ha almeno una conferma. &lt;br/&gt;Ciò influisce anche sul modo in cui viene calcolato il saldo.</translation>
+        <translation>Teyit edilmemiş para üstünü harcamayı devre dışı bırakırsanız&lt;br/&gt;bir işlemin para üstü bu işlem için en az bir teyit olana dek harcanamaz.&lt;br/&gt;Bu, aynı zamanda bakiyenizin nasıl hesaplandığını da etkiler.</translation>
     </message>
     <message>
         <source>PrivateSend rounds to use</source>
-        <translation>Round PrivateSend da utilizzare</translation>
+        <translation>Kullanılacak Özel Gönder turları</translation>
     </message>
     <message>
         <source>This amount acts as a threshold to turn off PrivateSend once it's reached.</source>
-        <translation>Tale importo si comporta come una soglia, per spegnere PrivateSend, una volta raggiunta.</translation>
+        <translation>Bu tutar ulaşıldığında Özel Gönderi kapatacak bir eşik olarak çalışır.</translation>
     </message>
     <message>
         <source>Target PrivateSend balance</source>
-        <translation>Saldo target PrivateSend</translation>
+        <translation>ÖzelGönder bakiyesi hedefle</translation>
     </message>
     <message>
-        <source>Automatically open the Dash Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Apri automaticamente la porta utilizzata dal client Dash Core nel router. Funziona solo se il router supporta UPnP ed è attivato.</translation>
+        <source>Automatically open the Florijncoin Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Router'da otomatik olarak Florijncoin Core istemcisi portu aç. Bu sadece router'ınız UPnP destekliyorsa ve etkinse çalışır.</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a SOCKS5 proxy.</source>
-        <translation>Connetti alla rete Dash attraverso un SOCKS5 proxy</translation>
+        <source>Connect to the Florijncoin network through a SOCKS5 proxy.</source>
+        <translation>Florijncoin ağına bir SOCKS5 vekil sunucusu aracılığıyla bağlan.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Connessione attraverso proxy SOCKS5 (proxy predefinito):</translation>
+        <translation>SOCKS5 vekil sunucusu aracılığıyla &amp;bağlan (varsayılan vekil sunucusu):</translation>
     </message>
     <message>
         <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Mostra se il proxy SOCKS5 di default è utilizzato per raggiungere i peer tramite questo tipo di network.</translation>
+        <translation>Bu ağ türünde eşlere ulaşmak için varsayılan SOCKS5 proxy'nin kullanılıp kullanılmadığını gösterir.</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Riduci ad icona invece di uscire dall'applicazione quando la finestra viene chiusa. Attivando questa opzione l'applicazione terminerà solo dopo aver selezionato Esci dal menu File.</translation>
+        <translation>Pencere kapatıldığında uygulamadan çıkmak yerine uygulamayı küçültür. Bu seçenek etkinleştirildiğinde, uygulama sadece menüden çıkış seçildiğinde kapanacaktır.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL di terze parti (es: un block explorer) che appaiono nella tabella delle transazioni come voci nel menu contestuale. &lt;br/&gt;%s nell'URL è sostituito dall'hash della transazione. Più URL vengono separati da una barra verticale |.</translation>
+        <translation>İşlemler sekmesinde bağlam menüsü ögeleri gibi görünen  üçüncü parti URLleri (ör. bir blok tarayıcısı).&lt;br/&gt;URL'deki %s işlem hashi ile değiştirilir. Birden fazla URL dikey çizgi | ile ayrılır.</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>Esperti</translation>
+        <translation>Gelişmiş</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Specifica se le funzionalita di coin control saranno visualizzate.</translation>
+        <translation>Para kontrol özelliklerinin gösterilip gösterilmeyeceğini ayarlar.</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
-        <translation>Avvia automaticamente %1 una volta effettuato l'accesso al sistema.</translation>
+        <translation>Sistemde oturum açıldığında %1 programını otomatik olarak başlat.</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
-        <translation>&amp;Start %1 al login al sistema</translation>
+        <translation>&amp;Açılışta %1 açılsın</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Abilita le funzionalità di coin &amp;control</translation>
+        <translation>Para &amp;kontrolü özelliklerini etkinleştir</translation>
     </message>
     <message>
         <source>Show system popups for PrivateSend mixing transactions&lt;br/&gt;just like for all other transaction types.</source>
-        <translation>Mostra popup di sistema per le transazioni di missaggio PrivateSend&lt;br/&gt;proprio come per tutti gli altri tipi di transazione.</translation>
+        <translation>Özel Gönder karışım işlemleri için tıpkı diğer işlemler&lt;br/&gt;için olduğu gibi sistem popuplarını göster.</translation>
     </message>
     <message>
         <source>Show popups for PrivateSend transactions</source>
-        <translation>Mostra popup per transazioni PrivateSend</translation>
+        <translation>Özel Gönder işlemleri için popup göster.</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Spendere resti non confermati</translation>
+        <translation>Teyit edilmemiş para üstünü &amp;harca</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be mixed through.&lt;br/&gt;More rounds of mixing gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>Questa impostazione determina la quantità di singoli nodi master attraverso i quali verrà inserito un input.&lt;br/&gt;Più round di missaggio offrono un livello più elevato di privacy, ma pagano più commissioni.</translation>
+        <translation>Bu ayar, girdinin karıştırılma işlemi boyunca gerekecek anadüğüm sayısını belirler.&lt;br/&gt;Karıştırma turu ne kadar yüksek olursa gizlilik derecesi o kadar artar fakat daha maliyetli olur.</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>Rete</translation>
+        <translation>&amp;Şebeke</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Mappa le porte tramite &amp;UPnP</translation>
+        <translation>Portları &amp;UPnP kullanarak haritala</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Accetta connessioni dall'esterno</translation>
+        <translation>Dışarıdan bağlantı kabul et</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Permetti connessioni in entrata</translation>
+        <translation>Gelen bağlantılara izin ver</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>&amp;IP del proxy:</translation>
+        <translation>Vekil &amp;İP:</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>Indirizzo IP del proxy (es: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>Vekil sunucusunun IP adresi (mesela IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Porta:</translation>
+        <translation>&amp;Port:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Porta del proxy (es. 9050)</translation>
+        <translation>Vekil sunucunun portu (mesela 9050)</translation>
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation>Utilizzata per connettersi attraverso:</translation>
+        <translation>Eşlere ulaşmak için kullanılır, şu üzerinden:</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1439,465 +1439,465 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Dash network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Connetti alla rete Dash attraverso un proxy SOCKS5 separato per Tor.</translation>
+        <source>Connect to the Florijncoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Florijncoin ağına gizli Tor servisleri için ayrı bir SOCKS5 vekil sunucusu aracılığıyla bağlan.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Utilizza un distinto proxy SOCKS5  per raggiungere i peer tramite i servizi nascosti di Tor:</translation>
+        <translation>Eşlere Tor gizli servislerini kullanarak ulaşmak için ayrı SOCKS5 vekilleri kullan:</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Finestra</translation>
+        <translation>&amp;Pencere</translation>
     </message>
     <message>
         <source>&amp;Hide the icon from the system tray.</source>
-        <translation>&amp;Nascondi l'icona dalla barra delle applicazioni.</translation>
+        <translation>Simgeyi sistem çubuğunda &amp;gizle.</translation>
     </message>
     <message>
         <source>Hide tray icon</source>
-        <translation>Nascondi l'icona delle applicazioni</translation>
+        <translation>Sistem çubuğu simgesini gizle</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Mostra solo nella tray bar quando si riduce ad icona.</translation>
+        <translation>Küçültüldükten sonra sadece çekmece ikonu göster.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimizza nella tray bar invece che sulla barra delle applicazioni</translation>
+        <translation>İşlem çubuğu yerine sistem çekmecesine &amp;küçült</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimizza alla chiusura</translation>
+        <translation>Kapatma sırasında k&amp;üçült</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Mostra</translation>
+        <translation>&amp;Görünüm</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Interfaccia Utente &amp;Lingua :</translation>
+        <translation>Kullanıcı arayüzü &amp;lisanı:</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
-        <translation>La lingua dell'interfaccia utente può essere impostata qui. L'impostazione avrà effetto dopo il riavvio %1.</translation>
+        <translation>Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar %1 tekrar başlatıldığında etkinleşecektir.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/dash/</source>
-        <translation>La tua lingua manca o la traduzione è incompleta? Contribuisci alla traduzione qui: 
-https://www.transifex.com/projects/p/dash/</translation>
+https://www.transifex.com/projects/p/florijncoin/</source>
+        <translation>Diliniz mevcut değil veya çeviri eksik mi? Buradan çevirilere katkıda bulunun:
+https://www.transifex.com/projects/p/florijncoin/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
-        <translation>Tema dell'interfaccia utente.</translation>
+        <translation>Kullanıcı Arayüzü Teması:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Unità di misura con cui visualizzare gli importi:</translation>
+        <translation>Meblağları göstermek için &amp;birim:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Scegli l'unità di suddivisione predefinita da utilizzare per l'interfaccia e per l'invio di monete.</translation>
+        <translation>Bitcoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
-        <translation>Cifre decimali</translation>
+        <translation>Ondalık haneler</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>URL di transazione di terze parti</translation>
+        <translation>Üçüncü taraf muamele URL'leri</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Opzioni command-line attive che sostituiscono i settaggi sopra elencati:</translation>
+        <translation>Yukarıdaki seçeneklerin yerine geçen faal komut satırı seçenekleri:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Reimposta tutte le opzioni del client allo stato predefinito.</translation>
+        <translation>İstemcinin tüm seçeneklerini varsayılan değerlere geri al.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>&amp;Ripristina Opzioni</translation>
+        <translation>Seçenekleri Sıfı&amp;rla</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation>&amp;Tamam</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Cancella</translation>
+        <translation>&amp;İptal</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>default</translation>
+        <translation>varsayılan</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>nessuno</translation>
+        <translation>Boş</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Conferma ripristino opzioni</translation>
+        <translation>Seçeneklerin sıfırlanmasını teyit et</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>È necessario un riavvio del client per rendere attivi i cambiamenti.</translation>
+        <translation>Değişikliklerin uygulanması için istemcinin yeniden başlatılması lazımdır.</translation>
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Il client sarà arrestato. Si desidera procedere?</translation>
+        <translation>İstemci kapanacaktır. Devam etmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Questo cambiamento richiede un riavvio del client.</translation>
+        <translation>Bu değişiklik istemcinin tekrar başlatılmasını gerektirir.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>L'indirizzo proxy che hai fornito è invalido.</translation>
+        <translation>Girilen vekil sunucu adresi geçersizdir.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Modulo</translation>
+        <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dash network after a connection is established, but this process has not completed yet.</source>
-        <translation>Le informazioni visualizzate potrebbero essere vecchie. Il portafoglio si sincronizza automaticamente con la rete Dash dopo che una connessione viene stabilita, ma questo processo non è stato ancora completato.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Florijncoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilgiler güncel olmayabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak Florijncoin ağı ile senkronize olur ancak bu işlem henüz tamamlanmamıştır.</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>Disponibile:</translation>
+        <translation>Mevcut:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Attuale saldo spendibile </translation>
+        <translation>Güncel harcanabilir bakiyeniz</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>In attesa:</translation>
+        <translation>Beklemede:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Totale delle transazioni in corso di conferma e che non sono ancora conteggiate nel saldo spendibile</translation>
+        <translation>Henüz teyit edilmemiş ve harcanabilir bakiyeye eklenmemiş muamelelerin toplamı</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Immaturo:</translation>
+        <translation>Olgunlaşmamış:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>Importo generato dal mining e non ancora maturato</translation>
+        <translation>Oluşturulan bakiye henüz olgunlaşmamıştır</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>Saldi</translation>
+        <translation>Bakiyeler</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Transazioni non confermate agli indirizzi di sola lettura</translation>
+        <translation>Sadece izlenen adreslere gelen doğrulanmamış işlemler</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>Importo generato dal mining negli indirizzi per sola lettura e non ancora maturato</translation>
+        <translation>Sadece izlenen adreslerin henüz olgunlaşmamış oluşturulan bakiyeleri</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>Totale:</translation>
+        <translation>Toplam:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Saldo totale attuale</translation>
+        <translation>Güncel toplam bakiyeniz</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Importo totale negli indirizzi di sola lettura</translation>
+        <translation>Sadece izlenen adreslerdeki güncel toplam bakiye</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Per sola lettura</translation>
+        <translation>Sadece-izlenen:</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Importo attuale negli indirizzi di sola lettura</translation>
+        <translation>Sadece izlenen adreslerdeki güncel bakiyeniz</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Spendibile:</translation>
+        <translation>Harcanabilir:</translation>
     </message>
     <message>
         <source>PrivateSend</source>
-        <translation>PrivateSend</translation>
+        <translation>Özel Gönder</translation>
     </message>
     <message>
         <source>Status:</source>
-        <translation>Stato:</translation>
+        <translation>Durum:</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
-        <translation>Attivato/Disattivato</translation>
+        <translation>Açık/Kapalı</translation>
     </message>
     <message>
         <source>Completion:</source>
-        <translation>Completamento:</translation>
+        <translation>Tamamlanma:</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
-        <translation>Ammontare e Round:</translation>
+        <translation>Tutar ve Turlar:</translation>
     </message>
     <message>
-        <source>0 DASH / 0 Rounds</source>
-        <translation>0 DASH / 0 Round</translation>
+        <source>0 FLRN / 0 Rounds</source>
+        <translation>0 FLRN / 0 Tur</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
-        <translation>Denom inviato:</translation>
+        <translation>Gönderilen Birim:</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>n/a</translation>
+        <translation>Mevcut değil</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Transazioni recenti</translation>
+        <translation>Son işlemler</translation>
     </message>
     <message>
         <source>Start/Stop Mixing</source>
-        <translation>Start/Stop Mixing</translation>
+        <translation>Karışımı Başlat/Durdur</translation>
     </message>
     <message>
         <source>PrivateSend Balance:</source>
-        <translation>Saldo di PrivateSend:</translation>
+        <translation>Özel Gönder Bakiyesi:</translation>
     </message>
     <message>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>Le denominazioni che hai richiesto al Mastermode. &lt;br&gt; Per mixare, gli altri utenti devono richiedere esattamente le stesse denominazioni.</translation>
+        <translation>Ana düğüme gönderdiğiniz birimler.&lt;br&gt;Karıştırmak için diğer kullanıcılar da tam olarak aynı birimleri göndermelidir.</translation>
     </message>
     <message>
         <source>(Last Message)</source>
-        <translation>(Ultimo messaggio)</translation>
+        <translation>(Son Mesaj)</translation>
     </message>
     <message>
         <source>out of sync</source>
-        <translation>non sincronizzato</translation>
+        <translation>eşleşme dışı</translation>
     </message>
     <message>
         <source>Automatic backups are disabled, no mixing available!</source>
-        <translation>I backup automatici sono disabilitati, nessun mixing disponibile!</translation>
+        <translation>Otomatik yedekleme kapalı, karışım mevcut değil!</translation>
     </message>
     <message>
         <source>Start Mixing</source>
-        <translation>Inizia il Mixing</translation>
+        <translation>Karışıma Başla</translation>
     </message>
     <message>
         <source>Stop Mixing</source>
-        <translation>Termina il Mixing</translation>
+        <translation>Karışımı Durdur</translation>
     </message>
     <message>
         <source>No inputs detected</source>
-        <translation>Non ci sono input rilevati</translation>
+        <translation>Hiç girdi tespit edilmedi</translation>
     </message>
     <message numerus="yes">
         <source>%n Rounds</source>
-        <translation><numerusform>%n Round</numerusform><numerusform>%n Rounds</numerusform></translation>
+        <translation><numerusform>%n Tur</numerusform><numerusform>%n Tur</numerusform></translation>
     </message>
     <message>
         <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Trovati sufficienti input compatibili per anonimizzare %1</translation>
+        <translation>%1 anonim hale getirmek için yeterli uyumlu girdi bulundu</translation>
     </message>
     <message>
         <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
-        <translation>Numero di input non sufficienti per l'anonimizzazione&lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;perciò verranno anonimizzati&lt;span style='color:red;'&gt;%2&lt;/span&gt;</translation>
+        <translation>&lt;span style='color:red;'&gt;%1&lt;/span&gt; anonim hale getirmek için yeterli uyumlu girdi yok,&lt;br&gt;onun yerine&lt;span style='color:red;'&gt;%2&lt;/span&gt; anonim hale getirilecek</translation>
     </message>
     <message>
         <source>Overall progress</source>
-        <translation>Progressi generali</translation>
+        <translation>Genel ilerleme</translation>
     </message>
     <message>
         <source>Denominated</source>
-        <translation>Denominati</translation>
+        <translation>Birimlendirildi</translation>
     </message>
     <message>
         <source>Partially mixed</source>
-        <translation>Parzialmente mixato</translation>
+        <translation>Kısmen karıştırılmış</translation>
     </message>
     <message>
         <source>Mixed</source>
-        <translation>Mixati</translation>
+        <translation>Karıştırıldı</translation>
     </message>
     <message numerus="yes">
         <source>Denominated inputs have %5 of %n rounds on average</source>
-        <translation><numerusform>Gli input denominati hanno in media %5 di %n round </numerusform><numerusform>Gli input denominati hanno in media %5 di %n round </numerusform></translation>
+        <translation><numerusform>Birimlendirilmiş girdiler ortalama %5 / %n tura sahip</numerusform><numerusform>Birimlendirilmiş girdiler ortalama %5 / %n tura sahip</numerusform></translation>
     </message>
     <message>
         <source>keys left: %1</source>
-        <translation>chiavi rimaste: %1</translation>
+        <translation>kalan anahtarlar: %1</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation>Disabilita</translation>
+        <translation>Kapalı</translation>
     </message>
     <message>
         <source>Very low number of keys left since last automatic backup!</source>
-        <translation>Sono rimaste pochissime chiavi dall'ultimo backup automatico!</translation>
+        <translation>Son otomatik yedekten beri çok az sayıda anahtar kaldı!</translation>
     </message>
     <message>
         <source>We are about to create a new automatic backup for you, however &lt;span style='color:red;'&gt; you should always make sure you have backups saved in some safe place&lt;/span&gt;!</source>
-        <translation>Stiamo per creare un nuovo backup automatico per te, tuttavia &lt;span style='color:red;'&gt;devi sempre assicurarti di avere dei backup salvati in un posto sicuro&lt;/span&gt;!</translation>
+        <translation>Sizin için yeni bir otomatik yedek oluşturmak üzereyiz ancak &lt;span style='color:red;'&gt; yedeklerinizin her zaman güvenli bir yerde taşındığından emin olmalısınız&lt;/span&gt;!</translation>
     </message>
     <message>
         <source>Note: You can turn this message off in options.</source>
-        <translation>Nota: è possibile disattivare questo messaggio nelle opzioni.</translation>
+        <translation>Not: Bu mesajı seçeneklerden kapatabilirsiniz.</translation>
     </message>
     <message>
         <source>WARNING! Something went wrong on automatic backup</source>
-        <translation>ATTENZIONE! Qualcosa è andato storto con il backup automatico</translation>
+        <translation>UYARI! Otomatik yedeklemede bir sorun çıktı</translation>
     </message>
     <message>
         <source>ERROR! Failed to create automatic backup</source>
-        <translation>ERRORE! Impossibile creare il backup automatico</translation>
+        <translation>HATA! Otomatik yedek oluşturulamadı</translation>
     </message>
     <message>
         <source>Mixing is disabled, please close your wallet and fix the issue!</source>
-        <translation>Il Mixing è disabilitato, si prega di chiudere il portafoglio e risolvere il problema!</translation>
+        <translation>Karışım devredışı, lütfen cüzdanınızı kapatıp sorunu çözün!</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation>Abilitato</translation>
+        <translation>Açık</translation>
     </message>
     <message>
         <source>see debug.log for details.</source>
-        <translation>vedere debug.log per i dettagli.</translation>
+        <translation>ayrıntılar için debug.log dosyasına bakın.</translation>
     </message>
     <message>
         <source>WARNING! Failed to replenish keypool, please unlock your wallet to do so.</source>
-        <translation>ATTENZIONE! Impossibile riempire il keypool, sblocca il tuo portafoglio per farlo.</translation>
+        <translation>UYARI! Anahtar havuzu yenilenemedi, lütfen devam etmek için cüzdanınızın kilidini açın.</translation>
     </message>
     <message>
         <source>Last PrivateSend message:
 </source>
-        <translation>Ultimo messaggio di PrivateSend:
+        <translation>Son Özel Gönder mesajı:
 </translation>
     </message>
     <message>
         <source>If you don't want to see internal PrivateSend fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>Se non vuoi vedere le commissioni / transazioni interne di PrivateSend seleziona "Più Comune" come Tipo nel tab "Transazioni".</translation>
+        <translation>Eğer Özel Gönderin iç ücretlerini/işlemlerini görmek istemiyorsanız "İşlemler" sekmesinde Tür olarak "En Sıkı" seçin.</translation>
     </message>
     <message>
         <source>PrivateSend requires at least %1 to use.</source>
-        <translation>PrivateSend richiede almeno %1 da utilizzare.</translation>
+        <translation>Özel Gönder en az %1 gerektiriyor.</translation>
     </message>
     <message>
         <source>Wallet is locked and user declined to unlock. Disabling PrivateSend.</source>
-        <translation>Il Portafoglio è bloccato e l'utente ha rifiutato di sbloccarlo. Disabilitazione di PrivateSend.</translation>
+        <translation>Cüzdan kilitli ve kullanıcı kilidi açmadı. Özel Gönder devredışı bırakılıyor.</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>Errore di richiesta di pagamento</translation>
+        <translation>Ödeme talebi hatası</translation>
     </message>
     <message>
-        <source>Cannot start dash: click-to-pay handler</source>
-        <translation>Impossibile avviare dash: gestore click-to-pay</translation>
+        <source>Cannot start florijncoin: click-to-pay handler</source>
+        <translation>Florijncoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>Gestione URI</translation>
+        <translation>URI yönetimi</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>URL di recupero della Richiesta di pagamento non valido: %1</translation>
+        <translation>Ödeme talebini alma URL'i geçersiz: %1</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Indirizzo di pagamento non valido: %1</translation>
+        <translation>%1 ödeme adresi geçersizdir</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Dash address or malformed URI parameters.</source>
-        <translation>Impossibile interpretare l'URI! La causa puó essere un indirizzo Dash non valido o parametri URI non corretti.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Florijncoin address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamıyor! Bunun nedeni geçersiz bir Florijncoin adresi veya hatalı biçimlendirilmiş URI değişkenleri olabilir.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>Gestione del file di richiesta del pagamento</translation>
+        <translation>Ödeme talebi dosyası yönetimi</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Il file di richiesta del pagamento non può essere letto! Il file in questione potrebbe essere non valido.</translation>
+        <translation>Ödeme talebi dosyası okunamıyor! Bunun nedeni geçersiz bir ödeme talebi dosyası olabilir.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Richiesta di pagamento rifiutata</translation>
+        <translation>Ödeme talebi reddedildi</translation>
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>La rete della richiesta di pagamento non coincide con la rete del cliente.</translation>
+        <translation>Ödeme talebi ağı, istemci ağıyla eşleşmiyor.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Richiesta di pagamento scaduta.</translation>
+        <translation>Ödeme talebinin geçerlilik süresi bitti.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>La richiesta di pagamento non è stata inizializzata</translation>
+        <translation>Ödeme talebi başlatılmadı.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Le richieste di pagamento non verificate verso script di pagamento personalizzati non sono supportate.</translation>
+        <translation>Özel ödeme betiklerine, doğrulanmamış ödeme talepleri desteklenmez.</translation>
     </message>
     <message>
         <source>Invalid payment request.</source>
-        <translation>Richiesta di pagamento invalida</translation>
+        <translation>Geçersiz ödeme talebi.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>L'importo di pagamento richiesto di %1 è troppo basso (considerato come infinitesimale).</translation>
+        <translation>Talep edilen %1 ödeme tutarı çok küçüktür (toz olarak kabul edilir).</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>Rimborso da %1</translation>
+        <translation>%1 adresinden geri ödeme</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Il pagamento richiesto %1 é troppo grande (%2 bytes, permesso %3 bytes).</translation>
+        <translation>%1 ödeme talebi çok büyük (%2 bayt, üst sınır %3 bayt).</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>Errore di comunicazione con %1: %2</translation>
+        <translation>%1 ile iletişimde hata: %2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>La richiesta di pagamento non può essere analizzata o processata!</translation>
+        <translation>Ödeme talebi ayrıştırılamaz!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Risposta errata da parte del server %1</translation>
+        <translation>%1 sunucusundan hatalı yanıt</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>Errore di richiesta di rete</translation>
+        <translation>Ağ talebi hatası</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Pagamento riconosciuto</translation>
+        <translation>Ödeme kabul edildi</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>NodeId</source>
-        <translation>Nodeld</translation>
+        <translation>Düğüm ID'si</translation>
     </message>
     <message>
         <source>Node/Service</source>
-        <translation>Nodo/Servizio</translation>
+        <translation>Düğüm/Servis</translation>
     </message>
     <message>
         <source>User Agent</source>
-        <translation>User Agent</translation>
+        <translation>Kullanıcı Yazılımı</translation>
     </message>
     <message>
         <source>Ping</source>
@@ -1908,27 +1908,27 @@ https://www.transifex.com/projects/p/dash/</translation>
     <name>QObject</name>
     <message>
         <source>%1 didn't yet exit safely...</source>
-        <translation>%1 non è ancora stato chiuso in modo sicuro</translation>
+        <translation>%1  henüz güvenli bir şekilde çıkış yapmamıştır...</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Importo</translation>
+        <translation>Tutar</translation>
     </message>
     <message>
-        <source>Enter a Dash address (e.g. %1)</source>
-        <translation>Inserire un indirizzo Dash (e.g. %1)</translation>
+        <source>Enter a Florijncoin address (e.g. %1)</source>
+        <translation>Bir Florijncoin adresi giriniz (mesela %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
-        <translation>%1 d</translation>
+        <translation>%1 g</translation>
     </message>
     <message>
         <source>%1 h</source>
-        <translation>%1 h</translation>
+        <translation>%1 s</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation>%1 m</translation>
+        <translation>%1 d</translation>
     </message>
     <message>
         <source>%1 s</source>
@@ -1936,11 +1936,11 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Nessuno</translation>
+        <translation>Boş</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>N/D</translation>
+        <translation>Mevcut değil</translation>
     </message>
     <message>
         <source>%1 ms</source>
@@ -1948,274 +1948,274 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation><numerusform>%n secondo</numerusform><numerusform>%n secondi</numerusform></translation>
+        <translation><numerusform>%n saniye</numerusform><numerusform>%n saniye</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minuto</numerusform><numerusform>%n minuti</numerusform></translation>
+        <translation><numerusform>%n dakika</numerusform><numerusform>%n dakika</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n ora</numerusform><numerusform>%n ore</numerusform></translation>
+        <translation><numerusform>%n saat</numerusform><numerusform>%n saat</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n giorno</numerusform><numerusform>%n giorni</numerusform></translation>
+        <translation><numerusform>%n gün</numerusform><numerusform>%n gün</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n settimana</numerusform><numerusform>%n settimane</numerusform></translation>
+        <translation><numerusform>%n hafta</numerusform><numerusform>%n hafta</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n anno</numerusform><numerusform>%n anni</numerusform></translation>
+        <translation><numerusform>%n yıl</numerusform><numerusform>%n yıl</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 e %2</translation>
+        <translation>%1 ve %2</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>sconosciuto</translation>
+        <translation>bilinmiyor</translation>
     </message>
 </context>
 <context>
     <name>QObject::QObject</name>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>Errore: La cartella dati "%1" specificata non esiste.</translation>
+        <translation>Hata: Belirtilen "%1" veri klasörü yoktur.</translation>
     </message>
     <message>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>Errore: impossibile interpretare il file di configurazione: %1. Usare esclusivamente la sintassi chiave=valore.</translation>
+        <translation>Hata: %1 yapılandırma dosyası ayrıştırılamadı. Sadece anahtar=değer dizimini kullanınız.</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation>Errore: %1</translation>
+        <translation>Hata: %1</translation>
     </message>
 </context>
 <context>
     <name>QRDialog</name>
     <message>
         <source>QR-Code Title</source>
-        <translation>Titolo QR-Code</translation>
+        <translation>QR Kod Başlığı</translation>
     </message>
     <message>
         <source>QR Code</source>
-        <translation>Codice QR</translation>
+        <translation>QR Kodu</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Salva Immagine</translation>
+        <translation>Resmi ka&amp;ydet...</translation>
     </message>
     <message>
         <source>Error creating QR Code.</source>
-        <translation>Errore di generazione del QR Code</translation>
+        <translation>QR Kod oluşturma hatası.</translation>
     </message>
 </context>
 <context>
     <name>QRGeneralImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Salva Immagine</translation>
+        <translation>Resmi ka&amp;ydet...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>&amp;Copia Immagine</translation>
+        <translation>Resmi &amp;Kopyala</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>Salva codice QR</translation>
+        <translation>QR Kodu Kaydet</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>Immagine PNG (*.png)</translation>
+        <translation>PNG Resim (*.png)</translation>
     </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Salva Immagine</translation>
+        <translation>Resmi ka&amp;ydet...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>&amp;Copia Immagine</translation>
+        <translation>Resmi &amp;Kopyala</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>Salva codice QR</translation>
+        <translation>QR Kodu Kaydet</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>Immagine PNG (*.png)</translation>
+        <translation>PNG Resim (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>Tools window</source>
-        <translation>Finestra strumenti</translation>
+        <translation>Araçlar penceresi</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informazioni</translation>
+        <translation>&amp;Malumat</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Generale</translation>
+        <translation>Genel</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Nome</translation>
+        <translation>İsim</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>N/D</translation>
+        <translation>Mevcut değil</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Numero di connessioni</translation>
+        <translation>Bağlantı sayısı</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Apri</translation>
+        <translation>&amp;Aç</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Tempo di avvio</translation>
+        <translation>Başlama zamanı</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Rete</translation>
+        <translation>Şebeke</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Orario del blocco più recente</translation>
+        <translation>Son blok zamanı</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>File log del Debug</translation>
+        <translation>Hata ayıklama kütük dosyası</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Numero attuale di blocchi</translation>
+        <translation>Güncel blok sayısı</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Versione client</translation>
+        <translation>İstemci sürümü</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Usando la versione BerkeleyDB</translation>
+        <translation>Kullanılan BerkeleyDB sürümü</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Block chain</translation>
+        <translation>Blok zinciri</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
-        <translation>Numero di Masternode</translation>
+        <translation>Ana düğüm sayısı</translation>
     </message>
     <message>
         <source>Memory Pool</source>
-        <translation>Memory Pool</translation>
+        <translation>Bellek Alanı</translation>
     </message>
     <message>
         <source>Current number of transactions</source>
-        <translation>Numero attuale di transazioni</translation>
+        <translation>Güncel işlem sayısı</translation>
     </message>
     <message>
         <source>Memory usage</source>
-        <translation>Utilizzo memoria</translation>
+        <translation>Bellek kullanımı</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Console</translation>
+        <translation>&amp;Konsol</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Cancella console</translation>
+        <translation>Konsolu temizle</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Traffico di Rete</translation>
+        <translation>&amp;Şebeke trafiği</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Totali</translation>
+        <translation>Toplamlar</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Ricevuto</translation>
+        <translation>Alınan</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Spedito</translation>
+        <translation>Yollanan</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;Peer</translation>
+        <translation>&amp;Eşler</translation>
     </message>
     <message>
         <source>Banned peers</source>
-        <translation>Peer bannati</translation>
+        <translation>Yasaklı eşler</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Seleziona un peer per vedere informazioni dettagliate</translation>
+        <translation>Ayrıntılı bilgi görmek için bir eş seçin.</translation>
     </message>
     <message>
         <source>Whitelisted</source>
-        <translation>Whitelisted/Sicuri</translation>
+        <translation>Beyaz listedekiler</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation>Direzione</translation>
+        <translation>Yön</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Versione</translation>
+        <translation>Sürüm</translation>
     </message>
     <message>
         <source>Starting Block</source>
-        <translation>Blocco di partenza</translation>
+        <translation>Başlangıç Bloku</translation>
     </message>
     <message>
         <source>Synced Headers</source>
-        <translation>Headers sincronizzati</translation>
+        <translation>Eşleşmiş Üstbilgiler</translation>
     </message>
     <message>
         <source>Synced Blocks</source>
-        <translation>Blocchi sincronizzati</translation>
+        <translation>Eşleşmiş Bloklar</translation>
     </message>
     <message>
         <source>Wallet Path</source>
-        <translation>Percorso del Portafoglio</translation>
+        <translation>Cüzdan Yolu</translation>
     </message>
     <message>
         <source>User Agent</source>
-        <translation>User Agent</translation>
+        <translation>Kullanıcı Yazılımı</translation>
     </message>
     <message>
         <source>Datadir</source>
-        <translation>Datadir</translation>
+        <translation>Veri konumu</translation>
     </message>
     <message>
         <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Apri il file log del debug di %1 dalla cartella dati attuale. Può richiedere alcuni secondi per file di log di grandi dimensioni.</translation>
+        <translation>Güncel veri klasöründen %1 hata ayıklama kütük dosyasını açar. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
     </message>
     <message>
         <source>InstantSend locks</source>
-        <translation>Blocca IstantSend</translation>
+        <translation>AnındaGönder kilitleri</translation>
     </message>
     <message>
         <source>Decrease font size</source>
-        <translation>Riduci dimensioni font.</translation>
+        <translation>Font boyutunu küçült</translation>
     </message>
     <message>
         <source>Increase font size</source>
-        <translation>Aumenta dimensioni font</translation>
+        <translation>Yazıtipi boyutunu büyült</translation>
     </message>
     <message>
         <source>&amp;Reset</source>
@@ -2223,163 +2223,163 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Servizi</translation>
+        <translation>Servisler</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>Punteggio di Ban</translation>
+        <translation>Yasaklama Skoru</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Tempo di connessione</translation>
+        <translation>Bağlantı Süresi</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Ultimo Invio</translation>
+        <translation>Son Gönderme</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Ultima Ricezione</translation>
+        <translation>Son Alma</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Tempo di Ping</translation>
+        <translation>Ping Süresi</translation>
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
-        <translation>La durata di un ping attualmente in corso.</translation>
+        <translation>Güncel olarak göze çarpan bir ping'in süresi.</translation>
     </message>
     <message>
         <source>Ping Wait</source>
-        <translation>Attesa ping</translation>
+        <translation>Ping Beklemesi</translation>
     </message>
     <message>
         <source>Min Ping</source>
-        <translation>Ping Minimo</translation>
+        <translation>En Düşük Ping</translation>
     </message>
     <message>
         <source>Time Offset</source>
-        <translation>Scarto Temporale</translation>
+        <translation>Saat Farkı</translation>
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
-        <translation>&amp;Riparare Portafoglio</translation>
+        <translation>&amp;Cüzdan Tamiri</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
-        <translation>Recuperare il portafoglio</translation>
+        <translation>Cüzdanı kurtar</translation>
     </message>
     <message>
         <source>Rescan blockchain files</source>
-        <translation>Ripeti l'analisi dei file della blockchain</translation>
+        <translation>Blok zinciri dosyalarını yeniden tara</translation>
     </message>
     <message>
         <source>Recover transactions 1</source>
-        <translation>Ristabilire le transazioni 1</translation>
+        <translation>İşlemleri geri al 1</translation>
     </message>
     <message>
         <source>Recover transactions 2</source>
-        <translation>Ristabilire le transazioni 2</translation>
+        <translation>İşlemleri geri al 2</translation>
     </message>
     <message>
         <source>Upgrade wallet format</source>
-        <translation>Aggiorna il formato del portafoglio </translation>
+        <translation>Cüzdan biçimini yükselt</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
-        <translation>I bottoni sottostanti reiniziaranno il portafoglio con le opzioni di linea di comando per riparare il portafoglio e sistemare problemi con i file della blockchain corrotti o con transazioni perse o inadeguate </translation>
+        <translation>Aşağıdaki düğmeler cüzdanı tamir etmek, bozuk blok zinciri dosyalarıyla veya kayıp/geçersiz işlemlerle ilgili sorunları çözmek için cüzdanı komut istemi seçenekleri ile yeniden başlatacak.</translation>
     </message>
     <message>
         <source>-salvagewallet: Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>-recuperareportafoglio: Tenta di recuperare le chiavi private da un wallet.dat corrotto.</translation>
+        <translation>-salvagewallet: Bozuk bir wallet.dat dosyasında özel anahtarları kurtarma denemesi.</translation>
     </message>
     <message>
         <source>-rescan: Rescan the block chain for missing wallet transactions.</source>
-        <translation>-ripetereanalisi: Ripete l'analisi della blockchain per cercare le transazioni mancanti dal portamonete</translation>
+        <translation>-rescan: Kayıp cüzdan işlemleri için blok zincirini yeniden tarama.</translation>
     </message>
     <message>
         <source>-zapwallettxes=1: Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation>-zapwallettxes=1: Recupera transazioni dalla blockchain (mantiene i meta-data, es. il propietario del conto)</translation>
+        <translation>-zapwallettxes=1: Blok zincirinden işlemleri kurtarma (meta-veri tutulur, ör. hesap sahibi).</translation>
     </message>
     <message>
         <source>-zapwallettxes=2: Recover transactions from blockchain (drop meta-data).</source>
-        <translation>-zapwallettxes=2: Recupera transazioni dalla blockchain (non conserva i meta-data)</translation>
+        <translation>-zapwallettxes=2: Blok zincirinden işlemleri kurtarma (meta-veri atılır).</translation>
     </message>
     <message>
         <source>-upgradewallet: Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
-        <translation>-aggiornaportafoglio: Aggiorna il portafoglio all'ultima versione in startup. (Nota: questo NON é un aggiornamento del portafoglio stesso!)</translation>
+        <translation>-upgradewallet: Açılışta cüzdanı en son biçime yükselt. (Not: Bu cüzdanın kendisinin güncellenmesi DEĞİLDİR!)</translation>
     </message>
     <message>
         <source>Wallet repair options.</source>
-        <translation>Opzioni per riparare il portafoglio.</translation>
+        <translation>Cüzdan tamir seçenekleri.</translation>
     </message>
     <message>
         <source>Rebuild index</source>
-        <translation>Ricostruire l'indice</translation>
+        <translation>Dizini yeniden oluştur</translation>
     </message>
     <message>
         <source>-reindex: Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>-riindicizzare: Ricostruisce l'indice della blockchain a partire dagli attuali blk000??.dat files</translation>
+        <translation>-reindex: Blok zinciri dizinini mevcut blk000??.dat dosyalarından yeniden oluşturma.</translation>
     </message>
     <message>
         <source>&amp;Disconnect</source>
-        <translation>&amp;Disconnetti</translation>
+        <translation>&amp;Bağlantıyı Kes</translation>
     </message>
     <message>
         <source>Ban for</source>
-        <translation>Bannato per</translation>
+        <translation>Yasakla</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
-        <translation>1 &amp;ora</translation>
+        <translation>1 &amp;saat</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
-        <translation>1 &amp;giorno</translation>
+        <translation>1 &amp;gün</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1 &amp;settimana</translation>
+        <translation>1 &amp;hafta</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
-        <translation>1 &amp;anno</translation>
+        <translation>1 &amp;yıl</translation>
     </message>
     <message>
         <source>&amp;Unban</source>
-        <translation>&amp;Elimina Ban</translation>
+        <translation>&amp;Yasaklamayı Kaldır</translation>
     </message>
     <message>
         <source>Welcome to the %1 RPC console.</source>
-        <translation>Benvenuto nella console RPC di %1.</translation>
+        <translation>%1 RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Scrivi &lt;b&gt;help&lt;/b&gt; per un riassunto dei comandi disponibili</translation>
+        <translation>Mevcut komutların listesi için &lt;b&gt;help&lt;/b&gt; yazınız.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
-        <translation>Usa le frecce direzionali per navigare nella cronologia, e %1 per cancellarla.</translation>
+        <translation>Tarihçede gezinmek için imleç tuşlarını kullanınız, %1 ile de ekranı temizleyebilirsiniz.</translation>
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
-        <translation>ATTENZIONE: truffatori sono stati attivi, chiedendo agli utenti di digitare comandi qui, rubando il contenuto del loro portafoglio. Non utilizzare questa console senza comprendere appieno la diramazione di un comando.</translation>
+        <translation>UYARI: Kullanıcıların cüzdan içeriğini çalmak için buraya komut girmenizi söyleyen dolandırıcılar olabilir. Bir komutun ne anlama geldiğini tam olarak bilmiyorsanız bu konsolu kullanmayın.</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>Entrata:</translation>
+        <translation>İçeri:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Uscita:</translation>
+        <translation>Dışarı:</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
-        <translation>Attività di rete disabilitata</translation>
+        <translation>Ağ etkinliği devre dışı bırakıldı</translation>
     </message>
     <message>
         <source>Total: %1 (Enabled: %2)</source>
-        <translation>Totale: %1 (Abilitato: %2)</translation>
+        <translation>Toplam: %1 (Etkinleştirilen: %2)</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2399,153 +2399,153 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>(node id: %1)</source>
-        <translation>(id nodo: %1)</translation>
+        <translation>(düğüm kimliği: %1)</translation>
     </message>
     <message>
         <source>via %1</source>
-        <translation>via %1</translation>
+        <translation>%1 vasıtasıyla</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>mai</translation>
+        <translation>asla</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>In entrata</translation>
+        <translation>Gelen</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>In uscita</translation>
+        <translation>Giden</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Si</translation>
+        <translation>Evet</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>No</translation>
+        <translation>Hayır</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Sconosciuto</translation>
+        <translation>bilinmiyor</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
-        <translation>Riutilizzare uno degli indirizzi di ricezione utilizzati in precedenza.&lt;br&gt; Gli indirizzi riutilizzati hanno problemi di sicurezza e di privacy. &lt;br&gt;Non ri-usarli a meno che non si generi nuovamente una richiesta di pagamento effettuata in precedenza.</translation>
+        <translation>Öneden kullanılmış bir alım adresini tekrar kullan.&lt;br&gt;Adresleri tekrar kullanmak güvenlik ve gizlilik sorunlarına neden olur.&lt;br&gt;Eğer daha önce yapılmış bir ödeme talebi tekrar oluşturulmadıysa bunu kullanmayın.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>R&amp;iusa un indirizzo di ricezione (non raccomandato)</translation>
+        <translation>&amp;Hâlihazırda bulunan bir alım adresini kullan (önerilmez)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Dash network.</source>
-        <translation>Messaggio opzionale da allegare alla richiesta di pagamento, che verrà visualizzato quando la richiesta verrà aperta. Nota: il messaggio non sarà inviato insieme al pagamento nel network Dash.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Florijncoin network.</source>
+        <translation>Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir ileti. Not: Bu ileti ödeme ile birlikte Florijncoin ağı üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Messaggio:</translation>
+        <translation>Me&amp;saj:</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Un'etichetta facoltativa da associare al nuovo indirizzo di ricezione</translation>
+        <translation>Yeni alım adresi ile ilişkili, seçiminize dayalı etiket.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Dash network.</source>
-        <translation>Messaggio facoltativo da allegare alla richiesta di pagamento, che verrà visualizzato all'apertura della richiesta.&lt;br&gt; Nota: il messaggio non verrà inviato con il pagamento sulla rete di Dash.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Florijncoin network.</source>
+        <translation>Ödeme talebine eklenecek isteğe bağlı bir mesaj, talep açıldığında gösterilecektir.&lt;br&gt;Not: Mesaj ödeme ile birlikte Florijncoin ağı üzerinden gönderilmez.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Usa questo modulo per richiedere pagamenti. Tutti i campi sono &lt;b&gt;opzionali&lt;/b&gt;.</translation>
+        <translation>Ödeme talep etmek için bu formu kullanın. Tüm alanlar &lt;b&gt;seçime dayalıdır&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Etichetta</translation>
+        <translation>&amp;Etiket:</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Un importo opzionale da associare alla richiesta. Lasciare vuoto o a zero per non richiedere un importo specifico.</translation>
+        <translation>Seçiminize dayalı talep edilecek meblağ. Belli bir meblağ talep etmemek için bunu boş bırakın veya sıfır değerini kullanın.</translation>
     </message>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;Importo:</translation>
+        <translation>&amp;Meblağ:</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;Richiedi pagamento</translation>
+        <translation>Ödeme &amp;talep et</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Cancellare tutti i campi del modulo.</translation>
+        <translation>Formdaki tüm alanları temizle.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Cancella</translation>
+        <translation>Temizle</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>Cronologia pagamenti ricevuti</translation>
+        <translation>Talep edilen ödemelerin tarihçesi</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Mostra la richiesta selezionata (produce lo stesso effetto di un doppio click su una voce)</translation>
+        <translation>Seçilen talebi göster (bir unsura çift tıklamakla aynı anlama gelir)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Mostra</translation>
+        <translation>Göster</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Rimuovi le voci selezionate dalla lista</translation>
+        <translation>Seçilen unsurları listeden kaldır</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Rimuovi</translation>
+        <translation>Kaldır</translation>
     </message>
     <message>
         <source>Copy URI</source>
-        <translation>Copia URI</translation>
+        <translation>URI'yi kopyala</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copia l'etichetta</translation>
+        <translation>Etiket kopyala</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Copia messaggio</translation>
+        <translation>İletiyi kopyala</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Copia l'importo</translation>
+        <translation>Tutarı kopyala</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>Codice QR</translation>
+        <translation>QR Kodu</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>Copia &amp;URI</translation>
+        <translation>&amp;URI'yi kopyala</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Copia &amp;Indirizzo</translation>
+        <translation>&amp;Adresi kopyala</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Salva Immagine</translation>
+        <translation>Resmi ka&amp;ydet...</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>Richiesta di pagamento a %1</translation>
+        <translation>%1 unsuruna ödeme talep et</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>Informazioni pagamento</translation>
+        <translation>Ödeme bilgisi</translation>
     </message>
     <message>
         <source>URI</source>
@@ -2553,376 +2553,376 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Indirizzo</translation>
+        <translation>Adres</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Importo</translation>
+        <translation>Tutar</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Etichetta</translation>
+        <translation>Etiket</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Messaggio</translation>
+        <translation>İleti</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>L'URI risultante è troppo lungo, prova a ridurre il testo nell'etichetta / messaggio.</translation>
+        <translation>Sonuç URI çok uzun, etiket ya da ileti metnini kısaltmayı deneyiniz.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Errore nella codifica dell'URI nel codice QR</translation>
+        <translation>URI'nin QR koduna kodlanmasında hata oluştu.</translation>
     </message>
 </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>Tarih</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Etichetta</translation>
+        <translation>Etiket</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Messaggio</translation>
+        <translation>İleti</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(nessuna etichetta)</translation>
+        <translation>(etiket yok)</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(nessun messaggio)</translation>
+        <translation>(ileti yok)</translation>
     </message>
     <message>
         <source>(no amount requested)</source>
-        <translation>(nessun importo richiesto)</translation>
+        <translation>(tutar talep edilmedi)</translation>
     </message>
     <message>
         <source>Requested</source>
-        <translation>Richiesto</translation>
+        <translation>Talep edilen</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Invia dash</translation>
+        <translation>Bitcoin yolla</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Funzionalità di Coin Control</translation>
+        <translation>Para kontrolü özellikleri</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>Input...</translation>
+        <translation>Girdiler...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>selezionato automaticamente</translation>
+        <translation>otomatik seçilmiş</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Fondi insufficienti!</translation>
+        <translation>Yetersiz fon!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Quantità:</translation>
+        <translation>Miktar:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Byte:</translation>
+        <translation>Bayt:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Importo:</translation>
+        <translation>Meblağ:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Commissione:</translation>
+        <translation>Ücret:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Infinitesimale:</translation>
+        <translation>Toz:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Dopo Commissione:</translation>
+        <translation>Ücretten sonra:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Resto:</translation>
+        <translation>Para üstü:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Se è abilitato, ma l'indirizzo per il resto è vuoto o invalido, il resto sarà inviato ad un nuovo indirizzo generato appositamente.</translation>
+        <translation>Bu etkinleştirildiyse fakat para üstü adresi boş ya da geçersizse para üstü yeni oluşturulan bir adrese gönderilecektir.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Personalizza indirizzo per il resto</translation>
+        <translation>Özel para üstü adresi</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Commissione della transazione:</translation>
+        <translation>İşlem ücreti:</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Scegli...</translation>
+        <translation>Seç...</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>Abbassare la finestra delle opzioni delle commissioni</translation>
+        <translation>ücret-ayarlarını-küçült</translation>
     </message>
     <message>
         <source>Confirmation time target:</source>
-        <translation>Obiettivo del tempo di conferma:</translation>
+        <translation>Doğrulama süresi hedefi:</translation>
     </message>
     <message>
         <source>PrivateSend</source>
-        <translation>PrivateSend</translation>
+        <translation>Özel Gönder</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se la tariffa personalizzata è impostata su 1000 duff e la transazione è di soli 250 byte, paga solo 250 duff "per kilobyte" di Fee, &lt;br /&gt;mentre paga "almeno"  1000 duff. Per le transazioni più grandi di un kilobyte pagate entrambi per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 Ducaatjes and the transaction is only 250 bytes, then "per kilobyte" only pays 250 Ducaatjes in fee,&lt;br /&gt;while "at least" pays 1000 Ducaatjes. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Eğer özel ücret 1000 duff olarak belirlendiyse ve işlem sadece 250 bayt ise "kilobayt başına" ücret olarak sadece 250 duff ödersiniz,&lt;br /&gt;bu da "en az" 1000 duff öder. Bir kilobayttan büyük işlemler için ikisi de kilobayt başına ödeme yapar.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for dash transactions than the network can process.</source>
-        <translation>Pagare solo la commissione minima va bene finché il volume di transazioni è minore rispetto allo spazio nei blocchi. &lt;br /&gt;Ma sii consapevole che questo potrebbe risultare in una transazione non confermata, una volta che ci fosse più richiesta di transazioni di Dash di quanto la rete possa elaborare.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for florijncoin transactions than the network can process.</source>
+        <translation>Bloklardaki alandan daha düşük işlem hacmi var olduğu sürece sadece minimum ücreti ödemek yeterli olur.&lt;br /&gt;Ama ağın işleyebileceğinden daha fazla florijncoin işlemi talebi olursa, bunun işlemlerin asla teyit edilememesi gibi bir sonucu olabileceğini unutmayın.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>per kilobyte</translation>
+        <translation>kilobayt başı</translation>
     </message>
     <message>
         <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
-        <translation>L'utilizzo del fallbackfee può comportare che una transazione richiederà diverse ore o giorni (o molto di  più) per essere confermata. Prendi in considerazione la possibilità di scegliere la tariffa manualmente o attendi fino a quando non avrai convalidato la catena completa.</translation>
+        <translation>Fallbackfee kullanmak, bir işlemin teyit edilmesinin satler veya günler almasına (ve hiçbir zaman teyit edilememesine) neden olabilir. Ücreti elle seçmeyi veya tüm zincirin onaylanmasını beklemeyi göz önünde bulundurun.</translation>
     </message>
     <message>
         <source>Note: Not enough data for fee estimation, using the fallback fee instead.</source>
-        <translation>Nota: dati insufficienti per la stima della commissione, utilizzando altrimenti la commissione di fallback.</translation>
+        <translation>Not: Ücret tahmini için yeterli veri yok. Bunun yerine geri dönüş ücretini kullanılacak.</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>Nascondi</translation>
+        <translation>Gizle</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(leggi il suggerimento)</translation>
+        <translation>(bilgi balonunu oku)</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Raccomandato</translation>
+        <translation>Tavsiye edilen:</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Personalizzata:</translation>
+        <translation>Özel:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Commissione intelligente non ancora inizializzata. Normalmente richiede un'attesa di alcuni blocchi...)</translation>
+        <translation>(Zeki ücret henüz başlatılmadı. Bu genelde birkaç blok alır...)</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Conferma l'azione di invio</translation>
+        <translation>Yollama etkinliğini teyit ediniz</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>I&amp;nvia</translation>
+        <translation>G&amp;önder</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Cancellare tutti i campi del modulo.</translation>
+        <translation>Formdaki tüm alanları temizle.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Cancella &amp;tutto</translation>
+        <translation>Tümünü &amp;temizle</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Invia a diversi beneficiari in una volta sola</translation>
+        <translation>Birçok alıcıya aynı anda gönder</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;Aggiungi beneficiario</translation>
+        <translation>&amp;Alıcı ekle</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Saldo:</translation>
+        <translation>Bakiye:</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Copia quantità</translation>
+        <translation>Miktarı kopyala</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Copia l'importo</translation>
+        <translation>Tutarı kopyala</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Copia commissione</translation>
+        <translation>Ücreti kopyala</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Copia dopo commissione</translation>
+        <translation>Ücretten sonrasını kopyala</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Copia byte</translation>
+        <translation>Baytları kopyala</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Copia infinitesimale</translation>
+        <translation>Tozu kopyala</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Copia resto</translation>
+        <translation>Para üstünü kopyala</translation>
     </message>
     <message>
         <source>%1 (%2 blocks)</source>
-        <translation>%1 (%2 bloccare)</translation>
+        <translation>%1 (%2 blocks)</translation>
     </message>
     <message>
         <source>using</source>
-        <translation>utilizzando</translation>
+        <translation>bunu kullanarak:</translation>
     </message>
     <message>
         <source>%1 to %2</source>
-        <translation>%1 a %2</translation>
+        <translation>%1 ögesinden %2 unsuruna</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Sei sicuro di voler inviare?</translation>
+        <translation>Göndermek istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <source>are added as transaction fee</source>
-        <translation>sono aggiunti come pagamento per la transazione</translation>
+        <translation>işlem ücreti olarak eklendi</translation>
     </message>
     <message>
         <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
-        <translation>Importo totale =&lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
+        <translation>Toplam Tutar = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
     </message>
     <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;(%1 / %2 girdi gösteriliyor)&lt;/b&gt;</translation>
     </message>
     <message>
         <source>PrivateSend funds only</source>
-        <translation>Solo fondi PrivateSend</translation>
+        <translation>Yalnızca ÖzelGönder fonları</translation>
     </message>
     <message>
         <source>any available funds</source>
-        <translation>eventuali fondi disponibili</translation>
+        <translation>mevcut fonlar</translation>
     </message>
     <message>
         <source>(PrivateSend transactions have higher fees usually due to no change output being allowed)</source>
-        <translation>(Le transazioni PrivateSend di solito hanno commissioni più elevate a causa della mancanza di output di modifica)</translation>
+        <translation>(ÖzelGönder işlemlerinde genellikle değişken çıktıya izin verilmediği için ücretler daha yüksektir)</translation>
     </message>
     <message>
         <source>Transaction size: %1</source>
-        <translation>Dimensione della transazione: %1</translation>
+        <translation>İşlem Boyutu: %1</translation>
     </message>
     <message>
         <source>Fee rate: %1</source>
-        <translation>Tariffa di commissione: %1</translation>
+        <translation>Ücret oranı: %1</translation>
     </message>
     <message numerus="yes">
         <source>This transaction will consume %n input(s)</source>
-        <translation><numerusform>Questa transazione consumerà %n input</numerusform><numerusform>Questa transazione consumerà %n input</numerusform></translation>
+        <translation><numerusform>Bu işlem %n girdi tüketecektir</numerusform><numerusform>Bu işlem %n girdi tüketecektir</numerusform></translation>
     </message>
     <message>
         <source>Warning: Using PrivateSend with %1 or more inputs can harm your privacy and is not recommended</source>
-        <translation>Avviso: l'utilizzo di PrivateSend con %1 o più input può danneggiare la tua privacy e non è raccomandato</translation>
+        <translation>Uyarı: %1 veya daha fazla girdi ile ÖzelGönder kullanmak gizliliğinize zarar verebilir ve tavsiye edilmez</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Conferma l'invio di dash</translation>
+        <translation>Bitcoin gönderimini onaylayın</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
-        <translation> L'indirizzo del destinatario non è valido. Si prega di ricontrollare.</translation>
+        <translation>Alıcı adresi geçerli değildir. Lütfen tekrar kontrol ediniz.</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>L'importo da pagare deve essere maggiore di 0.</translation>
+        <translation>Ödeyeceğiniz tutarın 0'dan yüksek olması gerekir.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>L'importo è superiore al tuo saldo attuale</translation>
+        <translation>Tutar bakiyenizden yüksektir.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Il totale è superiore al tuo saldo attuale includendo la commissione di %1.</translation>
+        <translation>Toplam, %1 işlem ücreti eklendiğinde bakiyenizi geçmektedir.</translation>
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation> Rilevato un indirizzo duplicato ciascun indirizzo dovrebbe essere utilizzato una sola volta.</translation>
+        <translation>Tekrarlayan adres bulundu: adresler sadece bir kez kullanılmalıdır.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
-        <translation>Creazione transazione fallita!</translation>
+        <translation>İşlem oluşturma başarısız!</translation>
     </message>
     <message>
         <source>The transaction was rejected with the following reason: %1</source>
-        <translation>La transazione è stata respinta per il seguente motivo: %1</translation>
+        <translation>İşlem şu nedenden dolayı reddedildi: %1</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation> Una commissione maggiore di %1 è considerata irragionevolmente elevata.</translation>
+        <translation>%1 tutarından yüksek bir ücret saçma derecede yüksek bir ücret olarak kabul edilir.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>Richiesta di pagamento scaduta.</translation>
+        <translation>Ödeme talebinin geçerlilik süresi bitti.</translation>
     </message>
     <message>
         <source>Pay only the required fee of %1</source>
-        <translation> Paga solo la commissione richiesta di %1</translation>
+        <translation>Sadece asgari ücret olan %1 tutarını öde</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Inizio della confirmazione stimato in %n blocco</numerusform><numerusform>Inizio del processo di conferma stimato in %n blocchi</numerusform></translation>
+        <translation><numerusform>%n blok içinde onaylamanın başlayacağı tahmin ediliyor.</numerusform><numerusform>%n blok içinde onaylamanın başlayacağı tahmin ediliyor.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Dash address</source>
-        <translation>ATTENZIONE: Indirizzo Dash non valido</translation>
+        <source>Warning: Invalid Florijncoin address</source>
+        <translation>UYARI: Geçersiz Florijncoin adresi</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Attenzione: Indirizzo per il resto sconosciuto</translation>
+        <translation>Uyarı: Bilinmeyen para üstü adresi</translation>
     </message>
     <message>
         <source>Confirm custom change address</source>
-        <translation>Conferma il cambio di indirizzo</translation>
+        <translation>Özel para üstü adresini onayla</translation>
     </message>
     <message>
         <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
-        <translation>L'indirizzo selezionato per il resto non fa parte di questo portafoglio. Alcuni o tutti i fondi nel tuo portafoglio potrebbero essere inviati a questo indirizzo. Sei sicuro?</translation>
+        <translation>Para üstü için seçtiğiniz adres bu cüzdanın bir parçası değil. Cüzdanınızdaki bir miktar veya tüm para bu adrese gönderilebilir. Emin misiniz?</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(nessuna etichetta)</translation>
+        <translation>(etiket yok)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>This is a normal payment.</source>
-        <translation>Questo è un normale pagamento.</translation>
+        <translation>Bu, normal bir ödemedir.</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Paga &amp;a:</translation>
+        <translation>&amp;Şu adrese öde:</translation>
     </message>
     <message>
-        <source>The Dash address to send the payment to</source>
-        <translation>L'indirizzo Dash per inviare il pagamento a </translation>
+        <source>The Florijncoin address to send the payment to</source>
+        <translation>Ödemenin yollanacağı Florijncoin adresi</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Scegli un indirizzo usato precedentemente</translation>
+        <translation>Önceden kullanılmış adres seç</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2930,7 +2930,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Incollare l'indirizzo dagli appunti</translation>
+        <translation>Panodan adres yapıştır</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2938,96 +2938,96 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Rimuovi questa voce</translation>
+        <translation>Bu unsuru kaldır</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Etichetta</translation>
+        <translation>&amp;Etiket:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Inserisci un'etichetta per questo indirizzo per aggiungerlo alla lista degli indirizzi utilizzati</translation>
+        <translation>Kullanılmış adres listesine eklemek için bu adrese bir etiket girin</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>I&amp;mporto:</translation>
+        <translation>Mebla&amp;ğ:</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Dash than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>La commissione verrà detratta dall'importo inviato. Il destinatario riceverà un importo inferiore di Dash rispetto a quello inserito nel campo dell'importo. Se sono selezionati più destinatari, la commissione verrà divisa in parti uguali.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Florijncoin than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Ücret gönderilen tutardan düşülecek. Alıcı sizin tutar alanına girdiğinizden daha düşük miktarda Florijncoin alacak. Eğer birden fazla alıcı seçilirse, ücret eşit bölünür.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
-        <translation>S&amp;ottrae la commissione dall'importo</translation>
+        <translation>Ücreti tutardan düş</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Messaggio:</translation>
+        <translation>Mesaj:</translation>
     </message>
     <message>
-        <source>A message that was attached to the dash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Dash network.</source>
-        <translation>Un messaggio allegato con l'URI dash che verrà memorizzato nella transazione per il tuo referente. Nota: questo messaggio non verrà inviato attraverso il network Dash.</translation>
+        <source>A message that was attached to the florijncoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Florijncoin network.</source>
+        <translation>Referans için Florijncoin: URI'siyle iliştirilmiş işlemle birlikte depolanacak bir ileti. Not: Bu mesaj Florijncoin ağı üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
-        <translation>Questa è una richiesta di pagamento non autenticata.</translation>
+        <translation>Bu, kimliği doğrulanmamış bir ödeme talebidir.</translation>
     </message>
     <message>
         <source>This is an authenticated payment request.</source>
-        <translation>Questa è una richiesta di pagamento autenticata.</translation>
+        <translation>Bu, kimliği doğrulanmış bir ödeme talebidir.</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Pagare a:</translation>
+        <translation>Şu adrese öde:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>Memo:</translation>
+        <translation>Not:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Inserisci un'etichetta per questo indirizzo, per aggiungerlo nella rubrica</translation>
+        <translation>Adres defterinize eklemek için bu adrese bir etiket giriniz</translation>
     </message>
 </context>
 <context>
     <name>SendConfirmationDialog</name>
     <message>
         <source>Yes</source>
-        <translation>Si</translation>
+        <translation>Evet</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
         <source>%1 is shutting down...</source>
-        <translation>Arresto di %1 in corso...</translation>
+        <translation>%1 kapanıyor...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Non spegnere il computer fino a quando questa finestra non si sarà chiusa.</translation>
+        <translation>Bu pencere kalkıncaya dek bilgisayarı kapatmayınız.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Firme - Firma / Verifica un messaggio</translation>
+        <translation>İmzalar - Mesaj İmzala / Kontrol et</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Firma il messaggio</translation>
+        <translation>Mesaj &amp;imzala</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive Dash sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Puoi firmare messaggi /accordi con i tuoi indirizzi per dimostrare che puoi ricevere Dash inviati loro. Fai attenzione a non firmare nulla di vago o casuale, in quanto gli attacchi di phishing potrebbero cercare di ingannarti a firmare la tua identità. Firma solo le dichiarazioni dettagliate che ritieni di poter accettare.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Florijncoin sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Onlara gönderilen Florijncoin'i alabildiğinizi ispatlamak için mesajları/anlaşmaları adresleriniz ile imzalayabilirsiniz. Muallak ya da rastgele bir şeyi imzalamamaya dikkat edin çünkü kimlik avı saldırıları ile sizi kimliğinizi açık etmek için dolandırabilirler. Sadece anlaştığınız tam ayrıntılı beyanları imzalayın.</translation>
     </message>
     <message>
-        <source>The Dash address to sign the message with</source>
-        <translation>L'indirizzo Dash con cui firmare il messaggio</translation>
+        <source>The Florijncoin address to sign the message with</source>
+        <translation>İletinin imzalanmasında kullanılacak Florijncoin adresi</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Scegli un indirizzo usato precedentemente</translation>
+        <translation>Önceden kullanılmış adres seç</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -3035,7 +3035,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Incolla l'indirizzo dagli appunti</translation>
+        <translation>Panodan adres yapıştır</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -3043,107 +3043,107 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Inserisci qui il messaggio che vuoi firmare</translation>
+        <translation>İmzalamak istediğiniz mesajı burada giriniz</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>Firma</translation>
+        <translation>İmza</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Copia la firma corrente nella clipboard</translation>
+        <translation>Güncel imzayı sistem panosuna kopyala</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Dash address</source>
-        <translation>Firma il messaggio per dimostrare il possesso di questo indirizzo Dash</translation>
+        <source>Sign the message to prove you own this Florijncoin address</source>
+        <translation>Bu Florijncoin adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Firma &amp;Messaggio</translation>
+        <translation>&amp;Mesajı imzala</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Reimposta tutti i campi della firma messaggio</translation>
+        <translation>Tüm mesaj alanlarını sıfırla</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Cancella &amp;tutto</translation>
+        <translation>Tümünü &amp;temizle</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Verifica Messaggio</translation>
+        <translation>Mesaj &amp;kontrol et</translation>
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Per verificare il messaggio inserire l'indirizzo del firmatario, il messaggio e la firma nei campi sottostanti, assicurandosi di copiare esattamente anche ritorni a capo, spazi, tabulazioni, etc.. Si raccomanda di non lasciarsi fuorviare dalla firma a leggere più di quanto non sia riportato nel testo del messaggio stesso, in modo da evitare di cadere vittima di attacchi di tipo man-in-the-middle. Si ricorda che la verifica della firma dimostra soltanto che il firmatario può ricevere pagamenti con l'indirizzo corrispondente, non prova l'invio di alcuna transazione.</translation>
+        <translation>Alıcının adresini, iletiyi (satır sonları, boşluklar, sekmeler vs. karakterleri tam olarak kopyaladığınızdan emin olunuz) ve imzayı aşağıya giriniz. Bir ortadaki adam saldırısı tarafından kandırılmaya engel olmak için imzadan, imzalı iletinin içeriğini aşan bir anlam çıkarmamaya dikkat ediniz. Bunun sadece imzalayan tarafın adres ile alım yapabildiğini ispatladığını ve herhangi bir işlemin gönderi tarafını kanıtlayamayacağını unutmayınız!</translation>
     </message>
     <message>
-        <source>The Dash address the message was signed with</source>
-        <translation>L'indirizzo Dash con cui era firmato il messaggio</translation>
+        <source>The Florijncoin address the message was signed with</source>
+        <translation>İletinin imzalanmasında kullanılan Florijncoin adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Dash address</source>
-        <translation>Verifica il messaggio per assicurarti sia stato firmato con l'indirizzo Dash specificato</translation>
+        <source>Verify the message to ensure it was signed with the specified Florijncoin address</source>
+        <translation>Belirtilen Florijncoin adresi ile imzalandığını doğrulamak için iletiyi kontrol et</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Verifica &amp;Messaggio</translation>
+        <translation>&amp;Mesaj kontrol et</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Reimposta tutti i campi della verifica messaggio</translation>
+        <translation>Tüm mesaj kontrolü alanlarını sıfırla</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Clicca "Firma il messaggio" per ottenere la firma</translation>
+        <translation>İmzayı oluşturmak için "İletiyi İmzala"ya tıklayın</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>L'indirizzo inserito non è valido.</translation>
+        <translation>Girilen adres geçersizdir.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Per favore controlla l'indirizzo e prova ancora</translation>
+        <translation>Lütfen adresi kontrol edip tekrar deneyiniz.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>L'indirizzo inserito non è associato a nessuna chiave.</translation>
+        <translation>Girilen adres herhangi bir anahtara işaret etmemektedir.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Sblocco del portafoglio annullato.</translation>
+        <translation>Cüzdan kilidinin açılması iptal edildi.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>La chiave privata per l'indirizzo inserito non è disponibile.</translation>
+        <translation>Girilen adres için özel anahtar mevcut değildir.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Firma messaggio fallita.</translation>
+        <translation>İleti imzalaması başarısız oldu.</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Messaggio firmato.</translation>
+        <translation>İleti imzalandı.</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>Non è stato possibile decodificare la firma.</translation>
+        <translation>İmzanın kodu çözülemedi.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>Per favore controlla la firma e prova ancora.</translation>
+        <translation>Lütfen imzayı kontrol edip tekrar deneyiniz.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>La firma non corrisponde al digest del messaggio.</translation>
+        <translation>İmza iletinin özeti ile eşleşmedi.</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Verifica messaggio fallita.</translation>
+        <translation>İleti doğrulaması başarısız oldu.</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Messaggio verificato.</translation>
+        <translation>İleti doğrulandı.</translation>
     </message>
 </context>
 <context>
@@ -3154,7 +3154,7 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Versione %1</translation>
+        <translation>Sürüm %1</translation>
     </message>
 </context>
 <context>
@@ -3168,500 +3168,500 @@ https://www.transifex.com/projects/p/dash/</translation>
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Aperto per %n blocco in piú</numerusform><numerusform>Aperto per %n blocchi in piú</numerusform></translation>
+        <translation><numerusform>%n daha blok için açık</numerusform><numerusform>%n daha blok için açık</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Aperto fino a %1</translation>
+        <translation>%1 değerine dek açık</translation>
     </message>
     <message>
         <source>conflicted</source>
-        <translation>in conflitto</translation>
+        <translation>Uyuşmadı</translation>
     </message>
     <message>
         <source>%1/offline</source>
-        <translation>%1/offline</translation>
+        <translation>%1/çevrim dışı</translation>
     </message>
     <message>
         <source>0/unconfirmed, %1</source>
-        <translation>0/non confermati, %1</translation>
+        <translation>0/doğrulanmamış, %1</translation>
     </message>
     <message>
         <source>in memory pool</source>
-        <translation>nella memory pool</translation>
+        <translation>bellek alanında</translation>
     </message>
     <message>
         <source>not in memory pool</source>
-        <translation>non nella memory pool</translation>
+        <translation>bellek alanında değil</translation>
     </message>
     <message>
         <source>abandoned</source>
-        <translation>Abbandonato</translation>
+        <translation>Terk edilmiş</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/non confermato</translation>
+        <translation>%1/doğrulanmadı</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 conferme</translation>
+        <translation>%1 doğrulama</translation>
     </message>
     <message>
         <source>locked via LLMQ based ChainLocks</source>
-        <translation>bloccato tramite ChainLock basati su LLMQ</translation>
+        <translation>ZincirKilidi temelli LLMQ ile kilitlendi.</translation>
     </message>
     <message>
         <source>verified via LLMQ based InstantSend</source>
-        <translation>verificato tramite InstantSend basato su LLMQ</translation>
+        <translation>AnındaGönder temelli LLMQ ile doğrulandı.</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Stato</translation>
+        <translation>Durum</translation>
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, non è stato ancora trasmesso con successo</translation>
+        <translation>, henüz başarılı bir şekilde yayınlanmadı</translation>
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, trasmettere attraverso %n nodo</numerusform><numerusform>, trasmettere attraverso %n nodi</numerusform></translation>
+        <translation><numerusform>, %n düğümden yayın</numerusform><numerusform>, %n düğümden yayın</numerusform></translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>Tarih</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Sorgente</translation>
+        <translation>Kaynak</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>Generato</translation>
+        <translation>Oluşturuldu</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>Da</translation>
+        <translation>Gönderen</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>sconosciuto</translation>
+        <translation>bilinmiyor</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>A</translation>
+        <translation>Alıcı</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>proprio indirizzo</translation>
+        <translation>kendi adresiniz</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>Per sola lettura</translation>
+        <translation>Sadece izlenen</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>etichetta</translation>
+        <translation>Etiket</translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>Credito</translation>
+        <translation>Alınan Tutar</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>Matura in %n blocco in piú</numerusform><numerusform>Matura in %n blocchi in piú</numerusform></translation>
+        <translation><numerusform>%n blok sonra olgunlaşacak</numerusform><numerusform>%n blok sonra olgunlaşacak</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>non accettato</translation>
+        <translation>kabul edilmedi</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>Debito</translation>
+        <translation>Çekilen Tutar</translation>
     </message>
     <message>
         <source>Total debit</source>
-        <translation>Debito totale</translation>
+        <translation>Toplam çekilen tutar</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>Credito totale</translation>
+        <translation>Toplam alınan tutar</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Commissione transazione</translation>
+        <translation>İşlem ücreti</translation>
     </message>
     <message>
         <source>Net amount</source>
-        <translation>Importo netto</translation>
+        <translation>Net tutar</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Messaggio</translation>
+        <translation>İleti</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Commento</translation>
+        <translation>Yorum</translation>
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>ID della transazione</translation>
+        <translation>İşlem ID'si</translation>
     </message>
     <message>
         <source>Output index</source>
-        <translation>Indice di output</translation>
+        <translation>Çıktı indeksi</translation>
     </message>
     <message>
         <source>Transaction total size</source>
-        <translation>Dimensione totale della transazione</translation>
+        <translation>İşlemin toplam boyutu</translation>
     </message>
     <message>
         <source>Merchant</source>
-        <translation>Negoziante</translation>
+        <translation>Tüccar</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>È necessario attendere %1 blocchi prima che le monete generate possano essere spese. Quando è stato generato questo blocco, è stato trasmesso alla rete in modo da poter essere aggiunto alla blockchain. Se l'inserimento avrà esito negativo il suo stato sarà modificato in "non accettato" e risulterà non spendibile. Questo può occasionalmente accadere se un altro nodo genera un blocco entro pochi secondi dal tuo.</translation>
+        <translation>Oluşturulan bitcoin'lerin harcanabilmelerinden önce %1 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda, blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu "kabul edilmedi" olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>Informazione di debug</translation>
+        <translation>Hata ayıklama bilgisi</translation>
     </message>
     <message>
         <source>Transaction</source>
-        <translation>Transazione</translation>
+        <translation>İşlem</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Input</translation>
+        <translation>Girdiler</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Importo</translation>
+        <translation>Tutar</translation>
     </message>
     <message>
         <source>true</source>
-        <translation>vero</translation>
+        <translation>doğru</translation>
     </message>
     <message>
         <source>false</source>
-        <translation>falso</translation>
+        <translation>yanlış</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Questo pannello mostra una descrizione dettagliata della transazione</translation>
+        <translation>Bu pano muamelenin ayrıntılı açıklamasını gösterir</translation>
     </message>
     <message>
         <source>Details for %1</source>
-        <translation>Dettagli per %1</translation>
+        <translation>%1 için ayrıntılar</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>Tarih</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Tipo</translation>
+        <translation>Tür</translation>
     </message>
     <message>
         <source>Address / Label</source>
-        <translation>Indirizzo / Etichetta</translation>
+        <translation>Adres / Etiket</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Aperto per %n blocco in piú</numerusform><numerusform>Aperto per %n blocchi in piú</numerusform></translation>
+        <translation><numerusform>%n daha blok için açık</numerusform><numerusform>%n daha blok için açık</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Aperto fino a %1</translation>
+        <translation>%1 değerine dek açık</translation>
     </message>
     <message>
         <source>Offline</source>
-        <translation>Offline</translation>
+        <translation>Çevrim dışı</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Non confermato</translation>
+        <translation>Doğrulanmamış</translation>
     </message>
     <message>
         <source>Abandoned</source>
-        <translation>Abbandonato</translation>
+        <translation>Terk edilmiş</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>In conferma (%1 di %2 conferme raccomandate)</translation>
+        <translation>Doğrulanıyor (%1 kere doğrulandı, önerilen doğrulama sayısı %2)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Confermato (%1 conferme)</translation>
+        <translation>Doğrulandı (%1 doğrulama)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>In conflitto</translation>
+        <translation>Uyuşmadı</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Immaturo (%1 conferme, sarà disponibile fra %2)</translation>
+        <translation>Olgunlaşmamış (%1 doğrulama, %2 doğrulama sonra kullanılabilir olacaktır)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Questo blocco non è stato ricevuto dagli altri nodi e probabilmente non sarà accettato!</translation>
+        <translation>Bu blok başka hiçbir düğüm tarafından alınmamıştır ve muhtemelen kabul edilmeyecektir!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
-        <translation>Generati, ma non accettati</translation>
+        <translation>Oluşturuldu ama kabul edilmedi</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Ricevuto tramite</translation>
+        <translation>Şununla alındı</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Ricevuto da</translation>
+        <translation>Alındığı kişi</translation>
     </message>
     <message>
         <source>Received via PrivateSend</source>
-        <translation>Ricevuto via PrivateSend</translation>
+        <translation>Özel Gönder ile alındı</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Inviato a</translation>
+        <translation>Gönderildiği adres</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Pagamento a te stesso</translation>
+        <translation>Kendinize ödeme</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Ottenuto dal mining</translation>
+        <translation>Madenden çıkarılan</translation>
     </message>
     <message>
         <source>PrivateSend Denominate</source>
-        <translation>Denominare PrivateSend</translation>
+        <translation>Özel Gönder Birimi</translation>
     </message>
     <message>
         <source>PrivateSend Collateral Payment</source>
-        <translation>Pagamento Collaterale PrivateSend</translation>
+        <translation>Özel Gönder Teminat Ödemesi</translation>
     </message>
     <message>
         <source>PrivateSend Make Collateral Inputs</source>
-        <translation>PrivateSend Effettua Ingressi Collaterali</translation>
+        <translation>Özel Gönder Teminat Girdisi Yap</translation>
     </message>
     <message>
         <source>PrivateSend Create Denominations</source>
-        <translation>PrivateSend Crea Denominazioni</translation>
+        <translation>Özel Gönder Birim Oluştur</translation>
     </message>
     <message>
         <source>PrivateSend</source>
-        <translation>PrivateSend</translation>
+        <translation>Özel Gönder</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>Solo per consultare</translation>
+        <translation>Sadece izlenen</translation>
     </message>
     <message>
         <source>(n/a)</source>
-        <translation>(N/A)</translation>
+        <translation>(mevcut değil)</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(nessuna etichetta)</translation>
+        <translation>(etiket yok)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Stato della transazione. Passare con il mouse su questo campo per visualizzare il numero di conferme.</translation>
+        <translation>İşlem durumu. Doğrulama sayısını görüntülemek için fare imlecini bu alanın üzerinde tutunuz.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Data e ora in cui la transazione è stata ricevuta.</translation>
+        <translation>İşlemin alındığı tarih ve zaman.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Tipo di transazione.</translation>
+        <translation>İşlemin türü.</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Anche se in questa transazione è coinvolto un indirizzo di sola lettura</translation>
+        <translation>Bu işleme sadece-izlenen bir adresin dahil edilip, edilmediği.</translation>
     </message>
     <message>
         <source>Whether or not this transaction was locked by InstantSend.</source>
-        <translation>Indipendentemente dal fatto che questa transazione sia stata bloccata da InstantSend.</translation>
+        <translation>Bu işlem Anında Gönder ile kilitlendi mi gösterir.</translation>
     </message>
     <message>
         <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Intento/scopo della transazione definito dall'utente.</translation>
+        <translation>İşlemin kullanıcı tanımlı amacı.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Importo rimosso o aggiunto al saldo.</translation>
+        <translation>Bakiyeden kaldırılan ya da bakiyeye eklenen tutar.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Tutti</translation>
+        <translation>Hepsi</translation>
     </message>
     <message>
         <source>Locked by InstantSend</source>
-        <translation>Bloccato da InstantSend</translation>
+        <translation>Anında Gönder ile kilitlendi</translation>
     </message>
     <message>
         <source>Not locked by InstantSend</source>
-        <translation>Non bloccato da InstantSend</translation>
+        <translation>Anında Gönder ile kilitlenmedi</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Oggi</translation>
+        <translation>Bugün</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation>Questa settimana</translation>
+        <translation>Bu hafta</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>Questo mese</translation>
+        <translation>Bu ay</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>Il mese scorso</translation>
+        <translation>Geçen ay</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>Quest'anno</translation>
+        <translation>Bu yıl</translation>
     </message>
     <message>
         <source>Range...</source>
-        <translation>Intervallo...</translation>
+        <translation>Tarih Aralığı</translation>
     </message>
     <message>
         <source>Most Common</source>
-        <translation>Piú Comune</translation>
+        <translation>En Sık</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Ricevuto tramite</translation>
+        <translation>Şununla alındı</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Inviato a</translation>
+        <translation>Gönderildiği adres</translation>
     </message>
     <message>
         <source>PrivateSend</source>
-        <translation>PrivateSend</translation>
+        <translation>Özel Gönder</translation>
     </message>
     <message>
         <source>PrivateSend Make Collateral Inputs</source>
-        <translation>PrivateSend Effettua Ingressi Collaterali</translation>
+        <translation>Özel Gönder Teminat Girdisi Yap</translation>
     </message>
     <message>
         <source>PrivateSend Create Denominations</source>
-        <translation>PrivateSend Crea Denominazioni</translation>
+        <translation>Özel Gönder Birim Oluştur</translation>
     </message>
     <message>
         <source>PrivateSend Denominate</source>
-        <translation>Denominare PrivateSend</translation>
+        <translation>Özel Gönder Birimi</translation>
     </message>
     <message>
         <source>PrivateSend Collateral Payment</source>
-        <translation>Pagamento Collaterale PrivateSend</translation>
+        <translation>Özel Gönder Teminat Ödemesi</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>A te stesso</translation>
+        <translation>Kendinize</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Ottenuto dal mining</translation>
+        <translation>Madenden çıkarılan</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Altro</translation>
+        <translation>Diğer</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>Inserisci un indirizzo o un'etichetta da cercare</translation>
+        <translation>Aranacak adres ya da etiket giriniz</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>Importo minimo</translation>
+        <translation>En düşük tutar</translation>
     </message>
     <message>
         <source>Abandon transaction</source>
-        <translation>Abbandona transazione </translation>
+        <translation>İşlemden vazgeç</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Copia l'indirizzo</translation>
+        <translation>Adres kopyala</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copia l'etichetta</translation>
+        <translation>Etiket kopyala</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Copia l'importo</translation>
+        <translation>Tutarı kopyala</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Copia l'ID transazione</translation>
+        <translation>İşlem ID'sini kopyala</translation>
     </message>
     <message>
         <source>Copy raw transaction</source>
-        <translation>Copia la transazione raw</translation>
+        <translation>Ham işlemi kopyala</translation>
     </message>
     <message>
         <source>Copy full transaction details</source>
-        <translation>Copia i dettagli dell'intera transazione</translation>
+        <translation>Tüm işlem ayrıntılarını kopyala</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Modifica l'etichetta</translation>
+        <translation>Etiketi düzenle</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>Mostra i dettagli della transazione</translation>
+        <translation>İşlem ayrıntılarını göster</translation>
     </message>
     <message>
         <source>Show address QR code</source>
-        <translation>Mostra indirizzo del codice QR</translation>
+        <translation>Adresin QR kodunu göster</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>Esporta lo storico delle transazioni</translation>
+        <translation>İşlem Tarihçesini Dışarı Aktar</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>file CSV (*.csv)</translation>
+        <translation>Virgülle ayrılmış değerler dosyası (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Confermato</translation>
+        <translation>Doğrulandı</translation>
     </message>
     <message>
         <source>Watch-only</source>
-        <translation>Per sola lettura</translation>
+        <translation>Sadece izlenen</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>Tarih</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Tipo</translation>
+        <translation>Tür</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Etichetta</translation>
+        <translation>Etiket</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Indirizzo</translation>
+        <translation>Adres</translation>
     </message>
     <message>
         <source>ID</source>
@@ -3669,1344 +3669,1342 @@ https://www.transifex.com/projects/p/dash/</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Esportazione Fallita.</translation>
+        <translation>Dışarı aktarmada hata</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Si è verificato un errore durante il salvataggio dello storico delle transazioni in %1.</translation>
+        <translation>İşlem tarihçesinin %1 konumuna kaydedilmeye çalışıldığı sırada bir hata meydana geldi.</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation>Esportazione Riuscita</translation>
+        <translation>Dışarı Aktarma Başarılı</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>Lo storico delle transazioni e' stato salvato con successo in %1.</translation>
+        <translation>İşlem tarihçesi %1 konumuna başarıyla kaydedildi.</translation>
     </message>
     <message>
         <source>QR code</source>
-        <translation>codice QR</translation>
+        <translation>QR kod</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>Intervallo:</translation>
+        <translation>Tarih Aralığı:</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>a</translation>
+        <translation>Alıcı</translation>
     </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Unitá con cui mostrare gli importi. Clicca per selezionare un'altra unitá.</translation>
+        <translation>Tutarı göstermek için birim. Başka bir birim seçmek için tıklayınız.</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Non è stato caricato alcun portafoglio.</translation>
+        <translation>Hiçbir cüzdan yüklenmedi.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Invia Monete</translation>
+        <translation>Bitcoini Gönder</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Esporta</translation>
+        <translation>&amp;Dışarı aktar</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Esporta su file i dati della tabella corrente</translation>
+        <translation>Mevcut sekmedeki verileri bir dosyaya aktar</translation>
     </message>
     <message>
         <source>Selected amount:</source>
-        <translation>Importo selezionato:</translation>
+        <translation>Seçilen tutar:</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Backup Portafoglio</translation>
+        <translation>Cüzdanı Yedekle</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Dati Portafoglio (*.dat)</translation>
+        <translation>Cüzdan Verileri (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Backup Fallito</translation>
+        <translation>Yedekleme Başarısız Oldu</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Si è verificato un errore durante il salvataggio dei dati del portafoglio in %1.</translation>
+        <translation>Cüzdan verilerinin %1 konumuna kaydedilmesi sırasında bir hata meydana geldi.</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>Backup eseguito con successo</translation>
+        <translation>Yedekleme Başarılı</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>Il portafoglio è stato correttamente salvato in %1.</translation>
+        <translation>Cüzdan verileri %1 konumuna başarıyla kaydedildi.</translation>
     </message>
 </context>
 <context>
-    <name>dash-core</name>
+    <name>florijncoin-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Associa all'indirizzo indicato e resta permanentemente in ascolto su questo. Usa la notazione [host]:porta per l'IPv6</translation>
+        <translation>Belirtilen adrese bağlan ve daima ondan dinle. IPv6 için [makine]:port yazımını kullanınız</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Errore: Ascolto per le connessioni in entrata non riuscito (ascoltare errore restituito %s)</translation>
+        <translation>Hata: İçeri gelen bağlantıların dinlenmesi başarısız oldu (dinleme %s hatasını verdi)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Esegue un comando quando viene ricevuto un allarme rilevante o quando vediamo un fork veramente lungo (%s in cmd è sostituito dal messaggio)</translation>
+        <translation>İlgili bir uyarı alındığında ya da gerçekten uzun bir çatallama gördüğümüzde komutu çalıştır (komuttaki %s mesaj ile değiştirilir)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Esegui comando quando una transazione del portafoglio cambia (%s in cmd è sostituito da TxID)</translation>
+        <translation>Bir cüzdan muamelesi değiştiğinde komutu çalıştır (komuttaki %s TxID ile değiştirilecektir)</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Esegui il comando quando il migliore blocco cambia(%s nel cmd è sostituito dall'hash del blocco)</translation>
+        <translation>En iyi blok değiştiğinde komutu çalıştır (komut için %s parametresi blok hash değeri ile değiştirilecektir)</translation>
     </message>
     <message>
         <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
-        <translation>Nome per costruire l'url per l'accesso con KeePass che memorizza la passphrase del portafoglio</translation>
+        <translation>Cüzdan parolanızı bulunduran KeePass girdisine url oluşturmak için ad</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Imposta il numero di thread per la verifica degli script (da %u a %d, 0 = automatico, &lt;0 = lascia questo numero di core liberi, default: %d)</translation>
+        <translation>Betik kontrolü iş parçacıklarının sayısını belirler (%u ilâ %d, 0 = otomatik, &lt;0 = bu sayıda çekirdeği kullanma, varsayılan: %d)</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Questa versione è una compilazione pre-rilascio - usala a tuo rischio - non utilizzarla per il mining o per applicazioni commerciali</translation>
+        <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - bitcoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Attenzione: La rete non sembra essere d'accordo pienamente! Alcuni minatori sembrano riscontrare problemi.</translation>
+        <translation>Uyarı: şebeke tamamen mutabık değil gibi görünüyor! Bazı madenciler sorun yaşıyor gibi görünüyor.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Attenzione: Sembra che non ci sia completo accordo con i nostri peer! Un aggiornamento da parte tua o degli altri nodi potrebbe essere necessario.</translation>
+        <translation>Uyarı: eşlerimizle tamamen mutabık değiliz gibi görünüyor! Güncelleme yapmanız gerekebilir ya da diğer düğümlerin güncelleme yapmaları gerekebilir.</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Accetta comandi da riga di comando e JSON-RPC</translation>
+        <translation>Komut satırı ve JSON-RPC komutlarını kabul et</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Consenti ricerche DNS per -addnode, -seednode e -connect</translation>
+        <translation>-addnode, -seednode ve -connect için DNS aramalarına izin ver</translation>
     </message>
     <message>
         <source>Already have that input.</source>
-        <translation>Hai già quell'input.</translation>
+        <translation>Bu girdi zaten var.</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Opzioni creazione blocco:</translation>
+        <translation>Blok oluşturma seçenekleri:</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Non è possibile effettuare il downgrade del portafoglio</translation>
+        <translation>Cüzdan eski biçime geri alınamaz</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Non è possibile scrivere l'indirizzo predefinito</translation>
+        <translation>Varsayılan adres yazılamadı</translation>
     </message>
     <message>
         <source>Collateral not valid.</source>
-        <translation>Collaterale non valido.</translation>
+        <translation>Teminat geçerli değil.</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Connettiti ad un nodo per recuperare gli indirizzi dei peer e scollegati</translation>
+        <translation>Eş adresleri elde etmek için bir düğüme bağlan ve ardından bağlantıyı kes</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Opzioni di connessione:</translation>
+        <translation>Bağlantı seçenekleri:</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Rilevato database dei blocchi corrotto</translation>
+        <translation>Bozuk blok veritabanı tespit edildi</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Opzioni di Debug/Test:</translation>
+        <translation>Hata ayıklama/deneme seçenekleri:</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Non caricare il portafoglio e disabilita le chiamate RPC al portafoglio</translation>
+        <translation>Cüzdanı yükleme ve cüzdan RPC çağrılarını devre dışı bırak</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Vuoi ricostruire ora il database dei blocchi?</translation>
+        <translation>Blok veritabanını şimdi yeniden inşa etmek istiyor musunuz?</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Caricamento completato</translation>
+        <translation>Yükleme tamamlandı</translation>
     </message>
     <message>
         <source>Entries are full.</source>
-        <translation>Gli ingressi sono pieni.</translation>
+        <translation>Girdiler dolu.</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Errore durante l'inizializzazione del database dei blocchi</translation>
+        <translation>Blok veritabanını başlatılırken bir hata meydana geldi</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Errore durante l'inizializzazione dell'ambiente %s del database del portafoglio!</translation>
+        <translation>%s cüzdan veritabanı ortamının başlatılmasında hata meydana geldi!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Errore caricamento del database dei blocchi</translation>
+        <translation>Blok veritabanının yüklenmesinde hata</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Errore caricamento database blocchi</translation>
+        <translation>Blok veritabanının açılışı sırasında hata</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Errore di lettura del database, spegnimento</translation>
+        <translation>Veritabanından okumada hata, kapatılıyor.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Errore</translation>
+        <translation>Hata</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Errore: la spazio libero sul disco è insufficiente!</translation>
+        <translation>Hata: Disk alanı düşük!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Nessuna porta disponibile per l'ascolto. Usa -listen=0 se vuoi procedere comunque.</translation>
+        <translation>Herhangi bir portun dinlenmesi başarısız oldu. Bunu istiyorsanız -listen=0 seçeneğini kullanınız.</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1= mantiene il testo meta data p.es. proprietario del conto e informazione richiesta di pagamento, 2 = scarta il testo meta data)</translation>
+        <translation>(1 = tx meta verilerini tut mesela hesap sahibi ve ödeme talebi bilgileri, 2 = tx meta verilerini at)</translation>
     </message>
     <message>
         <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>-maxtxfee è impostato a molto alto! Commissioni così alte possono venir pagate anche su una singola transazione.</translation>
+        <translation>-maxtxfee çok yüksek bir değere ayarlanmış! Bu denli yüksek ücretler tek bir işlemde ödenebilir.</translation>
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
-        <translation>Un importo (in %s/kB) che sarà utilizzato quando la stima delle commissioni non ha abbastanza dati (default: %s)</translation>
+        <translation>Ücret tahmini için yetersiz veri bulunduğunda kullanılacak ücret oranı (%s/kB olarak) (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
-        <translation>Accetta le transazioni ricevute dai peer in whitelist anche se non si stanno trasmettendo transazioni (default: %d)</translation>
+        <translation>İşlemler aktarılmadığında dahi beyaz listedeki eşlerden aktarılan işlemleri kabul et (varsayılan: %d)</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Permettere la connessione JSON-RPC dalla sorgente specificata. Validi come &lt;ip&gt; sono un singolo IP (p.es. 1.2.3.4), una network/netmask (p.es. 1.2.3.4/255.255.255.0) o una network/CIDR (p.es. 1.2.3.4/24). Questa opzione puó essere specificata molteplici volte</translation>
+        <translation>Belirtilen kaynaktan JSON-RPC bağlantılarını kabul et. Bir &lt;ip&gt; için geçerli olanlar şunlardır: IP adresi (mesela 1.2.3.4), bir ağ/ağ maskesi (örneğin 1.2.3.4/255.255.255.0) ya da bir ağ/CIDR (mesela 1.2.3.4/24). Bu seçenek birden fazla kez belirtilebilir</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>Resta in ascolto sull'indirizzo indicato ed inserisce in whitelist i peer che vi si collegano. Usa la notazione [host]:porta per l'IPv6</translation>
+        <translation>Belirtilen adrese bağlan ve ona bağlanan eşleri beyaz listeye al. IPv6 için [makine]:port imlasını kullanınız</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Crea nuovi file con i permessi di default del sistema, invece che con umask 077 (ha effetto solo con funzionalità di portamonete disabilitate)</translation>
+        <translation>Yeni dosyaları umask 077 yerine varsayılan izinlerle oluştur (sadece devre dışı cüzdan işlevselliği ile etkilidir)</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Cancella tutte le transazioni del portafoglio e sistema solo quelle parti della blockchain mediante -rescan quando apri il portafoglio</translation>
+        <translation>Tüm cüzdan işlemlerini sil ve başlangıçta -rescan ile sadece blok zincirinin parçası olanları geri getir</translation>
     </message>
     <message>
         <source>Enable publish raw transactions of attempted InstantSend double spend in &lt;address&gt;</source>
-        <translation>Abilita le prime transazioni pubblicate del tentativo di doppia spesa di InstantSend in &lt;address&gt;</translation>
+        <translation>&lt;address&gt; adresindeki Anında Gönder çift harcama girişimleri için ham işlem yayınını etkinleştir.</translation>
     </message>
     <message>
         <source>Enable publish transaction hashes of attempted InstantSend double spend in &lt;address&gt;</source>
-        <translation>Abilita gli hash delle transazioni di pubblicazione del tentativo di doppia spesa di InstantSend in &lt;address&gt;</translation>
+        <translation>&lt;address&gt; adresindeki Anında Gönder çift harcama girişimleri için işlem hash yayınını etkinleştir.</translation>
     </message>
     <message>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
-        <translation>Trovati output denominati non confermati, in attesa delle conferme per continuare.</translation>
+        <translation>Teyit edilmemiş birimlendirilmiş çıktılar bulundu, devam etmek için teyit edilene kadar beklenecek.</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>Determina quanto sarà approfondita la verifica da parte di -checkblocks (0-4, predefinito: %u)</translation>
+        <translation>-checkblocks'un blok kontrolünün ne kadar kapsamlı olacağı (0 ilâ 4, varsayılan: %u)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Nel caso in cui paytxfee non sia impostato, include una commissione tale da ottenere un avvio delle conferme entro una media di n blocchi (default:%u)</translation>
+        <translation>Eğer paytxfee ayarlanmadıysa kafi derecede ücret ekleyin ki işlemler teyite vasati n blok içinde başlasın (varsayılan: %u)</translation>
     </message>
     <message>
         <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
-        <translation>Se questo blocco è nella catena, assume che esso e i suoi predecessori siano validi e potenzialmente salta la verifica dei loro script (0 per verificarli tutti, predefinito: %s, testnet: %s)</translation>
+        <translation>Eğer bu blok zincirde yer alıyorsa onun ve atalarının geçerli olduğunu varsay ve potansiyel olarak onların betik doğrulamasını atla.  (Tümünü doğrulamak için 0, varsayılan %s, testnet: %s)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Importo non valido per -maxtxfee=&lt;amount&gt;: '%s' (deve essere almeno pari alla commissione 'minrelay fee' di %s per prevenire transazioni bloccate)</translation>
+        <translation>-maxtxfee=&lt;tutar&gt; için geçersiz tutar: '%s' (Sıkışmış işlemleri önlemek için en az %s değerinde en düşük aktarım ücretine eşit olmalıdır)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Mantiene l'indice completo delle transazioni usato dalla chiamata rpc getrawtransaction (default: %u)</translation>
+        <translation>İşlemlerin tamamının indeksini tut, getrawtransaction rpc çağrısı tarafından kullanılır (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Dimensione massima dei dati nelle transazioni di trasporto dati che saranno trasmesse ed incluse nei blocchi (predefinito: %u)</translation>
+        <translation>Aktardığımız ve oluşturduğumuz veri taşıyıcı işlemlerindeki en yüksek veri boyutu (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Numero di secondi di sospensione prima della riconnessione per i peer che mostrano un comportamento anomalo (default: %u)</translation>
+        <translation>Aksaklık gösteren eşlerle terkar bağlantıyı engelleme süresi, saniye olarak (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Emette informazioni di debug (default: : %u, fornire &lt;category&gt; è opzionale)</translation>
+        <translation>Hata ayıklama bilgisini dök (varsayılan: %u, &lt;category&gt; sağlanması seçime dayalıdır)</translation>
     </message>
     <message>
         <source>Overrides minimum spork signers to change spork value. Only useful for regtest and devnet. Using this on mainnet or testnet will ban you.</source>
-        <translation>Sovrascrive i segnaposti di spork minimi per modificare il valore di spork. Utile solo per regtest e devnet. Se lo usi su mainnet o testnet  sarai bannato .</translation>
+        <translation>Spork değerini değiştirmek için ereken spork imzacısı sayısını değiştirir. Sadece regtest ve devnet için kullanılır. Bunu mainnet veya testnette kullanırsanız atılırsınız.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to mix some more coins.</source>
-        <translation>PrivateSend utilizza importi espressi per inviare fondi, potresti semplicemente dover mixare altre monete.</translation>
+        <translation>Özel Gönder para göndermek için tam olarak birimlendirilmiş meblağlar kullanır, sadece biraz daha fazla parayı anonim hale getirmeniz gerekiyor.</translation>
     </message>
     <message>
         <source>Use N separate masternodes in parallel to mix funds (%u-%u, default: %u)</source>
-        <translation>Usa N masternodes separati in parallelo per mescolare i fondi (%u-%u, predefinito: %u)</translation>
+        <translation>Meblağı karıştırmak için N tane farklı ana düğüm kullan (%u-%u, varsayılan: %u)</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Usa un proxy SOCKS5 a parte per raggiungere i peer attraverso gli hidden services di Tor (default: %s)</translation>
+        <translation>Eşlere gizli Tor servisleri ile ulaşmak için ayrı SOCKS5 vekil sunucusu kullan (varsayılan: %s)</translation>
     </message>
     <message>
         <source>User defined mnemonic for HD wallet (bip39). Only has effect during wallet creation/first start (default: randomly generated)</source>
-        <translation>Mnemonico definito dall'utente per portafoglio HD (bip39). Ha effetto solo durante la creazione del portafoglio/primo avvio (default: generato casualmente).</translation>
+        <translation>HD cüzdan (bip39) için kullanıcı tarafından belirlenmiş anımsatıcı. Sadece cüzdan oluşturma/ilk açılış sırasında etkilidir (varsayılan: rastgele oluşturulur)</translation>
     </message>
     <message>
         <source>User defined seed for HD wallet (should be in hex). Only has effect during wallet creation/first start (default: randomly generated)</source>
-        <translation>Seed definite dall'utente per il portafoglio HD (dovrebbe essere in esadecimale). Ha effetto solo durante la creazione del portafoglio/primo avvio (default: generato casualmente)</translation>
+        <translation>HD cüzdan (hex olmalıdır) için kullanıcı tarafından belirlenmiş kaynak. Sadece cüzdan oluşturma/ilk açılış sırasında etkilidir (varsayılan: rastgele oluşturulur)</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>I peer inclusi in whitelist non possono subire ban per DoS e le loro transazioni saranno sempre trasmesse, anche nel caso in cui si trovino già nel mempool. Ciò è utile ad es. per i gateway</translation>
+        <translation>Beyaz listeye alınan eşler DoS yasaklamasına uğramazlar ve işlemleri zaten mempool'da olsalar da daima aktarılır, bu mesela bir geçit için kullanışlıdır</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(default: %s)</translation>
+        <translation>(varsayılan: %s)</translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Accetta richieste REST pubbliche (default: %u)</translation>
+        <translation>Herkese açık REST taleplerini kabul et (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Interroga sempre i DNS per ottenere gli indirizzi dei peer (default: %u)</translation>
+        <translation>Eş adresleri sorgulaması için daima DNS aramasını kullan (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Can't mix: no compatible inputs found!</source>
-        <translation>Impossibile effettuare il mixing: nessun input compatibile trovato!</translation>
+        <translation>Karıştırılamıyor: hiç uyumlu girdi bulunamadı!</translation>
     </message>
     <message>
         <source>Chain selection options:</source>
-        <translation>Opzioni di selezione della catena:</translation>
+        <translation>Blok zinciri seçim ayarları:</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Connessione attraverso un proxy SOCKS5</translation>
+        <translation>SOCKS5 vekil sunucusu vasıtasıyla bağlan</translation>
     </message>
     <message>
         <source>Connect to KeePassHttp on port &lt;port&gt; (default: %u)</source>
-        <translation>Collegare al KeePassHttp sulla porta &lt;port&gt;(default: %u) </translation>
+        <translation>Port &lt;port&gt; üstünde KeePassHttp'ye bağlan (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Entry exceeds maximum size.</source>
-        <translation>L'ingresso supera la dimensione massima.</translation>
+        <translation>Girdi maksimum boyutu aşıyor.</translation>
     </message>
     <message>
         <source>Failed to load fulfilled requests cache from</source>
-        <translation>Impossibile caricare la cache delle richieste soddisfatte da</translation>
+        <translation>Şuradan tamamlanmış talep önbelleği yüklemesi başarısız:</translation>
     </message>
     <message>
         <source>Failed to load governance cache from</source>
-        <translation>Caricamento della cache di governance non riuscito</translation>
+        <translation>Şuradan yönetim önbelleği yüklemesi başarısız:</translation>
     </message>
     <message>
         <source>Failed to load masternode cache from</source>
-        <translation>Impossibile caricare la cache del masternode da</translation>
+        <translation>Şuradan ana düğüm önbelleği yüklemesi başarısız:</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
-        <translation>Trovati utenti sufficienti, firma (in attesa di %s)</translation>
+        <translation>Yeterli kullanıcı bulundu, imzalanıyor ( %s bekleniyor )</translation>
     </message>
     <message>
         <source>Found enough users, signing ...</source>
-        <translation>Trovati utenti sufficienti, firma ...</translation>
+        <translation>Yeterli kullanıcı bulundu, imzalanıyor ...</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Numero di blocchi da controllare all'avvio (default: %u, 0 = tutti)</translation>
+        <translation>Başlangıçta kontrol edilecek blok sayısı (varsayılan: %u, 0 = hepsi)</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Importazione...</translation>
+        <translation>İçe aktarılıyor...</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>Include gli indirizzi IP nell'output del debug (default: %u)</translation>
+        <translation>Hata ayıklama çıktısına IP adreslerini dahil et (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Incompatible mode.</source>
-        <translation>Modalità incompatibile</translation>
+        <translation>Uyumsuz mod.</translation>
     </message>
     <message>
         <source>Incompatible version.</source>
-        <translation>Versione incompatibile</translation>
+        <translation>Uyumsuz sürüm.</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Blocco genesis non corretto o non trovato. Cartella dati errata?</translation>
+        <translation>Yanlış ya da bulunamamış doğuş bloku. Şebeke için yanlış veri klasörü mü?</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informazioni</translation>
+        <translation>Bilgi</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
-        <translation>L'input non è valido.</translation>
+        <translation>Girdi geçerli değil.</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
-        <translation>Fondi insufficienti.</translation>
+        <translation>Yetersiz bakiye.</translation>
     </message>
     <message>
         <source>Invalid amount for -discardfee=&lt;amount&gt;: '%s'</source>
-        <translation>Importo non valido per -discardfee=&lt;amount&gt;: '%s'</translation>
+        <translation>-discardfee=&lt;meblağ&gt; için geçersiz meblağ: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Importo non valido per -paytxfee=&lt;amount&gt;: '%s' (deve essere almeno %s)</translation>
+        <translation>-paytxfee=&lt;tutar&gt;:'%s' unsurunda geçersiz tutar (asgari %s olması lazımdır)</translation>
     </message>
     <message>
         <source>Invalid minimum number of spork signers specified with -minsporkkeys</source>
-        <translation>Numero minimo non valido di firmatari di spork specificato con -minsporkkeys</translation>
+        <translation>-minsporkkeys ile belirtilmiş geçersiz minimum spork imzacısı sayısı</translation>
     </message>
     <message>
-        <source>Keep N DASH mixed (%u-%u, default: %u)</source>
-        <translation>Mantieni N DASH mixati (%u-%u, default: %u)</translation>
+        <source>Keep N FLRN mixed (%u-%u, default: %u)</source>
+        <translation>N FLRN'i karıştırılmış tut (%u-%u, varsayılan: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Mantieni al massimo &lt;n&gt; transazioni non collegabili in memoria (impostazione predefinita: %u)</translation>
+        <translation>Hafızada en çok &lt;n&gt; bağlanılamaz işlem tut (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Keypool ran out, please call keypoolrefill first</source>
-        <translation>Keypool esaurito, prima invocare keypoolrefill</translation>
+        <translation>Keypool tükendi, lütfen önce keypoolrefill'i çağırın</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Resta in attesa di connessioni JSON-RPC su &lt;port&gt; (default: %u o testnet: %u)</translation>
+        <translation>JSON-RPC bağlantılarını &lt;port&gt; üzerinde dinle (varsayılan: %u veya tesnet: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Resta in attesa di connessioni su &lt;port&gt; (default: %u o testnet: %u)</translation>
+        <translation>Bağlantılar için dinlenecek &lt;port&gt; (varsayılan: %u ya da testnet: %u)</translation>
     </message>
     <message>
         <source>Loading banlist...</source>
-        <translation>Caricamento lista dei bloccati...</translation>
+        <translation>Yasaklama listesi yükleniyor...</translation>
     </message>
     <message>
         <source>Loading fulfilled requests cache...</source>
-        <translation>Caricamento cache richieste soddisfatte ...</translation>
+        <translation>Tamamlanan talepler önbelleği yükleniyor...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
-        <translation>Caricamento della cache del masternode ...</translation>
+        <translation>Ana düğüm önbelleği yükleniyor...</translation>
     </message>
     <message>
         <source>Lock is already in place.</source>
-        <translation>Il blocco è già presente.</translation>
+        <translation>Kilit zaten yerinde.</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Buffer di ricezione massimo per connessione, &lt;n&gt;*1000 byte (default: %u)</translation>
+        <translation>Her bağlantı için en yüksek alım tamponu, &lt;n&gt;*1000 bayt (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Buffer di invio massimo per connessione, &lt;n&gt;*1000 byte (default: %u)</translation>
+        <translation>Her bağlantı için çok gönderme tamponu, &lt;n&gt;*1000 bayt (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>
-        <translation>Mixing in corso...</translation>
+        <translation>Karışım devam ediyor...</translation>
     </message>
     <message>
         <source>Mnemonic passphrase is too long, must be at most 256 characters</source>
-        <translation>La passphrase mnemonica è troppo lunga, deve contenere al massimo 256 caratteri</translation>
+        <translation>Anımsatıcı parola çok uzun, en fazla 256 karakter olmalı</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>È necessario specificare una porta con -whitebind: '%s'</translation>
+        <translation>-whitebind: '%s' ile bir port belirtilmesi lazımdır</translation>
     </message>
     <message>
         <source>No Masternodes detected.</source>
-        <translation>Nessun Masternode trovato.</translation>
+        <translation>Hiç Ana düğüm  bulunamadı.</translation>
     </message>
     <message>
         <source>No compatible Masternode found.</source>
-        <translation>Nessun Masternode compatibile trovato.</translation>
+        <translation>Hiç uyumlu Ana düğüm bulunamadı.</translation>
     </message>
     <message>
         <source>Not enough funds to mix.</source>
-        <translation>Non ci sono abbastanza fondi per effettuare il mixaggio.</translation>
+        <translation>Karıştırılacak yeterli bakiye yok.</translation>
     </message>
     <message>
         <source>Not in the Masternode list.</source>
-        <translation>Non si trova nella  lista dei Masternode.</translation>
+        <translation>Ana düğüm listesinde yok.</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Connessione ai soli nodi appartenenti alla rete &lt;net&gt; (ipv4, ipv6 o Tor)</translation>
+        <translation>Sadece &lt;net&gt; ağındaki düğümlere bağlan (ipv4, ipv6 veya onion)</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Antepone un timestamp all'output del debug (predefinito: %u)</translation>
+        <translation>Hata ayıklama verilerinin önüne zaman damgası ekle (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
-        <translation>Ricostruisci lo stato della catena e l'indice dei blocchi partendo dai file blk*.dat presenti sul disco</translation>
+        <translation>Zincir durumu ve blok indeksini diskteki blk*.dat dosyalarından yeniden derle</translation>
     </message>
     <message>
         <source>Rebuild chain state from the currently indexed blocks</source>
-        <translation>Ricrea l'indice della catena dei blocchi partendo da quelli già indicizzati</translation>
+        <translation>Zincir durumunu güncel olarak indekslenen bloklardan yeniden derle</translation>
     </message>
     <message>
         <source>Send trace/debug info to debug.log file (default: %u)</source>
-        <translation>Invia informazioni trace/debug al file debug.log (default: %u)</translation>
+        <translation>trace/debug bilgisini debug.log dosyasına gönder (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Imposta la dimensione del pool di chiavi a &lt;n&gt; (default: %u)</translation>
+        <translation>Anahtar alan boyutunu &lt;n&gt; değerine ayarla (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Imposta il numero di thread destinati a rispondere alle chiamate RPC (default: %d)</translation>
+        <translation>Hizmet RCP aramaları iş parçacığı sayısını belirle (varsayılan: %d)</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Specifica il file di configurazione (default: %s)</translation>
+        <translation>Yapılandırma dosyası belirtiniz (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Specifica il timeout di connessione in millisecondi (minimo: 1, default: %d)</translation>
+        <translation>Bağlantı zaman aşım süresini milisaniye olarak belirt (en düşüki: 1, varsayılan: %d)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Specifica il file pid (default: %s)</translation>
+        <translation>Pid dosyası belirtiniz (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Abilita la spesa di resto non confermato quando si inviano transazioni (default: %u)</translation>
+        <translation>Gönderme işlemlerinde doğrulanmamış para üstünü harca (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting in queue %s</source>
-        <translation>Inviato al masternode, attendendo in coda %s</translation>
+        <translation>Ana düğüme gönderildi, kuyrukta bekleniyor %s</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
-        <translation>Sincronizzazione fallita</translation>
+        <translation>Eşleme başarısız</translation>
     </message>
     <message>
         <source>Synchronization finished</source>
-        <translation>Sincronizzazione finita</translation>
+        <translation>Eşleme bitti</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Soglia di disconnessione per i peer che si comportano in maniera anomala (default: %u)</translation>
+        <translation>Aksaklık gösteren eşlerle bağlantıyı kesme sınırı (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Too many %f denominations, removing.</source>
-        <translation>Troppe denominazioni %f, rimuovendo.</translation>
+        <translation>Çok fazla %f birimi, siliniyor.</translation>
     </message>
     <message>
         <source>Too many %f denominations, skipping.</source>
-        <translation>Troppe denominazioni %f, saltando.</translation>
+        <translation>Çok fazla %f birimi, geçiliyor.</translation>
     </message>
     <message>
         <source>Tor control port password (default: empty)</source>
-        <translation>Password porta di controllo Tor (default: empty)</translation>
+        <translation>Tor kontrol portu parolası (varsayılan: boş)</translation>
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Porta di controllo Tor da usare se in ascolto su onion (default: %s)</translation>
+        <translation>Eğer onion dinlemesi etkinse kullanılacak Tor kontrol portu (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Impossibile avviare il server HTTP. Dettagli nel log di debug.</translation>
+        <translation>HTTP sunucusu başlatılamadı. Ayrıntılar için debug.log dosyasına bakınız.</translation>
     </message>
     <message>
         <source>Unknown response.</source>
-        <translation>Risposta sconosciuta.</translation>
+        <translation>Bilinmeyen cevap.</translation>
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Ignorata opzione -benchmark non supportata, utilizzare -debug=bench.</translation>
+        <translation>Desteklenmeyen -benchmark argümanı görmezden gelindi, -debug=bench kullanınız.</translation>
     </message>
     <message>
         <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Argomento -debugnet ignorato in quanto non supportato, usare -debug=net.</translation>
+        <translation>Desteklenmeyen -debugnet argümanı görmezden gelindi, debug=net kullanınız.</translation>
     </message>
     <message>
         <source>Unsupported argument -tor found, use -onion.</source>
-        <translation>Rilevato argomento -tor non supportato, utilizzare -onion.</translation>
+        <translation>Deskteklenmeyen -tor argümanı bulundu, -onion kullanınız.</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup</source>
-        <translation>Aggiorna il wallet all'ultimo formato all'avvio</translation>
+        <translation>Başlangıçta cüzdanı en yeni biçime güncelle</translation>
     </message>
     <message>
         <source>Use KeePass 2 integration using KeePassHttp plugin (default: %u)</source>
-        <translation>Usa l'integrazione di KeePass 2 usando il plugin KeePassHttp (default: %u)</translation>
+        <translation>KeePassHttp eklentisi kullanarak KeePass 2 entegrasyonu kullan (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Usa UPnP per mappare la porta di ascolto (default: %u)</translation>
+        <translation>Dinleme portunu haritalamak için UPnP kullan (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Use the test chain</source>
-        <translation>Utilizza la catena di prova</translation>
+        <translation>Test blok zincirini kullan</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>
-        <translation>Il commento del User Agent (%s) contiene caratteri non sicuri.</translation>
+        <translation>Kullanıcı Aracı açıklaması (%s) güvensiz karakterler içermektedir.</translation>
     </message>
     <message>
         <source>Verifying wallet(s)...</source>
-        <translation>Derifica wallet(s)...</translation>
+        <translation>Cüzdan(lar) doğrulanıyor...</translation>
     </message>
     <message>
         <source>Will retry...</source>
-        <translation>Ritenterà ...</translation>
+        <translation>Tekrar denenecek...</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
-        <translation>Impossibile trovare un Masternode casuale.</translation>
+        <translation>Rastgele Ana düğüm bulunamıyor.</translation>
     </message>
     <message>
         <source>Can't mix while sync in progress.</source>
-        <translation>Impossibile fare il mixing quando la sincronizzazione è in corso.</translation>
+        <translation>Eşleme sürerken karıştırılamaz.</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Netmask non valida specificata in -whitelist: '%s'</translation>
+        <translation>-whitelist: '%s' unsurunda geçersiz bir ağ maskesi belirtildi</translation>
     </message>
     <message>
         <source>Invalid script detected.</source>
-        <translation>Script invalido</translation>
+        <translation>Geçersiz betik tespit edildi.</translation>
     </message>
     <message>
         <source>KeePassHttp id for the established association</source>
-        <translation>ID KeePassHttp per la connessione stabilita</translation>
+        <translation>Birliktelik başlatmak için KeePassHttp kimliği</translation>
     </message>
     <message>
         <source>KeePassHttp key for AES encrypted communication with KeePass</source>
-        <translation>Chiave KeePassHttp per AES, comunicazione criptata con KeePass</translation>
+        <translation>KeePass ile AES şifreli iletişim sağlamak için KeePassHttp anahtarı</translation>
     </message>
     <message>
-        <source>Disable all Dash specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Disabilitare tutte le funzionalità specifiche di Dash (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</translation>
+        <source>Disable all Florijncoin specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
+        <translation>Tüm Florijncoin spesifik işlevleri kapat (Ana Düğümler, Özel Gönder, Anında Gönder, Yönetim) (0-1, varsayılan: %u)</translation>
     </message>
     <message>
         <source>%s file contains all private keys from this wallet. Do not share it with anyone!</source>
-        <translation>%s il file contiene tutte le chiavi private di questo portafoglio. Non condividerlo con nessuno!</translation>
+        <translation>%s dosyası bu cüzdana ait tüm özel anahtarları tutuyor. Kimseyle paylaşmayın!</translation>
     </message>
     <message>
         <source>-masternode option is deprecated and ignored, specifying -masternodeblsprivkey is enough to start this node as a masternode.</source>
-        <translation>-L'opzione masternode è deprecata e ignorata, specificare -masternodeblsprivkey è sufficiente per avviare questo nodo come masternode.</translation>
+        <translation>-masternode seçeneği kullanımdan kaldırılmış ve yoksayılmıştır, -masternodeblsprivkey belirtilmesi bu düğümü anadüğüm olarak başlatmak için yeterlidir.</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open (see the `addnode` RPC command help for more info)</source>
-        <translation>Aggiungere un nodo a cui connettersi e tentare di mantenere aperta la connessione (consultare la guida del comando RPC `addnode` per maggiori informazioni)</translation>
+        <translation>Bağlanmak için bir düğüm ekleyin ve bağlantıyı açık tutmaya çalışın (daha fazla bilgi için `addnode` RPC komut yardımına göz atın)</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. This option is ignored unless -rpcallowip is also passed. Port is optional and overrides -rpcport. Use [host]:port notation for IPv6. This option can be specified multiple times (default: 127.0.0.1 and ::1 i.e., localhost, or if -rpcallowip has been specified, 0.0.0.0 and :: i.e., all addresses)</source>
-        <translation>Associare a un dato indirizzo per ascoltare le connessioni JSON-RPC. Questa opzione viene ignorata a meno che venga passato anche -rpcallowip. La porta è facoltativa e sovrascrive -rpcport. Usa [host]: notazione della porta per IPv6. Questa opzione può essere specificata più volte (default: 127.0.0.1 e :: 1 vale a dire, localhost, o se è stato specificato -rpcallowip, 0.0.0.0 e :: i.e., tutti gli indirizzi)</translation>
+        <translation>JSON-RPC bağlantılarını dinlemek için verilen adrese bağlayın. -Rpcallowip de geçilmezse bu seçenek yoksayılır. Port isteğe bağlıdır ve -rpcport geçersiz kılar. [Host] kullanın: IPv6 için port notasyonu. Bu seçenek birden çok kez belirtilebilir (varsayılan: 127.0.0.1 ve :: 1, localhost veya -rpcallowip belirtilmişse, 0.0.0.0 ve :: i.e., tüm adresler)</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s); -connect=0 disables automatic connections (the rules for this peer are the same as for -addnode)</source>
-        <translation>Connetti solo ai nodi specificati node(s); -connect=0 disabilita le connessioni automatiche (le regole per questo peer sono le stesse di -addnode)</translation>
+        <translation>Sadece belirtilen düğüm(lere) bağlanın; -connect = 0 otomatik bağlantıları devre dışı bırakır (bu eş için kurallar -addnode ile aynıdır)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Scopre i propri indirizzi IP (predefinito: 1 se in ascolto ed -externalip o -proxy non sono specificati)</translation>
+        <translation>Kendi IP adreslerini keşfet (varsayılan: dinlenildiğinde ve -externalip ya da -proxy yoksa 1)</translation>
     </message>
     <message>
         <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
-        <translation>Non mantenere le transazioni nella mempool più a lungo di &lt;n&gt; ore (default: %u)</translation>
+        <translation>İşlemleri bellek alanında &lt;n&gt; saatten fazla tutma (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Enable multiple PrivateSend mixing sessions per block, experimental (0-1, default: %u)</source>
-        <translation>Abilita più sessioni di mixaggio PrivateSend per blocco, sperimentale (0-1, predefinito: %u)</translation>
+        <translation>Blok başına birden fazla Özel Gönder karışım işlemini aç, deneysel (0-1, varsayılan: %u)</translation>
     </message>
     <message>
         <source>Execute command when a wallet InstantSend transaction is successfully locked (%s in cmd is replaced by TxID)</source>
-        <translation>Esegui comando quando una transazione InstantSend del portafoglio è bloccata correttamente (%s in cmd è sostituito da TxID)</translation>
+        <translation>Bir cüzdan bir Anında Gönder işlemini başarılı şekilde kilitlediğinde bir komut çalıştır (cmd içinde %s TxID ile değiştirilir)</translation>
     </message>
     <message>
         <source>Extra transactions to keep in memory for compact block reconstructions (default: %u)</source>
-        <translation>Transazioni aggiuntive da tenere in memoria per ricostruzioni di blocchi compatti (default: %u)</translation>
+        <translation>Kompakt blok yeniden inşası için hafıza tutmak için ekstra işlemler (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Failed to create backup, file already exists! This could happen if you restarted wallet in less than 60 seconds. You can continue if you are ok with this.</source>
-        <translation>Impossibile creare il backup, il file esiste già! Questo può accadere quando riavvii il portafoglio in meno di 60 secondi. Se per te va bene puoi continuare.</translation>
+        <translation>Yedek oluşturulamadı, dosya zaten mevcut! Bu durum eğer 60 saniyeden kısa sürede cüzdanı yenidden başlattıysanız oluşabilir. Sizin için sorun yoksa devam edebilirsiniz.</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
-        <translation>Le commissioni (in %s/kB) inferiori a questo valore sono considerate pari a zero per la trasmissione, mining e creazione della transazione (default: %s)</translation>
+        <translation>Bundan düşük ücretler (%s/kB olarak) aktarma, oluşturma ve işlem yaratma için sıfır değerinde ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Le commissioni (in %s/kB) inferiori a questo valore sono considerate pari a zero per la creazione della transazione (default: %s)</translation>
+        <translation>Bundan düşük ücretler (%s/kB olarak) işlem oluşturulması için sıfır değerinde ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
-        <translation>Se &lt;category&gt; non è specificato oppure se &lt;category&gt; = 1, mostra tutte le informazioni di debug.</translation>
+        <translation>Eğer &lt;category&gt; belirtilmemişse ya da &lt;category&gt; = 1 ise, tüm hata ayıklama verilerini çıktı al.</translation>
     </message>
     <message>
         <source>Maintain a full address index, used to query for the balance, txids and unspent outputs for addresses (default: %u)</source>
-        <translation>Mantenere un indice dell'indirizzo completo, utilizzato per richiedere il saldo, i txid e gli output non spesi per gli indirizzi (default: %u)</translation>
+        <translation>Tam adres endeksi tut, bakiye, txid ve adresler için harcanmamış çıktı sorgusu yapmak için kullanılır (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Maintain a full spent index, used to query the spending txid and input index for an outpoint (default: %u)</source>
-        <translation>Mantenere un indice esaustivo completo, utilizzato per interrogare il txid di spesa e l'indice di input per un outpoint (default: %u)</translation>
+        <translation>Tam harcama endeksi tut, harcama txidleri ve bir çıkış noktası için girdi endeksi sorgusu yapmak için kullanılır (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Maintain a timestamp index for block hashes, used to query blocks hashes by a range of timestamps (default: %u)</source>
-        <translation>Mantenere un indice di timestamp per gli hash di blocco, utilizzato per interrogare gli hash dei blocchi in base a un intervallo di timestamp (default: %u)</translation>
+        <translation>Blok hashleri için bir zaman kodu endeksi tut, bir düzü zaman kodu ile hash bloğu sorgusu yapmak için kullanılır (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (temporary service connections excluded) (default: %u)</source>
-        <translation>Mantenere la maggior parte delle connessioni ai peer (connessioni di servizi temporanei escluse) (default: %u)</translation>
+        <translation>Eşlerle en fazla &lt;n&gt; bağlantı sağla (geçici hizmet bağlantıları dahil değildir) (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Make sure to encrypt your wallet and delete all non-encrypted backups after you have verified that the wallet works!</source>
-        <translation>Assicurati di crittografare il tuo portafoglio ed eliminare tutti i backup non crittografati dopo aver verificato che il portafoglio funzioni!</translation>
+        <translation>Cüzdanın çalıştığından emin olduktan sonra mutlaka cüzdanınızı şifreleyip şifrelenmemiş tüm yedekleri silin!</translation>
     </message>
     <message>
         <source>Maximum total size of all orphan transactions in megabytes (default: %u)</source>
-        <translation>Dimensione totale massima di tutte le transazioni orfane in megabyte (impostazione predefinita: %u)</translation>
+        <translation>Tüm yetim işlemlerin megabayt cinsinden maksimum toplam boyutu (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>La modalità prune è configurata al di sotto del minimo di %d MB. Si prega di utilizzare un valore più elevato.</translation>
+        <translation>Budama, en düşük değer olan %d MiB'den düşük olarak ayarlanmıştır. Lütfen daha yüksek bir sayı kullanınız.</translation>
     </message>
     <message>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>Prune: l'ultima sincronizzazione del portafoglio risulta essere oltre la riduzione dei dati. È necessario eseguire un -reindex (scaricare nuovamente la blockchain in caso di nodo pruned)</translation>
+        <translation>Budama: son cüzdan eşleşmesi budanmış verilerin ötesine gitmektedir. -reindex kullanmanız gerekmektedir (Budanmış düğüm ise tüm blok zincirini tekrar indirmeniz gerekir.)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect used)</source>
-        <translation>Richiesta di indirizzi peer tramite la ricerca DNS, se gli indirizzi sono bassi (impostazione predefinita: 1 a meno che non venga utilizzato -connect)</translation>
+        <translation>Eğer adresler az ise, DNS arama yoluyla eş adres sorgulaması (-connect kullanılmadıkça default: 1)</translation>
     </message>
     <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Randomizza le credenziali per ogni connessione proxy. Permette la Tor stream isolation (default: %u)</translation>
+        <translation>Her vekil bağlantısı için kimlik verilerini rastgele yap. Bu, Tor akış izolasyonunu etkinleştirir (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
-        <translation>Non è possibile un Rescan in modalità pruned. Sarà necessario utilizzare -reindex che farà scaricare nuovamente tutta la blockchain.</translation>
+        <translation>Tekrar taramalar budanmış kipte mümkün değildir. Tüm blok zincirini tekrar indirecek olan -reindex seçeneğini kullanmanız gerekecektir.</translation>
     </message>
     <message>
         <source>Set the masternode BLS private key and enable the client to act as a masternode</source>
-        <translation>Impostare la chiave privata BLS del nodo principale e abilitare il client a fungere da nodo principale</translation>
+        <translation>Ana düğüm BLS özel anahtarını belirle ve istemcinin anadüğüm işlevi görmesini sağla</translation>
     </message>
     <message>
         <source>Specify full path to directory for automatic wallet backups (must exist)</source>
-        <translation>Specificare il percorso completo della directory per i backup automatici del portafoglio (deve esistere)</translation>
+        <translation>Otomatik cüzdan yedekleri için tam yolu belirtin (yol şu an var olmalı)</translation>
     </message>
     <message>
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>Supporta filtraggio di blocchi e transazioni con filtri bloom (default: %u)</translation>
+        <translation>Blokların ve işlemlerin bloom filtreleri ile süzülmesini destekle (varsayılan: %u)</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>Il database dei blocchi contiene un blocco che sembra provenire dal futuro. Questo può essere dovuto alla data e ora del tuo computer impostate in modo scorretto. Ricostruisci il database dei blocchi se sei certo che la data e l'ora sul tuo computer siano corrette</translation>
+        <translation>Blok veritabanı gelecekten gibi görünen bir blok içermektedir. Bu, bilgisayarınızın saat ve tarihinin yanlış ayarlanmış olmasından kaynaklanabilir. Blok veritabanını sadece bilgisayarınızın tarih ve saatinin doğru olduğundan eminseniz yeniden derleyin.</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>L'importo della transazione risulta troppo basso per l'invio una volta dedotte le commissioni.</translation>
+        <translation>Bu işlem, tutar düşüldükten sonra göndermek için çok düşük</translation>
     </message>
     <message>
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>La lunghezza totale della stringa di network version (%i) eccede la lunghezza massima (%i). Ridurre il numero o la dimensione di uacomments.</translation>
+        <translation>Ağ sürümü zincirinin toplam boyutu (%i) en yüksek boyutu geçmektedir (%i). Kullanıcı aracı açıklamasının sayısı veya boyutunu azaltınız.</translation>
     </message>
     <message>
         <source>Transaction index can't be disabled in full mode. Either start with -litemode command line switch or enable transaction index.</source>
-        <translation>L'indice di transazione non può essere disabilitato in modalità completa. Iniziare con l'opzione della riga di comando -litemode o abilitare l'indice delle transazioni.</translation>
+        <translation>Tam modda işlem endeksi kapatılamaz. Ya komut satırından -litemode ile başlatın ya da işlem endeksini açın.</translation>
     </message>
     <message>
         <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
-        <translation>Cerca di mantenere il traffico in uscita al di sotto della soglia scelta (in MiB ogni 24h), 0 = nessun limite (default: %d)</translation>
+        <translation>Giden trafiği belirtilen hedefin altında tutmaya çalışır (24 saat başı MiB olarak), 0 = sınırsız (varsayılan: %d)</translation>
     </message>
     <message>
         <source>Unable to locate enough PrivateSend denominated funds for this transaction.</source>
-        <translation>Impossibile trovare abbastanza fondi denominati con PrivateSend per questa transazione.</translation>
+        <translation>Bu işlem için yeterli Özel Gönder ile birimlendirilmiş bakiye bulunamadı.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Argomento -socks non supportato. Non è più possibile impostare la versione SOCKS, solamente i proxy SOCKS5 sono supportati.</translation>
+        <translation>Desteklenmeyen -socks argümanı bulundu. SOCKS sürümünün ayarlanması artık mümkün değildir, sadece SOCKS5 vekilleri desteklenmektedir.</translation>
     </message>
     <message>
         <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
-        <translation>Argomento non supportato -whitelistalwaysrelay è stato ignorato, utilizzare -whitelistrelay e/o -whitelistforcerelay.</translation>
+        <translation>Desteklenmeyen argüman -whitelistalwaysrelay görmezden gelindi, -whitelistrelay ve/veya -whitelistforcerelay kullanın.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>Utilizza UPnP per mappare la porta in ascolto (default: 1 quando in ascolto e -proxy non è specificato)</translation>
+        <translation>Dinlenecek portu haritalamak için UPnP kullan (varsayılan: dinlenildiğinde ve -proxy olmadığında 1)</translation>
     </message>
     <message>
         <source>WARNING! Failed to replenish keypool, please unlock your wallet to do so.</source>
-        <translation>ATTENZIONE! Impossibile riempire il keypool, per favore sblocca il tuo portafoglio per farlo ..</translation>
+        <translation>UYARI! Anahtar havuzu yenilenemedi, lütfen devam etmek için cüzdanınızın kilidini açın.</translation>
     </message>
     <message>
         <source>Wallet is locked, can't replenish keypool! Automatic backups and mixing are disabled, please unlock your wallet to replenish keypool.</source>
-        <translation>Il Portafoglio è bloccato, non può ricostituire il keypool! I backup e il mixaggio automatici sono disabilitati, sblocca il tuo portafoglio per ricostituire il keypool.</translation>
+        <translation>Cüzdanınız kilitli, anahtar havuzu yenilenemiyor! Otomatik yedekleme ve karışım kapalı, anahtar havuzunu yenilemek için lütfen cüzdanınızın kilidini açın.</translation>
     </message>
     <message>
         <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
-        <translation>Attenzione: si stanno minando versioni sconocsiute di blocchi! E' possibile che siano attive regole sconosciute</translation>
+        <translation>Uyarı: Bilinmeyen blok sürümü oluşturulmaya çalışılıyor. Bilinmeyen kuralların işlemesi mümkündür.</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -timestampindex</source>
-        <translation>È necessario ricostruire il database usando -reindex per cambiare -timestampindex</translation>
+        <translation>-timestampindex'i değiştirmek için -reindex'i kullanarak veritabanını baştan kurmalısınız</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>Per ritornare alla modalità unpruned sarà necessario ricostruire il database utilizzando l'opzione -reindex. L'intera blockchain sarà riscaricata.</translation>
+        <translation>Budama olmayan kipe dönmek için veritabanını -reindex ile tekrar derlemeniz gerekir. Bu, tüm blok zincirini tekrar indirecektir</translation>
     </message>
     <message>
         <source>(default: %u)</source>
-        <translation>(default: %u)</translation>
+        <translation>(varsayılan: %u)</translation>
     </message>
     <message>
         <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool deve essere almeno %d MB</translation>
+        <translation>-maxmempool en az %d MB olmalıdır</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>Valori possibili per &lt;category&gt;:</translation>
+        <translation>&lt;kategori&gt; şunlar olabilir:</translation>
     </message>
     <message>
         <source>Append comment to the user agent string</source>
-        <translation>Aggiungi commento alla stringa dell'applicazione utente</translation>
+        <translation>Kullanıcı aracı zincirine yorumu ekle</translation>
     </message>
     <message>
         <source>Automatic backups disabled</source>
-        <translation>Backup automatici disabilitati</translation>
+        <translation>Otomatik yedekleme kapalı</translation>
     </message>
     <message>
         <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Crea automaticamente il servizio Tor (default: %d)</translation>
+        <translation>Otomatik olarak gizli Tor servisi oluştur (varsayılan: %d)</translation>
     </message>
     <message>
         <source>ERROR! Failed to create automatic backup</source>
-        <translation>ERRORE! Impossibile creare il backup automatico</translation>
+        <translation>HATA! Otomatik yedek oluşturulamadı</translation>
     </message>
     <message>
         <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>Abilita pubblicazione hash blocco in &lt;address&gt;</translation>
+        <translation>Blok karma değerinin &lt;adres&gt;te yayınlanmasını etkinleştir</translation>
     </message>
     <message>
         <source>Enable publish hash of governance objects (like proposals) in &lt;address&gt;</source>
-        <translation>Abilita l'hash di pubblicazione degli oggetti di governance (come le proposte) in &lt;address&gt;</translation>
+        <translation>Şuradaki yönetim nesnelerinin (teklifler gibi) hashlerini yayınlamayı etkinleştir: &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish hash of governance votes in &lt;address&gt;</source>
-        <translation>Abilita l'hash di pubblicazione dei voti di governance in &lt;address&gt;</translation>
+        <translation>Şuradaki yönetim hashlerini yayınlamayı etkinleştir: &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish hash transaction (locked via InstantSend) in &lt;address&gt;</source>
-        <translation>Abilita la pubblicazione della hash della transazione (bloccata tramite InstantSend) in &lt;address&gt;</translation>
+        <translation>Şurada hash işlemleri yayınlamayı etkinleştir (Anında Gönder ile kilitli): &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>Abilità la pubblicazione dell'hash della transazione in &lt;address&gt;</translation>
+        <translation>Karma değer işleminin &lt;adres&gt;te yayınlanmasını etkinleştir</translation>
     </message>
     <message>
         <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>Abilita la pubblicazione dei blocchi raw in &lt;address&gt;</translation>
+        <translation>Ham blokun &lt;adres&gt;te yayınlanmasını etkinleştir</translation>
     </message>
     <message>
         <source>Enable publish raw transaction (locked via InstantSend) in &lt;address&gt;</source>
-        <translation>Abilita la pubblicazione dell'intera transazione (bloccata tramite InstantSend) in</translation>
+        <translation>Şurada ham işlemleri yayınlamayı etkinleştir (Anında Gönder ile kilitli): &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>Abilita la pubblicazione delle transazione raw in &lt;address&gt;</translation>
+        <translation>Ham işlemin &lt;adres&gt;te yayınlanmasını etkinleştir</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Errore: si è presentato un errore interno fatale, consulta il file debug.log per maggiori dettagli</translation>
+        <translation>Hata: Ölümcül dahili bir hata meydana geldi, ayrıntılar için debug.log dosyasına bakınız</translation>
     </message>
     <message>
         <source>Failed to create backup %s!</source>
-        <translation>Impossibile creare il backup %s!</translation>
+        <translation>Yedek %s oluşturulamadı!</translation>
     </message>
     <message>
         <source>Failed to create backup, error: %s</source>
-        <translation>Impossibile creare il backup, errore %s!</translation>
+        <translation>Yedek oluşturulamadı, hata: %s</translation>
     </message>
     <message>
         <source>Failed to delete backup, error: %s</source>
-        <translation>Impossibile eliminare il backup, errore: %s</translation>
+        <translation>Yedek silinemedi, hata: %s</translation>
     </message>
     <message>
         <source>Failed to load sporks cache from</source>
-        <translation>Impossibile caricare la cache degli sporks da</translation>
+        <translation>Şuradan spork önbelleği yüklemesi başarısız:</translation>
     </message>
     <message>
         <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
-        <translation>Commissione (in %s/kB) da aggiungere alle transazioni inviate (default: %s)</translation>
+        <translation>Yolladığınız işlemlere eklenecek ücret (%s/kB olarak) (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file on startup</source>
-        <translation>Importa blocchi da un file blk000??.dat esterno all'avvio</translation>
+        <translation>Başlangıçta harici blk000??.dat dosyasından blokları içe aktarır</translation>
     </message>
     <message>
         <source>InstantSend options:</source>
-        <translation>Opzioni dell'InstantSend:</translation>
+        <translation>Anında Gönder seçenekleri:</translation>
     </message>
     <message>
         <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>Importo non valido per -fallbackfee=&lt;amount&gt;: '%s'</translation>
+        <translation> -fallbackfee=&lt;tutar&gt; için geçersiz tutar: '%s'</translation>
     </message>
     <message>
         <source>Invalid masternodeblsprivkey. Please see documentation.</source>
-        <translation>Invalid masternodeblsprivkey. Per favore vedi documentazione.</translation>
+        <translation>Geçersiz masternodeblsprivkey. Lütfen dökümanlara göz atın.</translation>
     </message>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Mantieni la memory pool delle transazioni al di sotto di &lt;n&gt; megabyte (default: %u)</translation>
+        <translation>İşlem bellek alanını &lt;n&gt; megabayttan düşük tut (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Last PrivateSend was too recent.</source>
-        <translation>Ultimo PrivateSend troppo recente.</translation>
+        <translation>Son Özel Gönder çok yakında yapıldı.</translation>
     </message>
     <message>
         <source>Last successful PrivateSend action was too recent.</source>
-        <translation>L'ultimo uso con successo di PrivateSend è troppo recente</translation>
+        <translation>Son başarılı Özel Gönder eylemi çok yakında yapıldı.</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Caricamento dell'indice del blocco...</translation>
+        <translation>Blok indeksi yükleniyor...</translation>
     </message>
     <message>
         <source>Loading governance cache...</source>
-        <translation>Caricamento della cache di governance ...</translation>
+        <translation>Yönetim önbelleği yükleniyor...</translation>
     </message>
     <message>
         <source>Loading sporks cache...</source>
-        <translation>Caricamento della cache degli sporks ...</translation>
+        <translation>Spork önbelleği yükleniyor...</translation>
     </message>
     <message>
         <source>Loading wallet... (%3.2f %%)</source>
-        <translation>Caricando portafoglio... (%3.2f %%)</translation>
+        <translation>Cüzdan yükleniyor... (%3.2f %%)</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Caricamento portafoglio...</translation>
+        <translation>Cüzdan yükleniyor...</translation>
     </message>
     <message>
         <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Posizione del cookie di autorizzazione (default: data dir)</translation>
+        <translation>auth çerezinin konumu (varsayılan: veri klasörü)</translation>
     </message>
     <message>
         <source>Make the wallet broadcast transactions</source>
-        <translation>Configura il portafolgio per la trasmissione di transazioni</translation>
+        <translation>Cüzdanın işlemleri yayınlamasını sağla</translation>
     </message>
     <message>
         <source>Masternode options:</source>
-        <translation>Opzioni masternode:</translation>
+        <translation>Ana düğüm seçenekleri:</translation>
     </message>
     <message>
         <source>Masternode queue is full.</source>
-        <translation>La lista dei masternode e' piena.</translation>
+        <translation>Ana düğüm kuyruğu dolu.</translation>
     </message>
     <message>
         <source>Masternode:</source>
-        <translation>Masternode: </translation>
+        <translation>Ana düğüm:</translation>
     </message>
     <message>
         <source>Minimum bytes per sigop in transactions we relay and mine (default: %u)</source>
-        <translation>Numero minimo di byte per sigop nelle transazioni che inoltriamo e miniamo (default: %u)</translation>
+        <translation>Yönlendirip kazacağımız işlemlerde sigop başına minimum bayt (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
-        <translation>Mancano le informazioni di input della transazione</translation>
+        <translation>Girdi işlem bilgisi eksik.</translation>
     </message>
     <message>
         <source>No errors detected.</source>
-        <translation>Nessun errore rilevato.</translation>
+        <translation>Hata tespit edilmedi.</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
-        <translation>Nessuna denominazione corrispondente trovata per il mixing.</translation>
+        <translation>Karışım için uyumlu birim bulunamadı.</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Opzioni di trasmissione del nodo:</translation>
+        <translation>Düğüm aktarma seçenekleri:</translation>
     </message>
     <message>
         <source>Non-standard public key detected.</source>
-        <translation>Rilevata chiave pubblica non-standard.</translation>
+        <translation>Standart olmayan herkese açık anahtar tespit edildi.</translation>
     </message>
     <message>
         <source>Not compatible with existing transactions.</source>
-        <translation>Non compatibile con le transazioni esistenti.</translation>
+        <translation>Var olan işlemlerle uyumlu değil.</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Non ci sono abbastanza descrittori di file disponibili.</translation>
+        <translation>Kafi derecede dosya tanımlayıcıları mevcut değil.</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: %u)</source>
-        <translation>Numero di backup automatici del portafoglio (default: %u)</translation>
+        <translation>Otomatik cüzdan yedeği sayısı (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Opzioni:</translation>
+        <translation>Seçenekler:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Password per connessioni JSON-RPC
-</translation>
+        <translation>JSON-RPC bağlantıları için parola</translation>
     </message>
     <message>
         <source>Print version and exit</source>
-        <translation>Stampa la versione ed esci</translation>
+        <translation>Sürümü yaz ve çık</translation>
     </message>
     <message>
         <source>PrivateSend is idle.</source>
-        <translation>PrivateSend è inattivo.</translation>
+        <translation>Özel Gönder boşta.</translation>
     </message>
     <message>
         <source>PrivateSend options:</source>
-        <translation>Opzioni del PrivateSend </translation>
+        <translation>Özel Gönder seçenekleri:</translation>
     </message>
     <message>
         <source>PrivateSend request complete:</source>
-        <translation>Richiesta di utilizzo PrivateSend completata:</translation>
+        <translation>Özel Gönder talebi tamamlandı:</translation>
     </message>
     <message>
         <source>PrivateSend request incomplete:</source>
-        <translation>Richiesta di utilizzo PrivateSend incompleta:</translation>
+        <translation>Özel Gönder talebi tamamlanmadı:</translation>
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
-        <translation>La modalità prune non può essere configurata con un valore negativo.</translation>
+        <translation>Budama negatif bir değerle yapılandırılamaz.</translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
-        <translation>La modalità prune è incompatibile con l'opzione -txindex.</translation>
+        <translation>Budama kipi -txindex ile uyumsuzdur.</translation>
     </message>
     <message>
         <source>Pruning blockstore...</source>
-        <translation>Pruning del blockstore...</translation>
+        <translation>Blockstore budanıyor...</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions on startup</source>
-        <translation>All'avvio ripete la scansione della blockchain per individuare le transazioni che mancano dal portafoglio</translation>
+        <translation>Başlangıçta blok zincirini eksik cüzdan işlemleri için tekrar tara</translation>
     </message>
     <message>
         <source>Synchronizing blockchain...</source>
-        <translation>Sincronizzazione blockchain...</translation>
+        <translation>Blok zinciri eşleniyor...</translation>
     </message>
     <message>
         <source>The wallet will avoid paying less than the minimum relay fee.</source>
-        <translation>Il portafoglio eviterà di pagare meno della tariffa minima di trasmissione.</translation>
+        <translation>Cüzdan en az aktarma ücretinden daha az ödeme yapmaktan sakınacaktır.</translation>
     </message>
     <message>
         <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation>Questo è il costo di transazione minimo che pagherai su ogni transazione.</translation>
+        <translation>Bu her işlemde ödeceğiniz en düşük işlem ücretidir.</translation>
     </message>
     <message>
         <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Questo è il costo di transazione che pagherai se invii una transazione.</translation>
+        <translation>Eğer bir gönderme işlemi yaparsanız bu ödeyeceğiniz işlem ücretidir.</translation>
     </message>
     <message>
         <source>Transaction amounts must not be negative</source>
-        <translation>Gli importi di transazione non devono essere negativi</translation>
+        <translation>İşlem tutarı negatif olmamalıdır</translation>
     </message>
     <message>
         <source>Transaction has too long of a mempool chain</source>
-        <translation>La transazione ha una mempool chain troppo lunga</translation>
+        <translation>İşlem çok uzun bir mempool zincirine sahip</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
-        <translation>La transazione deve avere almeno un destinatario</translation>
+        <translation>İşlemin en az bir alıcısı olması gerekir</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Transazione troppo grande</translation>
+        <translation>İşlem çok büyük</translation>
     </message>
     <message>
         <source>Trying to connect...</source>
-        <translation>cercando di connettersi ...</translation>
+        <translation>Bağlanmaya çalışılıyor...</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>Impossibile collegarsi a %s su questo computer. Probabilmente %s è già in esecuzione.</translation>
+        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. %s muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <source>Upgrading UTXO database</source>
-        <translation>Aggiornamento del database UTXO</translation>
+        <translation>UTXO veritabanı yükseltiliyor</translation>
     </message>
     <message>
         <source>Use devnet chain with provided name</source>
-        <translation>Utilizzare la catena di devnet con il nome fornito</translation>
+        <translation>Verilen ad ile devnet zinciri kullan</translation>
     </message>
     <message>
         <source>Wallet debugging/testing options:</source>
-        <translation>Opzioni di Debug/Test del portafoglio:</translation>
+        <translation>Cüzdan hata ayıklama/test etme seçenekleri:</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart %s to complete</source>
-        <translation>Il portamonete necessita di essere riscritto: riavviare %s per completare</translation>
+        <translation>Cüzdanın tekrar yazılması gerekiyordu: işlemi tamamlamak için %s programını yeniden başlatınız</translation>
     </message>
     <message>
         <source>Warning: unknown new rules activated (versionbit %i)</source>
-        <translation>Attenzione: nuove regole non conosciute attivate (versionbit %i)</translation>
+        <translation>Uyarı: bilinmeyen yeni kurallar etkinleştirilmiştir (versionbit %i)</translation>
     </message>
     <message>
         <source>Wasn't able to create wallet backup folder %s!</source>
-        <translation>Non è stato possibile creare la cartella di backup del portafoglio %s!</translation>
+        <translation>Cüzdan yedeği klasörü %s oluşturulamadı!</translation>
     </message>
     <message>
         <source>Whether to operate in a blocks only mode (default: %u)</source>
-        <translation>Imposta se operare in modalità solo blocchi (default: %u)</translation>
+        <translation>Sadece blok kipinde çalışılıp çalışılmayacağı (varsayılan: %u)</translation>
     </message>
     <message>
         <source>You can not start a masternode in lite mode.</source>
-        <translation>
-Non è possibile avviare un masternode in modalità lite</translation>
+        <translation>Bir ana düğümü lite modda başlatamazsınız.</translation>
     </message>
     <message>
         <source>You can not start a masternode with wallet enabled.</source>
-        <translation>Non è possibile avviare un nodo principale con il wallet abilitato.</translation>
+        <translation>Cüzdan etkinleştirilmişken bir ana düğüm başlatamazsınız.</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -addressindex</source>
-        <translation>È necessario ricostruire il database usando -reindex per cambiare -addressindex</translation>
+        <translation>-addressindex'i değiştirmek için -reindex'i kullanarak veritabanını baştan kurmalısınız</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -spentindex</source>
-        <translation>È necessario ricostruire il database usando -reindex per cambiare -spentindex</translation>
+        <translation>-spentindex'i değiştirmek için -spentindex'i kullanarak veritabanını baştan kurmalısınız</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>È necessario ricostruire il database usando -reindex per cambiare -txindex</translation>
+        <translation>-txindex'i değiştirmek için veritabanını -reindex kullanarak tekrar inşa etmeniz gerekmektedir</translation>
     </message>
     <message>
         <source>ZeroMQ notification options:</source>
-        <translation>Opzioni di notifica ZeroMQ</translation>
+        <translation>ZeroMQ bildirim seçenekleri:</translation>
     </message>
     <message>
         <source>no mixing available.</source>
-        <translation>nessun mixing disponibile.</translation>
+        <translation>karışım mevcut değil.</translation>
     </message>
     <message>
         <source>see debug.log for details.</source>
-        <translation>vedere debug.log per i dettagli.</translation>
+        <translation>ayrıntlar için debug.log dosyasına bakın</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>Opzioni server RPC:</translation>
+        <translation>RPC sunucu seçenekleri:</translation>
     </message>
     <message>
-        <source>Dash Core</source>
-        <translation>Dash Core</translation>
+        <source>Florijncoin Core</source>
+        <translation>Florijncoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
-        <translation>Sviluppatori di %s</translation>
+        <translation>%s geliştiricileri</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation>Non è possibile ottenere i dati sulla cartella %s. Probabilmente %s è già in esecuzione.</translation>
+        <translation>%s veri dizininde kilit elde edilemedi. %s muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
-        <translation>Distribuito sotto licenza MIT del software, si veda il file %s o %s incluso</translation>
+        <translation>MIT yazılım lisansı altında dağıtılmıştır, beraberindeki %s ya da %s dosyasına bakınız.</translation>
     </message>
     <message>
         <source>Enable use of PrivateSend for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Abilita l'uso di PrivateSend per i fondi memorizzati in questo portafoglio (0-1, valore predefinito: %u)</translation>
+        <translation>Bu cüzdanda saklanan fonlar için ÖzelGönder kullanımını etkinleştir (0-1, varsayılan: %u)</translation>
     </message>
     <message>
         <source>Error loading %s: You can't enable HD on an already existing non-HD wallet</source>
-        <translation>Errore durante il caricamento di %s: non è possibile abilitare l'HD su un portafoglio non-HD già esistente.</translation>
+        <translation>%s yüklenirken hata: Zaten var olan bir HD olmayan cüzdanda HD etkinleştiremezsiniz</translation>
     </message>
     <message>
         <source>Error loading wallet %s. -wallet parameter must only specify a filename (not a path).</source>
-        <translation>Errore durante il caricamento del portafoglio%s. Il parametro -wallet deve solo specificare un nome file (non un percorso).</translation>
+        <translation>%s cüzdanı yüklenirken hata oluştu. -wallet parametresi yalnızca bir dosya adı belirtmelidir (bir yol değil).</translation>
     </message>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Errore lettura %s! Tutte le chiavi sono state lette correttamente, ma i dati delle transazioni o della rubrica potrebbero essere mancanti o non corretti.</translation>
+        <translation>%s dosyasının okunması sırasında bir hata meydana geldi! Tüm anahtarlar doğru bir şekilde okundu, ancak işlem verileri ya da adres defteri ögeleri hatalı veya eksik olabilir.</translation>
     </message>
     <message>
         <source>Exclude debugging information for a category. Can be used in conjunction with -debug=1 to output debug logs for all categories except one or more specified categories.</source>
-        <translation>Escludere le informazioni di debug per una categoria. Può essere usato insieme a -debug=1 per generare log di debug per tutte le categorie tranne una o più categorie specificate.</translation>
+        <translation>Bir kategori için hata ayıklama bilgilerini hariç tut. Belirtilen bir veya daha fazla kategori dışındaki tüm kategoriler için hata ayıklama günlüklerini çıktılamak için -debug = 1 ile birlikte kullanılabilir.</translation>
     </message>
     <message>
         <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
-        <translation>Forza la trasmissione della transazione da peer in whitelist anche se violano le regole di trasmissione locali (default: %d)</translation>
+        <translation>Yerel aktarma politikasını ihlal etseler bile beyaz listedeki eşlerden gelen işlemlerin aktarılmasını zorla (varsayılan: %d)</translation>
     </message>
     <message>
         <source>Incorrect or no devnet genesis block found. Wrong datadir for devnet specified?</source>
-        <translation>Rilevato blocco genesi di devnet errato o inesistente. È stato specificato un datadir errato per devnet?</translation>
+        <translation>Geçersiz veya sıfır devnet genesis bloğu bulundu. Devnet için belirtilen datadir yanlış mı?</translation>
     </message>
     <message>
         <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
-        <translation>Regolazione della massima differenza media di tempo dei peer consentita. L'impostazione dell'orario locale può essere aggiustata in avanti o indietro di questa quantità. (default %u secondi)</translation>
+        <translation>İzin verilen edilen en yüksek medyan eş zamanı değişiklik sınırının ayarlaması. Zamanın yerel perspektifi bu miktar kadar ileri ya da geri eşler tarafından etkilenebilir. (Varsayılan %u saniye)</translation>
     </message>
     <message>
         <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
-        <translation>Totale massimo di commissioni (in %s) da usare in una transazione singola del portafoglio o in una transazione raw; valori troppo bassi possono far fallire grandi transazioni (default: %s)</translation>
+        <translation>Tek bir cüzdan işleminde ya da ham işlemde kullanılacak en yüksek toplam ücret (%s olarak); bunu çok düşük olarak ayarlamak büyük işlemleri iptal edebilir (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Override spork address. Only useful for regtest and devnet. Using this on mainnet or testnet will ban you.</source>
-        <translation>Fare l'override dell'indirizzo di spok. Utile solo per regtest e devnet. Usarlo su mainnet o testnet ti bannerà.</translation>
+        <translation>Spork adresini geçersiz kıl. Sadece regtest ve devnet içindir. Bunu mainnet veya testnet'te kullanmak engellenmenize yol açar.</translation>
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>Per favore controllare che la data del computer e l'ora siano corrette! Se il vostro orologio è sbagliato %s non funzionerà correttamente.</translation>
+        <translation>Lütfen bilgisayarınızın saat ve tarihinin doğru olduğunu kontrol ediniz! Saatinizde gecikme varsa %s doğru şekilde çalışamaz.</translation>
     </message>
     <message>
         <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>Per favore contribuite se ritenete %s utile. Visitate %s per maggiori informazioni riguardo il software.</translation>
+        <translation>%s programını faydalı buluyorsanız lütfen katkıda bulununuz. Yazılım hakkında daha fazla bilgi için %s adresini ziyaret ediniz.</translation>
     </message>
     <message>
         <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>
-        <translation>Riduce i requisiti di spazio di archiviazione abilitando la cancellazione dei vecchi blocchi ("pruning" o potatura). Questo consente di richiedere alla pruneblockchain RPC di cancellare specifici blocchi e abilita il pruning automatico dei vecchi blocchi se viene fornita una dimensione specifica in MiB. Questa modalità è incompatibile con -txindex e -rescan. Attenzione: Per ripristinare questa impostazione è necessario riscaricare l'intera blockchain. (predefinito: 0 = disabilita il pruning dei blocchi, 1 = permetti il pruning manuale tramite RPC, &gt;%u = pota automaticamente i file di blocco per stare sotto una dimensione specifica in MiB)</translation>
+        <translation>Eski blokları budamayı (silme) etkinleştirerek depolama gereksinimlerini azaltın. Bu belirli blokları silmek için pruneblockchain uzak yordam çağrısına (RPC) izin verir. Eğer bloklar hedef mebibyte boyutuna ulaşırsa eski blokların otomatik olarak budanmasını sağlar. Bu kip, -txindex ve -rescan ile uyumsuzdur. Uyarı: Bu ayarı geri almak, blok zincirinin tamamını yeniden yüklemeyi gerektirir. (varsayılan: 0 = blok budaması devre dışı, 1 = RPC üzerinden manuel budamaya izin verir, &gt;%u = mebibyte olarak belirtilen hedef boyutun altında kalması için blok dosyalarını otomatik olarak budar)</translation>
     </message>
     <message>
         <source>Set lowest fee rate (in %s/kB) for transactions to be included in block creation. (default: %s)</source>
-        <translation>Imposta la tariffa di commissione più bassa (in %s/kB) per transazioni da includere nella creazione del blocco. (default:  %s)</translation>
+        <translation>Blok oluşturmaya dahil olan işlemler için en düşük ücret oranını (%s/kB olarak) ayarla. (varsayılan: %s)</translation>
     </message>
     <message>
         <source>The fee rate (in %s/kB) that indicates your tolerance for discarding change by adding it to the fee (default: %s). Note: An output is discarded if it is dust at this rate, but we will always discard up to the dust relay fee and a discard fee above that is limited by the fee estimate for the longest target</source>
-        <translation>La tariffa (in %s/kB) che indica la tua tolleranza per scartare la modifica aggiungendola alla tariffa (impostazione predefinita: %s). Nota: un'uscita viene scartata se è estremamente piccola , ma scarteremo sempre fino a quando la tariffa di scarto non è superiore a quella limitata dalla stima della tariffa per l'obiettivo maggiore</translation>
+        <translation>Ücrette (%s/kB cinsinden) para üstünü iptal etme toleransınızı gösteren ve bunu ücrete ekleyen (default: %s). Not: Bu orandaki çıktı toz olarak atılır, ancak her zaman toz geçişi ücretine ve yukarıdaki en uzun hedef için yapılan ücret tahmininin sınırladığı bir miktar atar.</translation>
     </message>
     <message>
         <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
-        <translation>Questa è la commissione di transazione che puoi scartare se il cambio è inferiore alla piccolissima parte del livello</translation>
+        <translation>Bu, para üstü seviyesi tozdan daha küçükse, iptal edebileceğiniz işlem ücretidir.</translation>
     </message>
     <message>
         <source>This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>Questo è il costo di transazione che potresti pagare quando le stime della fee non sono disponibili.</translation>
+        <translation>İşlem ücret tahminleri mevcut olmadığında ödeyebileceğiniz işlem ücreti budur.</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Questo prodotto include software sviluppato dal progetto OpenSSL per l'uso del Toolkit OpenSSL %s, software crittografico scritto da Eric Young e software UPnP scritto da Thomas Bernard.</translation>
+        <translation>Bu ürün OpenSSL Projesi tarafından geliştirilen OpenSSL araç takımınında kullanılmak üzere yazılan yazılımları %s Eric Young  tarafından yazılmış şifreleme yazılımını ve Thomas Bernard tarafından yazılmış UPnP yazılımını içerir.</translation>
     </message>
     <message>
         <source>Unable to locate enough PrivateSend non-denominated funds for this transaction.</source>
-        <translation>Impossibile trovare abbastanza fondi PrivateSend non denominati per questa transazione.</translation>
+        <translation>Bu işlem için yeterli Özel Gönder ile birimlendirilmemiş bakiye bulunamadı.</translation>
     </message>
     <message>
         <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
-        <translation>Impossibile riprodurre i blocchi. Dovrai ricostruire il database usando -reindex-chainstate.</translation>
+        <translation>Bloklar tekrarlanamıyor. -Reindex-chainstate kullanarak veritabanını yeniden kurmanız gerekecek.</translation>
     </message>
     <message>
         <source>Use N separate masternodes for each denominated input to mix funds (%u-%u, default: %u)</source>
-        <translation>Usa N masternodes separati per ogni input denominato per mixare fondi (%u-%u, default: %u)</translation>
+        <translation>Her birimlendirilmiş girdi tutarı için N ayrı ana düğüm kullan (%u-%u, varsayılan: %u)</translation>
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after BIP39/BIP44. Only has effect during wallet creation/first start</source>
-        <translation>Utilizzare la generazione di chiavi deterministiche gerarchiche (HD) dopo BIP39 / BIP44. Ha effetto solo durante la creazione del portafoglio/primo avvio</translation>
+        <translation>BIP39/BIP44'ten sonra hiyerarşik deterministik anahtar oluşturma (HD) kullan. Sadece cüzdan oluşturma/ilk açılış sırasında etkilidir</translation>
     </message>
     <message>
         <source>User defined mnemonic passphrase for HD wallet (BIP39). Only has effect during wallet creation/first start (default: empty string)</source>
-        <translation>Passphrase mnemonica definita dall'utente per portafoglio HD (BIP39). Ha effetto solo durante la creazione del wallet/primo avvio (default: stringa vuota)</translation>
+        <translation>HD cüzdan (BIP39) için kullanıcı tarafından belirlenmiş anımsatıcı parola. Sadece cüzdan oluşturma/ilk açılış sırasında etkilidir (varsayılan: boş metin)</translation>
     </message>
     <message>
         <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</source>
-        <translation>Username e hashed password per connessioni JSON-RPC. Il campo &lt;userpw&gt; utilizza il formato: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. Uno script python standard è incluso in share/rpcuser. Il cliente quindi si connette normalmente utilizzando la coppia di argomenti rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt;. Questa opzione può essere specificata più volte</translation>
+        <translation>JSON-RPC bağlantıları için kullanıcı adı ve karmalanmış parola. &lt;userpw&gt; alanı şu biçimdedir: &lt;KULLANICI ADI&gt;:&lt;SALT&gt;$&lt;HASH&gt;. Kanonik bir Python betiği share/rpcuser klasöründe bulunabilir. Ardından istemci normal şekilde rpcuser=&lt;KULLANICI ADI&gt;/rpcpassword=&lt;PAROLA&gt; argüman çiftini kullanarak bağlanabilir. Bu seçenek birden çok kez belirtilebilir.</translation>
     </message>
     <message>
         <source>Wallet will not create transactions that violate mempool chain limits (default: %u)</source>
-        <translation>Il portafoglio non creerà transazioni che violino i limiti della mempool chain (default: %u)</translation>
+        <translation>Cüzdan, zincir bellek alanı limitlerini ihlal eden işlem oluşturmayacak. (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Attenzione: file del Portafoglio corrotto, dati recuperati! %s originale salvato come %s in %s; se il saldo o le transazioni non sono corrette effettua un ripristino da un backup.</translation>
+        <translation>Uyarı: wallet.dat bozuk, veriler geri kazanıldı! Özgün %s, %s olarak %s klasörüne kaydedildi; bakiyeniz ya da işlemleriniz yanlışsa bir yedeklemeden tekrar yüklemeniz gerekir.</translation>
     </message>
     <message>
         <source>Whether to save the mempool on shutdown and load on restart (default: %u)</source>
-        <translation>Se salvare il mempool allo spegnimento e caricare al riavvio (impostazione predefinita: %u)</translation>
+        <translation>Kapatma sırasında mempool'un kaydedilip kaydedilmemesi ve yeniden başlatma sırasında yüklenmesi (default: %u)</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
-        <translation>I peer in whitelist che si connettono dal dato indirizzo IP (es. 1.2.3.4) o dalla rete annotata CIDR (es. 1.2.3.0/24). Può essere specificato più volte.</translation>
+        <translation>Beyaz listeye eklenen eşler verilen IP adresinden (ör. 1.2.3.4) veya CIDR ağından (ör. 1.2.3.0/24) bağlanabilir. Değerler birden çok kez kullanılabilir.</translation>
     </message>
     <message>
-        <source>You are starting in lite mode, most Dash-specific functionality is disabled.</source>
-        <translation>Stai iniziando in modalità Lite, la maggior parte delle funzionalità specifiche di Dash è disabilitata.</translation>
+        <source>You are starting in lite mode, most Florijncoin-specific functionality is disabled.</source>
+        <translation>Hafif modda başlatıyorsunuz, Florijncoin’e özgü işlevlerin çoğu devre dışıdır.</translation>
     </message>
     <message>
         <source>%d of last 100 blocks have unexpected version</source>
-        <translation>%d degli ultimi 100 blocchi ha una versione inattesa</translation>
+        <translation>Son 100 bloğun %d'si beklenmedik versiyona sahip</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
-        <translation>%s corrotto, recupero fallito</translation>
+        <translation>%s bozuk, geri kazanım başarısız oldu</translation>
     </message>
     <message>
         <source>%s is not a valid backup folder!</source>
-        <translation>%s non è una cartella di backup valida!</translation>
+        <translation>%s geçerli bir yedek klasörü değil!</translation>
     </message>
     <message>
         <source>%s is set very high!</source>
-        <translation>%s ha un'impostazione molto alta!</translation>
+        <translation>%s çok yüksek ayarlanmış!</translation>
     </message>
     <message>
         <source>(press q to shutdown and continue later)</source>
-        <translation>(premi q per spegnere e continuare più tardi)</translation>
+        <translation>(kapatıp daha sonra devam etmek için q tuşuna basın)</translation>
     </message>
     <message>
         <source>-devnet can only be specified once</source>
-        <translation>-devnet può essere specificato solo una volta</translation>
+        <translation>-devnet sadece bir kere belirtilebilir</translation>
     </message>
     <message>
         <source>-port must be specified when -devnet and -listen are specified</source>
-        <translation>-port deve essere specificato quando -devnet e -listen sono specificati</translation>
+        <translation>-devnet ve -listen belirtildiğinde -port da belirtilmelidir</translation>
     </message>
     <message>
         <source>-rpcport must be specified when -devnet and -server are specified</source>
-        <translation>-rpcport deve essere specificato quando -devnet e -server sono specificati</translation>
+        <translation>-devnet ve -server belirtildiğinde -rpcport da belirtilmelidir</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Accetta connessioni dall'esterno (predefinito: 1 se no -proxy o -connect)</translation>
+        <translation>Dışarıdan gelen bağlantıları kabul et (varsayılan: -proxy veya -connect yoksa 1)</translation>
     </message>
     <message>
         <source>Allow RFC1918 addresses to be relayed and connected to (default: %u)</source>
-        <translation>Consenti agli indirizzi RFC1918 di essere inoltrati e connessi a (default: %u)</translation>
+        <translation>RFC1918 adreslerine iletim ve bağlantıya izin ver (varsayılan %u)</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet on startup</source>
-        <translation>Prova a recuperare le chiavi private da un portafoglio corrotto all'avvio</translation>
+        <translation>Başlangıçta bozuk bir cüzdandan özel anahtarları geri kazanmayı dene</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>
-        <translation>Impossobile risolvere l'indirizzo -%s: '%s'</translation>
+        <translation>Çözümlenemedi - %s adres: '%s'</translation>
     </message>
     <message>
         <source>Change index out of range</source>
-        <translation>Cambio indice fuori paramentro</translation>
+        <translation>Aralık dışında değişiklik indeksi</translation>
     </message>
     <message>
         <source>Copyright (C)</source>
@@ -5014,259 +5012,259 @@ Non è possibile avviare un masternode in modalità lite</translation>
     </message>
     <message>
         <source>Create up to N inputs of each denominated amount (%u-%u, default: %u)</source>
-        <translation>Crea  fino a  N inputs per ciascun importo denominato (%u-%u, default: %u)</translation>
+        <translation>Her bir miktar için en fazla N kadar giriş oluşturun (%u-%u, default: %u)</translation>
     </message>
     <message>
         <source>Error loading %s</source>
-        <translation>Errore caricamento %s</translation>
+        <translation>%s unsurunun yüklenmesinde hata oluştu</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet corrupted</source>
-        <translation>Errore caricamento %s: Portafoglio corrotto</translation>
+        <translation>%s unsurunun yüklenmesinde hata oluştu: bozuk cüzdan</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>Errore caricamento %s: il Portafoglio richiede una versione aggiornata di %s</translation>
+        <translation>%s unsurunun yüklenmesinde hata oluştu: cüzdan %s programının yeni bir sürümüne ihtiyaç duyuyor</translation>
     </message>
     <message>
         <source>Error loading %s: You can't disable HD on an already existing HD wallet</source>
-        <translation>Errore durante il caricamento di %s: non è possibile disabilitare l'HD su un portafoglio HD già esistente</translation>
+        <translation>%s yüklenirken hata: Zaten var olan bir HD cüzdanda HD'yi kapatamazsınız.</translation>
     </message>
     <message>
         <source>Error loading wallet %s. -wallet filename must be a regular file.</source>
-        <translation>Errore durante il caricamento del portafoglio %s. il nome del  -wallet filename deve essere un file normale</translation>
+        <translation>%s cüzdanı yüklenirken hata oluştu. -cüzdan parametresi yalnızca bir dosya adı belirtmelidir.</translation>
     </message>
     <message>
         <source>Error loading wallet %s. Duplicate -wallet filename specified.</source>
-        <translation>Errore durante il caricamento del portafoglio%s. Il Nome -wallet filename  specificato è duplicato </translation>
+        <translation>%s cüzdan yüklenirken hata oluştu. Bu dosya adı zaten mevcut.</translation>
     </message>
     <message>
         <source>Error loading wallet %s. Invalid characters in -wallet filename.</source>
-        <translation>Errore durante il caricamento del portafoglio %s. Caratteri non validi nel nome file  -wallet filename.</translation>
+        <translation>%s cüzdan yüklenirken hata oluştu. Cüzdan adı geçersiz karakterler içeriyor.</translation>
     </message>
     <message>
         <source>Error upgrading chainstate database</source>
-        <translation>Errore durante l'aggiornamento del database chainstate</translation>
+        <translation>Zincirdurumu veritabanı yükseltme hatası</translation>
     </message>
     <message>
         <source>Failed to find mixing queue to join</source>
-        <translation>Impossibile trovare la coda di mixaggio a cui unirsi</translation>
+        <translation>Katılacak karışım kuyruğu bulunamadı</translation>
     </message>
     <message>
         <source>Failed to start a new mixing queue</source>
-        <translation>Impossibile avviare una nuova coda di mixaggio</translation>
+        <translation>Yeni bir karışım kuyruğu başlatılamadı</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. %s is shutting down.</source>
-        <translation>Test di integrità iniziale fallito. %s si arresterà.</translation>
+        <translation>Başlatma sınaması başarısız oldu. %s kapatılıyor.</translation>
     </message>
     <message>
         <source>Inputs vs outputs size mismatch.</source>
-        <translation>Mancata corrispondenza della dimensione degli ingressi e delle uscite.</translation>
+        <translation>Girdi ve çıktı boyutları tutarsız.</translation>
     </message>
     <message>
         <source>Invalid -onion address or hostname: '%s'</source>
-        <translation>Indirizzo -onion o hostname non valido: '%s'</translation>
+        <translation>Geçersiz -onion adresi veya ana makine adı: '%s'</translation>
     </message>
     <message>
         <source>Invalid -proxy address or hostname: '%s'</source>
-        <translation>Indirizzo -proxy o hostname non valido: '%s'</translation>
+        <translation>Geçersiz -proxy adresi veya ana makine adı: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>Importo non valido per -%s=&lt;amount&gt;: '%s'</translation>
+        <translation>-%s=&lt;tutar&gt; için geçersiz tutar: '%s'</translation>
     </message>
     <message>
         <source>Invalid spork address specified with -sporkaddr</source>
-        <translation>Indirizzo di spork non valido specificato con -sporkaddr</translation>
+        <translation>-sporkaddr ile yanlış spork adresi belirtildi</translation>
     </message>
     <message>
         <source>Loading P2P addresses...</source>
-        <translation>Caricamento indirizzi P2P...</translation>
+        <translation>P2P adresleri yükleniyor...</translation>
     </message>
     <message>
         <source>Print this help message and exit</source>
-        <translation>Mostra questo messaggio di aiuto ed esci</translation>
+        <translation>Bu yardım mesajını yaz ve çık</translation>
     </message>
     <message>
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
-        <translation>Riduzione -maxconnections da %d a %d a causa di limitazioni di sistema.</translation>
+        <translation>Sistem sınırlamaları sebebiyle -maxconnections %d değerinden %d değerine düşürülmüştür.</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Trasmetti ed include nei blocchi transazioni di trasporto dati (default: %u)</translation>
+        <translation>Veri taşıyıcı işlemleri oluştur ve aktar (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Trasmetti transazioni non-P2SH multisig (predefinito: %u)</translation>
+        <translation>P2SH olmayan çoklu imzaları aktar (varsayılan: %u)</translation>
     </message>
     <message>
         <source>Replaying blocks...</source>
-        <translation>Riproduzione di blocchi ...</translation>
+        <translation>Tekrarlanan bloklar...</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Ripetizione scansione...</translation>
+        <translation>Yeniden tarama...</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Esegui in background come daemon ed accetta i comandi</translation>
+        <translation>Arka planda daemon (servis) olarak çalış ve komutları kabul et</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Invia le informazioni di trace/debug alla console invece che al file debug.log</translation>
+        <translation>İzleme/hata ayıklama verilerini debug.log dosyası yerine konsola gönder</translation>
     </message>
     <message>
         <source>Session not complete!</source>
-        <translation>Sessione non completata!</translation>
+        <translation>Oturum tamamlanmadı!</translation>
     </message>
     <message>
         <source>Session timed out.</source>
-        <translation>La sessione è scaduta.</translation>
+        <translation>Oturum zaman aşımına uğradı.</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Imposta la dimensione cache del database in megabyte (%d a %d, predefinito: %d)</translation>
+        <translation>Veritabanı önbellek boyutunu megabayt olarak belirt (%d ilâ %d, varsayılan: %d)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Imposta la dimensione massima del blocco in byte (predefinita: %d)</translation>
+        <translation>Azami blok boyutunu bayt olarak ayarla (varsayılan: %d)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Mostra tutte le opzioni di debug (utilizzo: --help -help-debug)</translation>
+        <translation>Tüm hata ayıklama seçeneklerini göster (kullanımı: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Riduci il file debug.log all'avvio del client (default: 1 se non impostato -debug)</translation>
+        <translation>İstemci başlatıldığında debug.log dosyasını küçült (varsayılan: -debug bulunmadığında 1)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Transazione di firma fallita</translation>
+        <translation>Muamelenin imzalanması başarısız oldu</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Specifica la cartella dati </translation>
+        <translation>Veri dizinini belirt</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Specifica il file portafoglio (all'interno della cartella dati)</translation>
+        <translation>Cüzdan dosyası belirtiniz (veri klasörünün içinde)</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Specifica il tuo indirizzo pubblico</translation>
+        <translation>Kendi genel adresinizi tanımlayın</translation>
     </message>
     <message>
         <source>Start PrivateSend automatically (0-1, default: %u)</source>
-        <translation>Avvia PrivateSend automaticamente (0-1, predefinita: %u)</translation>
+        <translation>ÖzelGönder'i otomatik olarak başlat (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Starting network threads...</source>
-        <translation>Inizializzazione dei thread di rete...</translation>
+        <translation>Ağ iş parçacıkları başlatılıyor...</translation>
     </message>
     <message>
         <source>Synchronization pending...</source>
-        <translation>Sincronizzazione in attesa ...</translation>
+        <translation>Eşleme bekliyor...</translation>
     </message>
     <message>
         <source>Synchronizing governance objects...</source>
-        <translation>Sincronizzazione degli oggetti di governance ...</translation>
+        <translation>Yönetim nesneleri eşleniyor...</translation>
     </message>
     <message>
         <source>The source code is available from %s.</source>
-        <translation>Il codice sorgente è disponibile in %s</translation>
+        <translation>Kaynak kod şuradan elde edilebilir: %s.</translation>
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
-        <translation>L'importo della transazione è troppo basso per pagare la commissione</translation>
+        <translation>İşlemdeki bitcoin tutarı ücreti ödemek için çok düşük</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Questo è un software sperimentale.</translation>
+        <translation>Bu, deneysel bir yazılımdır.</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Importo transazione troppo piccolo</translation>
+        <translation>Muamele meblağı çok düşük</translation>
     </message>
     <message>
         <source>Transaction created successfully.</source>
-        <translation>Transazione creata con successo.</translation>
+        <translation>İşlem başarıyla oluşturuldu.</translation>
     </message>
     <message>
         <source>Transaction fee and change calculation failed</source>
-        <translation>Commissione di transazione e calcolo delle modifiche non riusciti</translation>
+        <translation>İşlem ücreti ve para üstü hesaplaması başarısız</translation>
     </message>
     <message>
         <source>Transaction fees are too high.</source>
-        <translation>Le commissioni della transazione sono troppo alte.</translation>
+        <translation>İşlem ücretleri çok yüksek.</translation>
     </message>
     <message>
         <source>Transaction not valid.</source>
-        <translation>Transazione non valida</translation>
+        <translation>İşlem geçerli değil.</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Transazione troppo grande in base alla policy sulle commissioni</translation>
+        <translation>Ücret politikası için işlem çok büyük</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Incapace di legare al %s su questo computer (bind return error %s)</translation>
+        <translation>Bu bilgisayarda %s ögesine bağlanılamadı (bağlanma %s hatasını verdi)</translation>
     </message>
     <message>
         <source>Unable to sign spork message, wrong key?</source>
-        <translation>Impossibile firmare messaggio Spork, chiave sbagliata?</translation>
+        <translation>Spork mesajı imzalanamadı, anahtar mı yanlış?</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Rete sconosciuta specificata in -onlynet: '%s'</translation>
+        <translation>-onlynet için bilinmeyen bir şebeke belirtildi: '%s'</translation>
     </message>
     <message>
         <source>Unknown state: id = %u</source>
-        <translation>Stato sconosciuto: id =%u</translation>
+        <translation>Bilinmeyen durum: id = %u</translation>
     </message>
     <message>
         <source>Unsupported logging category %s=%s.</source>
-        <translation>Categoria di registrazione non supportata %s=%s.</translation>
+        <translation>Desteklenmeyen günlük kaydı kategorisi %s=%s.</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Nome utente per connessioni JSON-RP</translation>
+        <translation>JSON-RPC bağlantıları için kullanıcı ismi</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Verifica blocchi...</translation>
+        <translation>Bloklar kontrol ediliyor...</translation>
     </message>
     <message>
         <source>Very low number of keys left: %d</source>
-        <translation>Il numero di chiavi rimaste è molto basso: %d</translation>
+        <translation>Çok az sayıda anahtar kaldı: %d</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Il portafoglio %s si trova al di fuori dalla cartella dati %s</translation>
+        <translation>%s cüzdan %s veri klasörünün dışında bulunuyor</translation>
     </message>
     <message>
         <source>Wallet is locked.</source>
-        <translation>Portafoglio bloccato</translation>
+        <translation>Cüzdan kilitli.</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Opzioni portafoglio:</translation>
+        <translation>Cüzdan seçenekleri:</translation>
     </message>
     <message>
         <source>Wallet window title</source>
-        <translation>Titolo della window del Portafoglio</translation>
+        <translation>Cüzdan penceresi başlığı</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Attenzione</translation>
+        <translation>Uyarı</translation>
     </message>
     <message>
         <source>Your entries added successfully.</source>
-        <translation>Le tue voci sono state aggiunte con successo.</translation>
+        <translation>Girdileriniz başarıyla eklendi.</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Cancella e ricompila tutte le transazioni dal wallet...</translation>
+        <translation>Cüzdandaki tüm muameleler kaldırılıyor...</translation>
     </message>
 </context>
 </TS>

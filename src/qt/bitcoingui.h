@@ -196,6 +196,8 @@ private:
 
     void updateProgressBarVisibility();
 
+    void updateToolBarShortcuts();
+
 Q_SIGNALS:
     /** Signal raised when a URI was entered or dragged to the GUI */
     void receivedURI(const QString &uri);
@@ -318,6 +320,10 @@ private Q_SLOTS:
     void toggleNetworkActive();
 
     void showModalOverlay();
+
+    void updatePrivateSendVisibility();
+
+    void updateWidth();
 };
 
 class UnitDisplayStatusBarControl : public QLabel
